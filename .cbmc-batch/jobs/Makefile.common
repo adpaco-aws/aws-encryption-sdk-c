@@ -90,6 +90,7 @@ LINKFARM = $(abspath ./link-farm)
 COMMON_REPO_NAME ?= aws-c-common
 COMMONDIR ?= $(HELPERDIR)/$(COMMON_REPO_NAME)
 COMMON_HELPERDIR ?= $(COMMONDIR)/verification/cbmc
+VIEWERDIR = $(abspath .)
 
 ################################################################
 # Setup include directory order
@@ -293,7 +294,7 @@ report: cbmc.log property.xml coverage.xml
 	--htmldir html \
 	--property property.xml \
 	--result cbmc.log \
-	--srcdir $(SRCDIR) \
+	--srcdir $(VIEWERDIR) \
 	--srcexclude "(./verification|./tests|./tools|./lib/third_party)"
 
 propertyreport: cbmc.log property.xml
@@ -302,7 +303,7 @@ propertyreport: cbmc.log property.xml
 	--htmldir html \
 	--property property.xml \
 	--result cbmc.log \
-	--srcdir $(SRCDIR) \
+	--srcdir $(VIEWERDIR) \
 	--srcexclude "(./verification|./tests|./tools|./lib/third_party)"
 
 clean:
