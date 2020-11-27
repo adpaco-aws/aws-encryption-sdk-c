@@ -41,6 +41,11 @@ void aws_cryptosdk_private_derive_key_harness() {
     ensure_byte_buf_has_allocated_buffer_member(commitment);
     __CPROVER_assume(aws_byte_buf_is_valid(commitment));
 
+    __CPROVER_assume(message_id != NULL);
+    __CPROVER_assume(aws_byte_buf_is_bounded(message_id, MAX_BUFFER_SIZE));
+    ensure_byte_buf_has_allocated_buffer_member(message_id);
+    __CPROVER_assume(aws_byte_buf_is_valid(message_id));
+
     /* Save current state of the data structure */
     struct aws_byte_buf *old_message_id = message_id;
     struct store_byte_from_buffer old_byte_from_message_id;
