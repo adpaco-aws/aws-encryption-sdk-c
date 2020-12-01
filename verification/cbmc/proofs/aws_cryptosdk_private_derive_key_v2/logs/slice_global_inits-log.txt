@@ -1,0 +1,4 @@
+Reading GOTO program from '/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/proofs/aws_cryptosdk_private_derive_key_v2/gotos/aws_cryptosdk_private_derive_key_v2_harness.c3.goto'
+Slicing away initializations of unused global variables
+Writing GOTO program to '/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/proofs/aws_cryptosdk_private_derive_key_v2/gotos/aws_cryptosdk_private_derive_key_v2_harness.c4.goto'
+

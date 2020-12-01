@@ -18,12 +18,21 @@ sinclude ../Makefile.local
 include ../Makefile.local_default
 include ../Makefile.aws_byte_buf
 #########
+<<<<<<< HEAD
 # Commitment values are 32 bytes long.
 COMMITMENT_BUF_SIZE = 32
 # In aws_cryptosdk_private_commitment_eq, two commitment values are
 # compared in a loop with (32 / sizeof(uintptr_t)) iterations.
 # (32 / sizeof(uintptr_t)) equals 4 since sizeof(uintptr_t) is 8UL
 COMMITMENT_EQ_ITERATIONS = 4
+=======
+# Local vars
+# Commitment values are 32 bytes long. In aws_cryptosdk_private_commitment_eq,
+# two of these are compared in a loop with (32 / sizeof(uintptr_t)) iterations.
+# (32 / sizeof(uintptr_t)) equals 4 since sizeof(uintptr_t) is 8UL
+COMMITMENT_EQ_ITERATIONS = 4
+
+>>>>>>> 036c2b4 (Fix simple issues)
 #########
 PROOF_UID = aws_cryptosdk_private_commitment_eq
 HARNESS_ENTRY = $(PROOF_UID)_harness

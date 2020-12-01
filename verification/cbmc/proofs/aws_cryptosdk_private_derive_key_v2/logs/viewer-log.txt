@@ -1,0 +1,8 @@
+WARNING: --block is depricated, using --coverage /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/proofs/aws_cryptosdk_private_derive_key_v2/logs/coverage.xml.
+WARNING: --htmldir is depricated, using --reportdir /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/proofs/aws_cryptosdk_private_derive_key_v2/html.
+WARNING: Use xml or json instead of text for better results: ['/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/proofs/aws_cryptosdk_private_derive_key_v2/logs/result.txt']
+WARNING: Skipping redefinition of symbol name: aws_cryptosdk_which_sha
+WARNING:   Old symbol aws_cryptosdk_which_sha: file source/cipher.c, line 239
+WARNING:   New symbol aws_cryptosdk_which_sha: file verification/cbmc/sources/make_common_data_structures.c, line 206
+WARNING: Skipping source file annotation: gcc_builtin_headers_types.h
+
