@@ -486,7 +486,9 @@ size_t max_decryption_size() {
 void write_unconstrained_data(unsigned char *out, size_t len) {
     assert(AWS_MEM_IS_WRITABLE(out, len));
 
-    // Currently we ignore the len parameter and just fill the entire buffer with unconstrained data.
-    // This is fine because it is strictly more general behavior than writing only len bytes.
-    __CPROVER_havoc_object(out);
+    if (len > 0) {
+        size_t index;
+        __CPROVER_assume(index < len);
+        out[index] = nondet_unsigned_char();
+    }
 }
