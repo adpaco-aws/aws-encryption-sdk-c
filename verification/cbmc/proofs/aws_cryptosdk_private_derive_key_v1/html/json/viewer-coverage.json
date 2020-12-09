@@ -1,0 +1,1004 @@
+{
+  "viewer-coverage": {
+    "coverage": {
+      "source/cipher.c": {
+        "aws_cryptosdk_alg_properties_equal": {
+          "263": "hit",
+          "267": "hit"
+        },
+        "aws_cryptosdk_alg_properties_is_valid": {
+          "270": "hit",
+          "271": "hit",
+          "273": "hit",
+          "274": "hit",
+          "275": "hit",
+          "276": "hit",
+          "278": "hit",
+          "279": "hit",
+          "280": "hit"
+        },
+        "aws_cryptosdk_alg_props": {
+          "74": "hit",
+          "75": "hit",
+          "88": "hit",
+          "101": "hit",
+          "114": "hit",
+          "127": "hit",
+          "140": "hit",
+          "153": "hit",
+          "168": "hit",
+          "181": "hit",
+          "194": "hit",
+          "207": "hit",
+          "220": "hit",
+          "224": "both"
+        },
+        "aws_cryptosdk_content_key_is_valid": {
+          "1061": "both",
+          "1062": "hit"
+        },
+        "aws_cryptosdk_data_key_is_valid": {
+          "1057": "both",
+          "1058": "hit"
+        },
+        "aws_cryptosdk_private_derive_key_v1": {
+          "324": "hit",
+          "325": "hit",
+          "326": "hit",
+          "327": "hit",
+          "329": "hit",
+          "330": "hit",
+          "333": "hit",
+          "334": "hit",
+          "335": "hit",
+          "336": "hit",
+          "337": "hit",
+          "338": "hit",
+          "339": "hit",
+          "340": "hit",
+          "341": "hit",
+          "342": "hit",
+          "344": "hit",
+          "345": "hit",
+          "346": "hit",
+          "347": "hit",
+          "348": "hit",
+          "349": "hit",
+          "350": "hit"
+        },
+        "aws_cryptosdk_which_sha": {
+          "240": "hit",
+          "242": "hit",
+          "244": "hit",
+          "248": "hit",
+          "251": "hit",
+          "252": "both",
+          "254": "both"
+        }
+      },
+      "source/hkdf.c": {
+        "aws_cryptosdk_get_evp_md": {
+          "24": "hit",
+          "25": "hit",
+          "26": "hit",
+          "27": "hit",
+          "28": "missed",
+          "30": "both"
+        },
+        "aws_cryptosdk_hkdf": {
+          "165": "hit",
+          "167": "hit"
+        },
+        "aws_cryptosdk_openssl_hkdf_version": {
+          "116": "hit",
+          "117": "both",
+          "118": "hit",
+          "119": "hit",
+          "121": "hit",
+          "122": "hit",
+          "123": "hit",
+          "124": "missed",
+          "125": "missed",
+          "127": "hit",
+          "128": "hit",
+          "129": "hit",
+          "131": "hit",
+          "132": "hit",
+          "133": "hit",
+          "134": "hit",
+          "135": "hit",
+          "136": "hit",
+          "138": "hit",
+          "139": "hit",
+          "142": "hit",
+          "143": "hit",
+          "144": "hit",
+          "145": "hit"
+        }
+      },
+      "verification/cbmc/aws-c-common/include/aws/common/error.inl": {
+        "aws_raise_error": {
+          "24": "hit",
+          "26": "hit",
+          "27": "hit"
+        }
+      },
+      "verification/cbmc/aws-c-common/source/byte_buf.c": {
+        "aws_byte_buf_from_array": {
+          "911": "hit",
+          "912": "hit",
+          "913": "hit",
+          "914": "hit",
+          "915": "hit",
+          "916": "hit",
+          "917": "hit",
+          "918": "hit",
+          "919": "hit"
+        },
+        "aws_byte_buf_from_c_str": {
+          "901": "hit",
+          "902": "both",
+          "903": "hit",
+          "904": "hit",
+          "905": "hit",
+          "906": "hit",
+          "907": "hit",
+          "908": "hit"
+        },
+        "aws_byte_buf_is_valid": {
+          "59": "hit",
+          "60": "hit",
+          "61": "both",
+          "62": "hit"
+        },
+        "aws_byte_buf_secure_zero": {
+          "88": "hit",
+          "89": "hit",
+          "90": "hit",
+          "92": "hit",
+          "93": "hit",
+          "94": "hit"
+        }
+      },
+      "verification/cbmc/aws-c-common/source/common.c": {
+        "aws_secure_zero": {
+          "38": "hit",
+          "62": "hit"
+        }
+      },
+      "verification/cbmc/aws-c-common/source/error.c": {
+        "aws_raise_error_private": {
+          "94": "hit",
+          "96": "hit",
+          "97": "missed",
+          "98": "hit",
+          "99": "missed",
+          "101": "hit"
+        }
+      },
+      "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c": {
+        "aws_byte_buf_is_bounded": {
+          "14": "hit",
+          "15": "hit"
+        },
+        "ensure_byte_buf_has_allocated_buffer_member": {
+          "22": "hit",
+          "23": "hit",
+          "24": "hit",
+          "25": "hit",
+          "26": "hit"
+        },
+        "ensure_c_str_is_allocated": {
+          "214": "hit",
+          "215": "hit",
+          "216": "hit",
+          "220": "hit",
+          "221": "hit",
+          "222": "hit"
+        }
+      },
+      "verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c": {
+        "bounded_malloc": {
+          "63": "hit",
+          "64": "hit",
+          "65": "hit",
+          "66": "hit"
+        },
+        "can_fail_allocator": {
+          "69": "hit",
+          "70": "hit"
+        },
+        "can_fail_malloc": {
+          "77": "hit",
+          "78": "hit"
+        },
+        "s_can_fail_free_allocator": {
+          "33": "missed",
+          "34": "missed",
+          "35": "missed"
+        }
+      },
+      "verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c": {
+        "assert_byte_buf_equivalence": {
+          "68": "hit",
+          "69": "both",
+          "71": "missed",
+          "73": "missed",
+          "74": "missed",
+          "75": "missed",
+          "76": "missed",
+          "77": "missed",
+          "79": "hit"
+        },
+        "assert_byte_from_buffer_matches": {
+          "31": "missed",
+          "32": "missed",
+          "34": "missed"
+        },
+        "nondet_compare": {
+          "108": "missed",
+          "109": "missed",
+          "110": "missed",
+          "111": "missed"
+        },
+        "save_byte_from_array": {
+          "37": "hit",
+          "38": "hit",
+          "39": "hit",
+          "40": "hit",
+          "42": "hit"
+        }
+      },
+      "verification/cbmc/proofs/aws_cryptosdk_private_derive_key_v1/aws_cryptosdk_private_derive_key_v1_harness.c": {
+        "aws_cryptosdk_private_derive_key_v1_harness": {
+          "23": "hit",
+          "24": "hit",
+          "25": "hit",
+          "26": "hit",
+          "29": "hit",
+          "31": "hit",
+          "33": "hit",
+          "35": "hit",
+          "36": "hit",
+          "37": "hit",
+          "40": "hit",
+          "41": "hit",
+          "42": "hit",
+          "45": "hit",
+          "46": "hit",
+          "49": "hit",
+          "50": "hit",
+          "51": "hit",
+          "52": "hit",
+          "53": "hit",
+          "54": "hit",
+          "55": "hit",
+          "56": "hit",
+          "57": "hit",
+          "58": "hit",
+          "59": "hit"
+        }
+      },
+      "verification/cbmc/sources/make_common_data_structures.c": {
+        "aws_cryptosdk_which_sha": {
+          "207": "hit",
+          "209": "hit",
+          "211": "hit",
+          "215": "hit",
+          "218": "hit",
+          "219": "both",
+          "221": "both"
+        },
+        "ensure_alg_properties_attempt_allocation": {
+          "47": "hit",
+          "48": "hit",
+          "49": "hit",
+          "50": "hit",
+          "51": "hit",
+          "52": "hit",
+          "53": "hit",
+          "54": "hit",
+          "55": "hit",
+          "56": "hit"
+        },
+        "ensure_content_key_attempt_allocation": {
+          "59": "hit",
+          "60": "hit",
+          "61": "hit"
+        },
+        "ensure_data_key_attempt_allocation": {
+          "64": "hit",
+          "65": "hit",
+          "66": "hit"
+        }
+      },
+      "verification/cbmc/sources/openssl/ec_override.c": {
+        "max_derivation_size": {
+          "456": "hit",
+          "457": "hit"
+        },
+        "write_unconstrained_data": {
+          "487": "hit",
+          "491": "hit",
+          "492": "hit"
+        }
+      },
+      "verification/cbmc/sources/openssl/evp_override.c": {
+        "EVP_MD_size": {
+          "717": "hit",
+          "718": "hit",
+          "720": "hit",
+          "721": "hit",
+          "723": "hit",
+          "724": "hit"
+        },
+        "EVP_PKEY_CTX_ctrl": {
+          "221": "hit",
+          "222": "hit",
+          "223": "hit",
+          "224": "hit",
+          "226": "hit",
+          "227": "hit",
+          "228": "hit",
+          "229": "hit"
+        },
+        "EVP_PKEY_CTX_free": {
+          "403": "hit",
+          "404": "hit",
+          "406": "hit"
+        },
+        "EVP_PKEY_CTX_new_id": {
+          "126": "hit",
+          "128": "hit",
+          "129": "hit",
+          "130": "hit",
+          "131": "hit",
+          "132": "hit",
+          "133": "hit",
+          "136": "hit",
+          "137": "hit"
+        },
+        "EVP_PKEY_derive": {
+          "239": "hit",
+          "240": "hit",
+          "241": "hit",
+          "243": "hit",
+          "245": "hit",
+          "246": "hit",
+          "247": "hit",
+          "248": "hit",
+          "251": "hit",
+          "252": "missed",
+          "254": "hit",
+          "255": "hit",
+          "256": "hit",
+          "257": "hit",
+          "258": "hit",
+          "260": "hit",
+          "261": "hit"
+        },
+        "EVP_PKEY_derive_init": {
+          "145": "hit",
+          "146": "hit",
+          "147": "hit",
+          "148": "hit",
+          "151": "hit",
+          "152": "hit",
+          "153": "hit",
+          "154": "hit"
+        },
+        "EVP_sha256": {
+          "702": "hit",
+          "703": "hit"
+        },
+        "EVP_sha384": {
+          "706": "hit",
+          "707": "hit"
+        },
+        "EVP_sha512": {
+          "710": "hit",
+          "711": "hit"
+        }
+      },
+      "verification/cbmc/sources/utils.c": {
+        "key_contents_match": {
+          "24": "hit",
+          "25": "missed",
+          "26": "both",
+          "27": "missed",
+          "28": "hit",
+          "29": "hit",
+          "30": "missed",
+          "31": "hit",
+          "32": "hit",
+          "33": "hit"
+        }
+      }
+    },
+    "function_coverage": {
+      "source/cipher.c": {
+        "aws_cryptosdk_alg_properties_equal": {
+          "hit": 2,
+          "percentage": 1.0,
+          "total": 2
+        },
+        "aws_cryptosdk_alg_properties_is_valid": {
+          "hit": 9,
+          "percentage": 1.0,
+          "total": 9
+        },
+        "aws_cryptosdk_alg_props": {
+          "hit": 14,
+          "percentage": 1.0,
+          "total": 14
+        },
+        "aws_cryptosdk_content_key_is_valid": {
+          "hit": 2,
+          "percentage": 1.0,
+          "total": 2
+        },
+        "aws_cryptosdk_data_key_is_valid": {
+          "hit": 2,
+          "percentage": 1.0,
+          "total": 2
+        },
+        "aws_cryptosdk_private_derive_key_v1": {
+          "hit": 23,
+          "percentage": 1.0,
+          "total": 23
+        },
+        "aws_cryptosdk_which_sha": {
+          "hit": 7,
+          "percentage": 1.0,
+          "total": 7
+        }
+      },
+      "source/hkdf.c": {
+        "aws_cryptosdk_get_evp_md": {
+          "hit": 5,
+          "percentage": 0.8333333333333334,
+          "total": 6
+        },
+        "aws_cryptosdk_hkdf": {
+          "hit": 2,
+          "percentage": 1.0,
+          "total": 2
+        },
+        "aws_cryptosdk_openssl_hkdf_version": {
+          "hit": 22,
+          "percentage": 0.9166666666666666,
+          "total": 24
+        }
+      },
+      "verification/cbmc/aws-c-common/include/aws/common/error.inl": {
+        "aws_raise_error": {
+          "hit": 3,
+          "percentage": 1.0,
+          "total": 3
+        }
+      },
+      "verification/cbmc/aws-c-common/source/byte_buf.c": {
+        "aws_byte_buf_from_array": {
+          "hit": 9,
+          "percentage": 1.0,
+          "total": 9
+        },
+        "aws_byte_buf_from_c_str": {
+          "hit": 8,
+          "percentage": 1.0,
+          "total": 8
+        },
+        "aws_byte_buf_is_valid": {
+          "hit": 4,
+          "percentage": 1.0,
+          "total": 4
+        },
+        "aws_byte_buf_secure_zero": {
+          "hit": 6,
+          "percentage": 1.0,
+          "total": 6
+        }
+      },
+      "verification/cbmc/aws-c-common/source/common.c": {
+        "aws_secure_zero": {
+          "hit": 2,
+          "percentage": 1.0,
+          "total": 2
+        }
+      },
+      "verification/cbmc/aws-c-common/source/error.c": {
+        "aws_raise_error_private": {
+          "hit": 4,
+          "percentage": 0.6666666666666666,
+          "total": 6
+        }
+      },
+      "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c": {
+        "aws_byte_buf_is_bounded": {
+          "hit": 2,
+          "percentage": 1.0,
+          "total": 2
+        },
+        "ensure_byte_buf_has_allocated_buffer_member": {
+          "hit": 5,
+          "percentage": 1.0,
+          "total": 5
+        },
+        "ensure_c_str_is_allocated": {
+          "hit": 6,
+          "percentage": 1.0,
+          "total": 6
+        }
+      },
+      "verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c": {
+        "bounded_malloc": {
+          "hit": 4,
+          "percentage": 1.0,
+          "total": 4
+        },
+        "can_fail_allocator": {
+          "hit": 2,
+          "percentage": 1.0,
+          "total": 2
+        },
+        "can_fail_malloc": {
+          "hit": 2,
+          "percentage": 1.0,
+          "total": 2
+        },
+        "s_can_fail_free_allocator": {
+          "hit": 0,
+          "percentage": 0.0,
+          "total": 3
+        }
+      },
+      "verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c": {
+        "assert_byte_buf_equivalence": {
+          "hit": 3,
+          "percentage": 0.3333333333333333,
+          "total": 9
+        },
+        "assert_byte_from_buffer_matches": {
+          "hit": 0,
+          "percentage": 0.0,
+          "total": 3
+        },
+        "nondet_compare": {
+          "hit": 0,
+          "percentage": 0.0,
+          "total": 4
+        },
+        "save_byte_from_array": {
+          "hit": 5,
+          "percentage": 1.0,
+          "total": 5
+        }
+      },
+      "verification/cbmc/proofs/aws_cryptosdk_private_derive_key_v1/aws_cryptosdk_private_derive_key_v1_harness.c": {
+        "aws_cryptosdk_private_derive_key_v1_harness": {
+          "hit": 26,
+          "percentage": 1.0,
+          "total": 26
+        }
+      },
+      "verification/cbmc/sources/make_common_data_structures.c": {
+        "aws_cryptosdk_which_sha": {
+          "hit": 7,
+          "percentage": 1.0,
+          "total": 7
+        },
+        "ensure_alg_properties_attempt_allocation": {
+          "hit": 10,
+          "percentage": 1.0,
+          "total": 10
+        },
+        "ensure_content_key_attempt_allocation": {
+          "hit": 3,
+          "percentage": 1.0,
+          "total": 3
+        },
+        "ensure_data_key_attempt_allocation": {
+          "hit": 3,
+          "percentage": 1.0,
+          "total": 3
+        }
+      },
+      "verification/cbmc/sources/openssl/ec_override.c": {
+        "max_derivation_size": {
+          "hit": 2,
+          "percentage": 1.0,
+          "total": 2
+        },
+        "write_unconstrained_data": {
+          "hit": 3,
+          "percentage": 1.0,
+          "total": 3
+        }
+      },
+      "verification/cbmc/sources/openssl/evp_override.c": {
+        "EVP_MD_size": {
+          "hit": 6,
+          "percentage": 1.0,
+          "total": 6
+        },
+        "EVP_PKEY_CTX_ctrl": {
+          "hit": 8,
+          "percentage": 1.0,
+          "total": 8
+        },
+        "EVP_PKEY_CTX_free": {
+          "hit": 3,
+          "percentage": 1.0,
+          "total": 3
+        },
+        "EVP_PKEY_CTX_new_id": {
+          "hit": 9,
+          "percentage": 1.0,
+          "total": 9
+        },
+        "EVP_PKEY_derive": {
+          "hit": 16,
+          "percentage": 0.9411764705882353,
+          "total": 17
+        },
+        "EVP_PKEY_derive_init": {
+          "hit": 8,
+          "percentage": 1.0,
+          "total": 8
+        },
+        "EVP_sha256": {
+          "hit": 2,
+          "percentage": 1.0,
+          "total": 2
+        },
+        "EVP_sha384": {
+          "hit": 2,
+          "percentage": 1.0,
+          "total": 2
+        },
+        "EVP_sha512": {
+          "hit": 2,
+          "percentage": 1.0,
+          "total": 2
+        }
+      },
+      "verification/cbmc/sources/utils.c": {
+        "key_contents_match": {
+          "hit": 7,
+          "percentage": 0.7,
+          "total": 10
+        }
+      }
+    },
+    "line_coverage": {
+      "source/cipher.c": {
+        "74": "hit",
+        "75": "hit",
+        "88": "hit",
+        "101": "hit",
+        "114": "hit",
+        "127": "hit",
+        "140": "hit",
+        "153": "hit",
+        "168": "hit",
+        "181": "hit",
+        "194": "hit",
+        "207": "hit",
+        "220": "hit",
+        "224": "both",
+        "240": "hit",
+        "242": "hit",
+        "244": "hit",
+        "248": "hit",
+        "251": "hit",
+        "252": "both",
+        "254": "both",
+        "263": "hit",
+        "267": "hit",
+        "270": "hit",
+        "271": "hit",
+        "273": "hit",
+        "274": "hit",
+        "275": "hit",
+        "276": "hit",
+        "278": "hit",
+        "279": "hit",
+        "280": "hit",
+        "324": "hit",
+        "325": "hit",
+        "326": "hit",
+        "327": "hit",
+        "329": "hit",
+        "330": "hit",
+        "333": "hit",
+        "334": "hit",
+        "335": "hit",
+        "336": "hit",
+        "337": "hit",
+        "338": "hit",
+        "339": "hit",
+        "340": "hit",
+        "341": "hit",
+        "342": "hit",
+        "344": "hit",
+        "345": "hit",
+        "346": "hit",
+        "347": "hit",
+        "348": "hit",
+        "349": "hit",
+        "350": "hit",
+        "1057": "both",
+        "1058": "hit",
+        "1061": "both",
+        "1062": "hit"
+      },
+      "source/hkdf.c": {
+        "24": "hit",
+        "25": "hit",
+        "26": "hit",
+        "27": "hit",
+        "28": "missed",
+        "30": "both",
+        "116": "hit",
+        "117": "both",
+        "118": "hit",
+        "119": "hit",
+        "121": "hit",
+        "122": "hit",
+        "123": "hit",
+        "124": "missed",
+        "125": "missed",
+        "127": "hit",
+        "128": "hit",
+        "129": "hit",
+        "131": "hit",
+        "132": "hit",
+        "133": "hit",
+        "134": "hit",
+        "135": "hit",
+        "136": "hit",
+        "138": "hit",
+        "139": "hit",
+        "142": "hit",
+        "143": "hit",
+        "144": "hit",
+        "145": "hit",
+        "165": "hit",
+        "167": "hit"
+      },
+      "verification/cbmc/aws-c-common/include/aws/common/error.inl": {
+        "24": "hit",
+        "26": "hit",
+        "27": "hit"
+      },
+      "verification/cbmc/aws-c-common/source/byte_buf.c": {
+        "59": "hit",
+        "60": "hit",
+        "61": "both",
+        "62": "hit",
+        "88": "hit",
+        "89": "hit",
+        "90": "hit",
+        "92": "hit",
+        "93": "hit",
+        "94": "hit",
+        "901": "hit",
+        "902": "both",
+        "903": "hit",
+        "904": "hit",
+        "905": "hit",
+        "906": "hit",
+        "907": "hit",
+        "908": "hit",
+        "911": "hit",
+        "912": "hit",
+        "913": "hit",
+        "914": "hit",
+        "915": "hit",
+        "916": "hit",
+        "917": "hit",
+        "918": "hit",
+        "919": "hit"
+      },
+      "verification/cbmc/aws-c-common/source/common.c": {
+        "38": "hit",
+        "62": "hit"
+      },
+      "verification/cbmc/aws-c-common/source/error.c": {
+        "94": "hit",
+        "96": "hit",
+        "97": "missed",
+        "98": "hit",
+        "99": "missed",
+        "101": "hit"
+      },
+      "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c": {
+        "14": "hit",
+        "15": "hit",
+        "22": "hit",
+        "23": "hit",
+        "24": "hit",
+        "25": "hit",
+        "26": "hit",
+        "214": "hit",
+        "215": "hit",
+        "216": "hit",
+        "220": "hit",
+        "221": "hit",
+        "222": "hit"
+      },
+      "verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c": {
+        "33": "missed",
+        "34": "missed",
+        "35": "missed",
+        "63": "hit",
+        "64": "hit",
+        "65": "hit",
+        "66": "hit",
+        "69": "hit",
+        "70": "hit",
+        "77": "hit",
+        "78": "hit"
+      },
+      "verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c": {
+        "31": "missed",
+        "32": "missed",
+        "34": "missed",
+        "37": "hit",
+        "38": "hit",
+        "39": "hit",
+        "40": "hit",
+        "42": "hit",
+        "68": "hit",
+        "69": "both",
+        "71": "missed",
+        "73": "missed",
+        "74": "missed",
+        "75": "missed",
+        "76": "missed",
+        "77": "missed",
+        "79": "hit",
+        "108": "missed",
+        "109": "missed",
+        "110": "missed",
+        "111": "missed"
+      },
+      "verification/cbmc/proofs/aws_cryptosdk_private_derive_key_v1/aws_cryptosdk_private_derive_key_v1_harness.c": {
+        "23": "hit",
+        "24": "hit",
+        "25": "hit",
+        "26": "hit",
+        "29": "hit",
+        "31": "hit",
+        "33": "hit",
+        "35": "hit",
+        "36": "hit",
+        "37": "hit",
+        "40": "hit",
+        "41": "hit",
+        "42": "hit",
+        "45": "hit",
+        "46": "hit",
+        "49": "hit",
+        "50": "hit",
+        "51": "hit",
+        "52": "hit",
+        "53": "hit",
+        "54": "hit",
+        "55": "hit",
+        "56": "hit",
+        "57": "hit",
+        "58": "hit",
+        "59": "hit"
+      },
+      "verification/cbmc/sources/make_common_data_structures.c": {
+        "47": "hit",
+        "48": "hit",
+        "49": "hit",
+        "50": "hit",
+        "51": "hit",
+        "52": "hit",
+        "53": "hit",
+        "54": "hit",
+        "55": "hit",
+        "56": "hit",
+        "59": "hit",
+        "60": "hit",
+        "61": "hit",
+        "64": "hit",
+        "65": "hit",
+        "66": "hit",
+        "207": "hit",
+        "209": "hit",
+        "211": "hit",
+        "215": "hit",
+        "218": "hit",
+        "219": "both",
+        "221": "both"
+      },
+      "verification/cbmc/sources/openssl/ec_override.c": {
+        "456": "hit",
+        "457": "hit",
+        "487": "hit",
+        "491": "hit",
+        "492": "hit"
+      },
+      "verification/cbmc/sources/openssl/evp_override.c": {
+        "126": "hit",
+        "128": "hit",
+        "129": "hit",
+        "130": "hit",
+        "131": "hit",
+        "132": "hit",
+        "133": "hit",
+        "136": "hit",
+        "137": "hit",
+        "145": "hit",
+        "146": "hit",
+        "147": "hit",
+        "148": "hit",
+        "151": "hit",
+        "152": "hit",
+        "153": "hit",
+        "154": "hit",
+        "221": "hit",
+        "222": "hit",
+        "223": "hit",
+        "224": "hit",
+        "226": "hit",
+        "227": "hit",
+        "228": "hit",
+        "229": "hit",
+        "239": "hit",
+        "240": "hit",
+        "241": "hit",
+        "243": "hit",
+        "245": "hit",
+        "246": "hit",
+        "247": "hit",
+        "248": "hit",
+        "251": "hit",
+        "252": "missed",
+        "254": "hit",
+        "255": "hit",
+        "256": "hit",
+        "257": "hit",
+        "258": "hit",
+        "260": "hit",
+        "261": "hit",
+        "403": "hit",
+        "404": "hit",
+        "406": "hit",
+        "702": "hit",
+        "703": "hit",
+        "706": "hit",
+        "707": "hit",
+        "710": "hit",
+        "711": "hit",
+        "717": "hit",
+        "718": "hit",
+        "720": "hit",
+        "721": "hit",
+        "723": "hit",
+        "724": "hit"
+      },
+      "verification/cbmc/sources/utils.c": {
+        "24": "hit",
+        "25": "missed",
+        "26": "both",
+        "27": "missed",
+        "28": "hit",
+        "29": "hit",
+        "30": "missed",
+        "31": "hit",
+        "32": "hit",
+        "33": "hit"
+      }
+    },
+    "overall_coverage": {
+      "hit": 270,
+      "percentage": 0.9152542372881356,
+      "total": 295
+    }
+  }
+}

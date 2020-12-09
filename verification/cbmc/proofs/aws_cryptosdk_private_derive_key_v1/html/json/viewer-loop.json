@@ -1,0 +1,16 @@
+{
+  "viewer-loop": {
+    "loops": {
+      "key_contents_match.0": {
+        "file": "verification/cbmc/sources/utils.c",
+        "function": "key_contents_match",
+        "line": 28
+      },
+      "strlen.0": {
+        "file": "<builtin-library-strlen>",
+        "function": "strlen",
+        "line": 18
+      }
+    }
+  }
+}

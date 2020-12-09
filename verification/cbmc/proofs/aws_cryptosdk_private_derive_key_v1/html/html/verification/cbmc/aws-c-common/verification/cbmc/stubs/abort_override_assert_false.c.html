@@ -1,0 +1,13 @@
+
+<html>
+<head>
+<title>verification/cbmc/aws-c-common/verification/cbmc/stubs/abort_override_assert_false.c</title>
+<link rel="stylesheet" type="text/css" href="../../../../../../viewer.css">
+</head>
+
+<body>
+<div class="code">
+<div id="1" class="line none">    1 /**</div><div id="2" class="line none">    2  * Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.</div><div id="3" class="line none">    3  * SPDX-License-Identifier: Apache-2.0.</div><div id="4" class="line none">    4  */</div><div id="5" class="line none">    5 </div><div id="6" class="line none">    6 /**</div><div id="7" class="line none">    7  * FUNCTION: abort</div><div id="8" class="line none">    8  *</div><div id="9" class="line none">    9  * We override abort to be an assert(0) so that it is caught by CBMC</div><div id="10" class="line none">   10  */</div><div id="11" class="line none">   11 </div><div id="12" class="line none">   12 #include &lt;assert.h&gt;</div><div id="13" class="line none">   13 </div><div id="14" class="line none">   14 void <a href="abort_override_assert_false.c.html#14">abort</a>() {</div><div id="15" class="line none">   15     assert(0);</div><div id="16" class="line none">   16 }</div>
+</div>
+</body>
+</html>

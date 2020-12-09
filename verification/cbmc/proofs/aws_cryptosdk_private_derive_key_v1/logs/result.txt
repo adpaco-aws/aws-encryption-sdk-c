@@ -1,0 +1,921 @@
+CBMC version 5.17.0 (cbmc-5.17.0) 64-bit x86_64 macos
+Reading GOTO program from file
+Reading: /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/proofs/aws_cryptosdk_private_derive_key_v1/gotos/aws_cryptosdk_private_derive_key_v1_harness.c.goto
+Generating GOTO Program
+Adding CPROVER library (x86_64)
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+Running with 8 object bits, 56 offset bits (user-specified)
+Starting Bounded Model Checking
+Unwinding loop key_contents_match.0 iteration 1 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 2 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 3 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 4 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 5 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 6 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 7 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 8 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 9 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 10 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 11 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 12 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 13 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 14 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 15 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 16 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 17 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 18 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 19 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 20 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 21 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 22 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 23 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 24 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 25 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 26 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 27 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 28 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 29 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 30 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 31 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Unwinding loop key_contents_match.0 iteration 32 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+Not unwinding loop key_contents_match.0 iteration 33 file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c line 28 function key_contents_match thread 0
+size of program expression: 6695 steps
+simple slicing removed 8 assignments
+Generated 2455 VCC(s), 1714 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.1 with simplifier
+110267 variables, 585360 clauses
+SAT checker: instance is UNSATISFIABLE
+Runtime decision procedure: 1.93445s
+
+** Results:
+/Users/accorell/aws-encryption-sdk-c-adrian/source/cipher.c function aws_cryptosdk_alg_properties_is_valid
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.1] line 273 dereference failure: pointer invalid in alg_props->alg_id: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.2] line 273 dereference failure: pointer NULL in alg_props->alg_id: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.3] line 273 dereference failure: deallocated dynamic object in alg_props->alg_id: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.4] line 273 dereference failure: dead object in alg_props->alg_id: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.5] line 273 dereference failure: pointer outside dynamic object bounds in alg_props->alg_id: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.6] line 273 dereference failure: pointer outside object bounds in alg_props->alg_id: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.7] line 273 dereference failure: invalid integer address in alg_props->alg_id: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.8] line 278 dereference failure: pointer invalid in alg_props->md_name: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.9] line 278 dereference failure: pointer NULL in alg_props->md_name: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.10] line 278 dereference failure: deallocated dynamic object in alg_props->md_name: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.11] line 278 dereference failure: dead object in alg_props->md_name: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.12] line 278 dereference failure: pointer outside dynamic object bounds in alg_props->md_name: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.13] line 278 dereference failure: pointer outside object bounds in alg_props->md_name: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.14] line 278 dereference failure: invalid integer address in alg_props->md_name: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.15] line 278 dereference failure: pointer outside dynamic object bounds in alg_props->cipher_name: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.16] line 278 dereference failure: pointer outside object bounds in alg_props->cipher_name: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.17] line 278 dereference failure: invalid integer address in alg_props->cipher_name: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.18] line 278 dereference failure: pointer invalid in alg_props->alg_name: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.19] line 278 dereference failure: pointer NULL in alg_props->alg_name: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.20] line 278 dereference failure: deallocated dynamic object in alg_props->alg_name: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.21] line 278 dereference failure: dead object in alg_props->alg_name: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.22] line 278 dereference failure: pointer outside dynamic object bounds in alg_props->alg_name: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.23] line 278 dereference failure: pointer outside object bounds in alg_props->alg_name: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.24] line 278 dereference failure: invalid integer address in alg_props->alg_name: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.25] line 279 dereference failure: pointer invalid in *alg_props: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.26] line 279 dereference failure: pointer NULL in *alg_props: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.27] line 279 dereference failure: deallocated dynamic object in *alg_props: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.28] line 279 dereference failure: dead object in *alg_props: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.29] line 279 dereference failure: pointer outside dynamic object bounds in *alg_props: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.30] line 279 dereference failure: pointer outside object bounds in *alg_props: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.31] line 279 dereference failure: invalid integer address in *alg_props: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.32] line 279 dereference failure: pointer invalid in *std_alg_props: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.33] line 279 dereference failure: pointer NULL in *std_alg_props: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.34] line 279 dereference failure: deallocated dynamic object in *std_alg_props: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.35] line 279 dereference failure: dead object in *std_alg_props: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.36] line 279 dereference failure: pointer outside dynamic object bounds in *std_alg_props: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.37] line 279 dereference failure: pointer outside object bounds in *std_alg_props: SUCCESS
+[aws_cryptosdk_alg_properties_is_valid.pointer_dereference.38] line 279 dereference failure: invalid integer address in *std_alg_props: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/source/cipher.c function aws_cryptosdk_content_key_is_valid
+[aws_cryptosdk_content_key_is_valid.overflow.1] line 1061 arithmetic overflow on signed to unsigned type conversion in (__CPROVER_size_t)POINTER_OFFSET((const void *)key->keybuf): SUCCESS
+[aws_cryptosdk_content_key_is_valid.overflow.2] line 1061 arithmetic overflow on unsigned + in (__CPROVER_size_t)POINTER_OFFSET((const void *)key->keybuf) + (__CPROVER_size_t)32: SUCCESS
+[aws_cryptosdk_content_key_is_valid.overflow.3] line 1061 arithmetic overflow on signed to unsigned type conversion in (__CPROVER_size_t)POINTER_OFFSET((const void *)key->keybuf): SUCCESS
+[aws_cryptosdk_content_key_is_valid.overflow.4] line 1061 arithmetic overflow on unsigned + in (__CPROVER_size_t)POINTER_OFFSET((const void *)key->keybuf) + (__CPROVER_size_t)32: SUCCESS
+[aws_cryptosdk_content_key_is_valid.pointer_primitives.1] line 1061 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)key->keybuf): SUCCESS
+[aws_cryptosdk_content_key_is_valid.pointer_primitives.2] line 1061 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)key->keybuf): SUCCESS
+[aws_cryptosdk_content_key_is_valid.pointer_primitives.3] line 1061 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)key->keybuf): SUCCESS
+[aws_cryptosdk_content_key_is_valid.pointer_primitives.4] line 1061 pointer in pointer primitive is neither null nor valid in IS_DYNAMIC_OBJECT((const void *)key->keybuf): SUCCESS
+[aws_cryptosdk_content_key_is_valid.pointer_primitives.5] line 1061 pointer in pointer primitive is neither null nor valid in POINTER_OFFSET((const void *)key->keybuf): SUCCESS
+[aws_cryptosdk_content_key_is_valid.pointer_primitives.6] line 1061 pointer in pointer primitive is neither null nor valid in IS_DYNAMIC_OBJECT((const void *)key->keybuf): SUCCESS
+[aws_cryptosdk_content_key_is_valid.pointer_primitives.7] line 1061 pointer in pointer primitive is neither null nor valid in POINTER_OFFSET((const void *)key->keybuf): SUCCESS
+[aws_cryptosdk_content_key_is_valid.pointer_primitives.8] line 1061 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)key->keybuf): SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/source/cipher.c function aws_cryptosdk_data_key_is_valid
+[aws_cryptosdk_data_key_is_valid.overflow.1] line 1057 arithmetic overflow on signed to unsigned type conversion in (__CPROVER_size_t)POINTER_OFFSET((const void *)key->keybuf): SUCCESS
+[aws_cryptosdk_data_key_is_valid.overflow.2] line 1057 arithmetic overflow on unsigned + in (__CPROVER_size_t)POINTER_OFFSET((const void *)key->keybuf) + (__CPROVER_size_t)32: SUCCESS
+[aws_cryptosdk_data_key_is_valid.overflow.3] line 1057 arithmetic overflow on signed to unsigned type conversion in (__CPROVER_size_t)POINTER_OFFSET((const void *)key->keybuf): SUCCESS
+[aws_cryptosdk_data_key_is_valid.overflow.4] line 1057 arithmetic overflow on unsigned + in (__CPROVER_size_t)POINTER_OFFSET((const void *)key->keybuf) + (__CPROVER_size_t)32: SUCCESS
+[aws_cryptosdk_data_key_is_valid.pointer_primitives.1] line 1057 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)key->keybuf): SUCCESS
+[aws_cryptosdk_data_key_is_valid.pointer_primitives.2] line 1057 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)key->keybuf): SUCCESS
+[aws_cryptosdk_data_key_is_valid.pointer_primitives.3] line 1057 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)key->keybuf): SUCCESS
+[aws_cryptosdk_data_key_is_valid.pointer_primitives.4] line 1057 pointer in pointer primitive is neither null nor valid in IS_DYNAMIC_OBJECT((const void *)key->keybuf): SUCCESS
+[aws_cryptosdk_data_key_is_valid.pointer_primitives.5] line 1057 pointer in pointer primitive is neither null nor valid in POINTER_OFFSET((const void *)key->keybuf): SUCCESS
+[aws_cryptosdk_data_key_is_valid.pointer_primitives.6] line 1057 pointer in pointer primitive is neither null nor valid in IS_DYNAMIC_OBJECT((const void *)key->keybuf): SUCCESS
+[aws_cryptosdk_data_key_is_valid.pointer_primitives.7] line 1057 pointer in pointer primitive is neither null nor valid in POINTER_OFFSET((const void *)key->keybuf): SUCCESS
+[aws_cryptosdk_data_key_is_valid.pointer_primitives.8] line 1057 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)key->keybuf): SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/source/cipher.c function aws_cryptosdk_private_derive_key_v1
+[aws_cryptosdk_private_derive_key_v1.precondition.1] line 324 aws_cryptosdk_alg_properties_is_valid(props) check failed: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.precondition.2] line 325 aws_cryptosdk_content_key_is_valid(content_key) check failed: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.precondition.3] line 326 aws_cryptosdk_data_key_is_valid(data_key) check failed: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.precondition.4] line 327 aws_byte_buf_is_valid(message_id) check failed: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.1] line 329 dereference failure: pointer invalid in message_id->len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.2] line 329 dereference failure: pointer NULL in message_id->len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.3] line 329 dereference failure: deallocated dynamic object in message_id->len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.4] line 329 dereference failure: dead object in message_id->len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.5] line 329 dereference failure: pointer outside dynamic object bounds in message_id->len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.6] line 329 dereference failure: pointer outside object bounds in message_id->len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.7] line 329 dereference failure: invalid integer address in message_id->len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.8] line 335 dereference failure: pointer invalid in props->alg_id: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.9] line 335 dereference failure: pointer NULL in props->alg_id: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.10] line 335 dereference failure: deallocated dynamic object in props->alg_id: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.11] line 335 dereference failure: dead object in props->alg_id: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.12] line 335 dereference failure: pointer outside dynamic object bounds in props->alg_id: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.13] line 335 dereference failure: pointer outside object bounds in props->alg_id: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.14] line 335 dereference failure: invalid integer address in props->alg_id: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.overflow.1] line 336 arithmetic overflow on signed to unsigned type conversion in (uint8_t)((signed int)alg_id >> 8): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.overflow.2] line 337 arithmetic overflow on signed to unsigned type conversion in (uint8_t)((signed int)alg_id & 0xFF): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.overflow.3] line 338 arithmetic overflow on unsigned - in sizeof(uint8_t [18l]) /*18ul*/  - (unsigned long int)2: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.overflow.4] line 338 arithmetic overflow on unsigned - in sizeof(uint8_t [18l]) /*18ul*/  - (unsigned long int)2: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.overflow.5] line 338 arithmetic overflow on unsigned - in sizeof(uint8_t [18l]) /*18ul*/  - (unsigned long int)2: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.15] line 338 dereference failure: pointer invalid in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.16] line 338 dereference failure: pointer NULL in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.17] line 338 dereference failure: deallocated dynamic object in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.18] line 338 dereference failure: dead object in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.19] line 338 dereference failure: pointer outside dynamic object bounds in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.20] line 338 dereference failure: pointer outside object bounds in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.21] line 338 dereference failure: invalid integer address in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.22] line 338 dereference failure: pointer invalid in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.23] line 338 dereference failure: pointer NULL in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.24] line 338 dereference failure: deallocated dynamic object in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.25] line 338 dereference failure: dead object in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.26] line 338 dereference failure: pointer outside dynamic object bounds in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.27] line 338 dereference failure: pointer outside object bounds in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.28] line 338 dereference failure: invalid integer address in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.29] line 338 dereference failure: pointer invalid in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.30] line 338 dereference failure: pointer NULL in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.31] line 338 dereference failure: deallocated dynamic object in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.32] line 338 dereference failure: dead object in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.33] line 338 dereference failure: pointer outside dynamic object bounds in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.34] line 338 dereference failure: pointer outside object bounds in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.35] line 338 dereference failure: invalid integer address in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.precondition_instance.1] line 338 memcpy src/dst overlap: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.precondition_instance.2] line 338 memcpy source region readable: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.precondition_instance.3] line 338 memcpy destination region writeable: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.36] line 339 dereference failure: pointer invalid in props->alg_id: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.37] line 339 dereference failure: pointer NULL in props->alg_id: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.38] line 339 dereference failure: deallocated dynamic object in props->alg_id: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.39] line 339 dereference failure: dead object in props->alg_id: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.40] line 339 dereference failure: pointer outside dynamic object bounds in props->alg_id: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.41] line 339 dereference failure: pointer outside object bounds in props->alg_id: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.42] line 339 dereference failure: invalid integer address in props->alg_id: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.overflow.6] line 341 arithmetic overflow on unsigned to signed type conversion in (signed long int)props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.overflow.7] line 341 arithmetic overflow on unsigned to signed type conversion in (signed long int)props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.43] line 341 dereference failure: pointer invalid in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.44] line 341 dereference failure: pointer NULL in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.45] line 341 dereference failure: deallocated dynamic object in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.46] line 341 dereference failure: dead object in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.47] line 341 dereference failure: pointer outside dynamic object bounds in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.48] line 341 dereference failure: pointer outside object bounds in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.49] line 341 dereference failure: invalid integer address in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.50] line 341 dereference failure: pointer invalid in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.51] line 341 dereference failure: pointer NULL in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.52] line 341 dereference failure: deallocated dynamic object in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.53] line 341 dereference failure: dead object in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.54] line 341 dereference failure: pointer outside dynamic object bounds in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.55] line 341 dereference failure: pointer outside object bounds in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.56] line 341 dereference failure: invalid integer address in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.57] line 341 dereference failure: pointer invalid in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.58] line 341 dereference failure: pointer NULL in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.59] line 341 dereference failure: deallocated dynamic object in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.60] line 341 dereference failure: dead object in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.61] line 341 dereference failure: pointer outside dynamic object bounds in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.62] line 341 dereference failure: pointer outside object bounds in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.63] line 341 dereference failure: invalid integer address in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.precondition_instance.4] line 341 memcpy src/dst overlap: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.precondition_instance.5] line 341 memcpy source region readable: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.precondition_instance.6] line 341 memcpy destination region writeable: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.overflow.8] line 344 arithmetic overflow on signed to unsigned type conversion in (size_t)POINTER_OFFSET((const void *)content_key->keybuf): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.overflow.9] line 344 arithmetic overflow on unsigned + in (size_t)POINTER_OFFSET((const void *)content_key->keybuf) + props->content_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.overflow.10] line 344 arithmetic overflow on signed to unsigned type conversion in (size_t)POINTER_OFFSET((const void *)content_key->keybuf): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.overflow.11] line 344 arithmetic overflow on unsigned + in (size_t)POINTER_OFFSET((const void *)content_key->keybuf) + props->content_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.64] line 344 dereference failure: pointer invalid in props->content_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.65] line 344 dereference failure: pointer NULL in props->content_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.66] line 344 dereference failure: deallocated dynamic object in props->content_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.67] line 344 dereference failure: dead object in props->content_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.68] line 344 dereference failure: pointer outside dynamic object bounds in props->content_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.69] line 344 dereference failure: pointer outside object bounds in props->content_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.70] line 344 dereference failure: invalid integer address in props->content_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.71] line 344 dereference failure: pointer invalid in props->content_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.72] line 344 dereference failure: pointer NULL in props->content_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.73] line 344 dereference failure: deallocated dynamic object in props->content_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.74] line 344 dereference failure: dead object in props->content_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.75] line 344 dereference failure: pointer outside dynamic object bounds in props->content_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.76] line 344 dereference failure: pointer outside object bounds in props->content_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.77] line 344 dereference failure: invalid integer address in props->content_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.78] line 344 dereference failure: pointer invalid in props->content_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.79] line 344 dereference failure: pointer NULL in props->content_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.80] line 344 dereference failure: deallocated dynamic object in props->content_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.81] line 344 dereference failure: dead object in props->content_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.82] line 344 dereference failure: pointer outside dynamic object bounds in props->content_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.83] line 344 dereference failure: pointer outside object bounds in props->content_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.84] line 344 dereference failure: invalid integer address in props->content_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.1] line 344 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)content_key->keybuf): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.2] line 344 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)content_key->keybuf): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.3] line 344 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)content_key->keybuf): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.4] line 344 pointer in pointer primitive is neither null nor valid in IS_DYNAMIC_OBJECT((const void *)content_key->keybuf): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.5] line 344 pointer in pointer primitive is neither null nor valid in POINTER_OFFSET((const void *)content_key->keybuf): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.6] line 344 pointer in pointer primitive is neither null nor valid in IS_DYNAMIC_OBJECT((const void *)content_key->keybuf): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.7] line 344 pointer in pointer primitive is neither null nor valid in POINTER_OFFSET((const void *)content_key->keybuf): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.8] line 344 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)content_key->keybuf): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.precondition_instance.7] line 344 Input array [bytes] must be writable up to [len] bytes.: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.overflow.12] line 346 arithmetic overflow on signed to unsigned type conversion in (size_t)POINTER_OFFSET((const void *)data_key->keybuf): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.overflow.13] line 346 arithmetic overflow on unsigned + in (size_t)POINTER_OFFSET((const void *)data_key->keybuf) + props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.overflow.14] line 346 arithmetic overflow on signed to unsigned type conversion in (size_t)POINTER_OFFSET((const void *)data_key->keybuf): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.overflow.15] line 346 arithmetic overflow on unsigned + in (size_t)POINTER_OFFSET((const void *)data_key->keybuf) + props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.85] line 346 dereference failure: pointer invalid in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.86] line 346 dereference failure: pointer NULL in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.87] line 346 dereference failure: deallocated dynamic object in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.88] line 346 dereference failure: dead object in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.89] line 346 dereference failure: pointer outside dynamic object bounds in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.90] line 346 dereference failure: pointer outside object bounds in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.91] line 346 dereference failure: invalid integer address in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.92] line 346 dereference failure: pointer invalid in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.93] line 346 dereference failure: pointer NULL in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.94] line 346 dereference failure: deallocated dynamic object in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.95] line 346 dereference failure: dead object in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.96] line 346 dereference failure: pointer outside dynamic object bounds in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.97] line 346 dereference failure: pointer outside object bounds in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.98] line 346 dereference failure: invalid integer address in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.99] line 346 dereference failure: pointer invalid in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.100] line 346 dereference failure: pointer NULL in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.101] line 346 dereference failure: deallocated dynamic object in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.102] line 346 dereference failure: dead object in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.103] line 346 dereference failure: pointer outside dynamic object bounds in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.104] line 346 dereference failure: pointer outside object bounds in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_dereference.105] line 346 dereference failure: invalid integer address in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.9] line 346 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)data_key->keybuf): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.10] line 346 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)data_key->keybuf): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.11] line 346 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)data_key->keybuf): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.12] line 346 pointer in pointer primitive is neither null nor valid in IS_DYNAMIC_OBJECT((const void *)data_key->keybuf): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.13] line 346 pointer in pointer primitive is neither null nor valid in POINTER_OFFSET((const void *)data_key->keybuf): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.14] line 346 pointer in pointer primitive is neither null nor valid in IS_DYNAMIC_OBJECT((const void *)data_key->keybuf): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.15] line 346 pointer in pointer primitive is neither null nor valid in POINTER_OFFSET((const void *)data_key->keybuf): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.16] line 346 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)data_key->keybuf): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.precondition_instance.8] line 346 Input array [bytes] must be writable up to [len] bytes.: SUCCESS
+[aws_cryptosdk_private_derive_key_v1.overflow.16] line 347 arithmetic overflow on unsigned + in (size_t)POINTER_OFFSET((const void *)info) + sizeof(uint8_t [18l]) /*18ul*/ : SUCCESS
+[aws_cryptosdk_private_derive_key_v1.overflow.17] line 347 arithmetic overflow on unsigned + in (size_t)POINTER_OFFSET((const void *)info) + sizeof(uint8_t [18l]) /*18ul*/ : SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.17] line 347 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)info): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.18] line 347 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)info): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.19] line 347 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)info): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.20] line 347 pointer in pointer primitive is neither null nor valid in IS_DYNAMIC_OBJECT((const void *)info): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.21] line 347 pointer in pointer primitive is neither null nor valid in POINTER_OFFSET((const void *)info): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.22] line 347 pointer in pointer primitive is neither null nor valid in IS_DYNAMIC_OBJECT((const void *)info): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.23] line 347 pointer in pointer primitive is neither null nor valid in POINTER_OFFSET((const void *)info): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.pointer_primitives.24] line 347 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)info): SUCCESS
+[aws_cryptosdk_private_derive_key_v1.precondition_instance.9] line 347 Input array [bytes] must be writable up to [len] bytes.: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/source/hkdf.c function aws_cryptosdk_openssl_hkdf_version
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.1] line 123 dereference failure: pointer invalid in salt->len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.2] line 123 dereference failure: pointer NULL in salt->len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.3] line 123 dereference failure: deallocated dynamic object in salt->len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.4] line 123 dereference failure: dead object in salt->len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.5] line 123 dereference failure: pointer outside dynamic object bounds in salt->len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.6] line 123 dereference failure: pointer outside object bounds in salt->len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.7] line 123 dereference failure: invalid integer address in salt->len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.8] line 124 dereference failure: pointer NULL in salt->buffer: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.9] line 124 dereference failure: pointer outside dynamic object bounds in salt->buffer: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.10] line 124 dereference failure: pointer outside object bounds in salt->buffer: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.11] line 124 dereference failure: invalid integer address in salt->buffer: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.overflow.1] line 128 arithmetic overflow on signed to unsigned type conversion in (size_t)return_value_EVP_MD_size: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.overflow.2] line 132 arithmetic overflow on signed + in 0x1000 + 3: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.overflow.3] line 133 arithmetic overflow on signed + in 0x1000 + 4: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.overflow.4] line 133 arithmetic overflow on unsigned to signed type conversion in (signed int)mysalt_len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.overflow.5] line 134 arithmetic overflow on signed + in 0x1000 + 5: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.overflow.6] line 134 arithmetic overflow on unsigned to signed type conversion in (signed int)ikm->len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.12] line 134 dereference failure: pointer invalid in ikm->len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.13] line 134 dereference failure: pointer NULL in ikm->len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.14] line 134 dereference failure: deallocated dynamic object in ikm->len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.15] line 134 dereference failure: dead object in ikm->len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.16] line 134 dereference failure: pointer outside dynamic object bounds in ikm->len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.17] line 134 dereference failure: pointer outside object bounds in ikm->len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.18] line 134 dereference failure: invalid integer address in ikm->len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.19] line 134 dereference failure: pointer NULL in ikm->buffer: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.20] line 134 dereference failure: pointer outside dynamic object bounds in ikm->buffer: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.21] line 134 dereference failure: pointer outside object bounds in ikm->buffer: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.22] line 134 dereference failure: invalid integer address in ikm->buffer: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.overflow.7] line 135 arithmetic overflow on signed + in 0x1000 + 6: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.overflow.8] line 135 arithmetic overflow on unsigned to signed type conversion in (signed int)info->len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.23] line 135 dereference failure: pointer invalid in info->len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.24] line 135 dereference failure: pointer NULL in info->len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.25] line 135 dereference failure: deallocated dynamic object in info->len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.26] line 135 dereference failure: dead object in info->len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.27] line 135 dereference failure: pointer outside dynamic object bounds in info->len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.28] line 135 dereference failure: pointer outside object bounds in info->len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.29] line 135 dereference failure: invalid integer address in info->len: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.30] line 135 dereference failure: pointer NULL in info->buffer: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.31] line 135 dereference failure: pointer outside dynamic object bounds in info->buffer: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.32] line 135 dereference failure: pointer outside object bounds in info->buffer: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.33] line 135 dereference failure: invalid integer address in info->buffer: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.34] line 136 dereference failure: pointer invalid in okm->buffer: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.35] line 136 dereference failure: pointer NULL in okm->buffer: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.36] line 136 dereference failure: deallocated dynamic object in okm->buffer: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.37] line 136 dereference failure: dead object in okm->buffer: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.38] line 136 dereference failure: pointer outside dynamic object bounds in okm->buffer: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.39] line 136 dereference failure: pointer outside object bounds in okm->buffer: SUCCESS
+[aws_cryptosdk_openssl_hkdf_version.pointer_dereference.40] line 136 dereference failure: invalid integer address in okm->buffer: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/aws-c-common/source/byte_buf.c function aws_byte_buf_from_array
+[aws_byte_buf_from_array.assertion.1] line 917 aws_byte_buf_is_valid(&buf) check failed: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/aws-c-common/source/byte_buf.c function aws_byte_buf_from_c_str
+[aws_byte_buf_from_c_str.assertion.1] line 906 aws_byte_buf_is_valid(&buf) check failed: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/aws-c-common/source/byte_buf.c function aws_byte_buf_is_valid
+[aws_byte_buf_is_valid.pointer_dereference.1] line 60 dereference failure: pointer invalid in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.2] line 60 dereference failure: pointer NULL in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.3] line 60 dereference failure: deallocated dynamic object in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.4] line 60 dereference failure: dead object in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.5] line 60 dereference failure: pointer outside dynamic object bounds in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.6] line 60 dereference failure: pointer outside object bounds in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.7] line 60 dereference failure: invalid integer address in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.8] line 60 dereference failure: pointer outside dynamic object bounds in buf->len: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.9] line 60 dereference failure: pointer outside object bounds in buf->len: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.10] line 60 dereference failure: invalid integer address in buf->len: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.11] line 60 dereference failure: pointer invalid in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.12] line 60 dereference failure: pointer NULL in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.13] line 60 dereference failure: deallocated dynamic object in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.14] line 60 dereference failure: dead object in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.15] line 60 dereference failure: pointer outside dynamic object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.16] line 60 dereference failure: pointer outside object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.17] line 60 dereference failure: invalid integer address in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.overflow.1] line 61 arithmetic overflow on signed to unsigned type conversion in (const size_t)POINTER_OFFSET((const void *)buf->buffer): SUCCESS
+[aws_byte_buf_is_valid.overflow.2] line 61 arithmetic overflow on unsigned + in (const size_t)POINTER_OFFSET((const void *)buf->buffer) + buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.overflow.3] line 61 arithmetic overflow on signed to unsigned type conversion in (const size_t)POINTER_OFFSET((const void *)buf->buffer): SUCCESS
+[aws_byte_buf_is_valid.overflow.4] line 61 arithmetic overflow on unsigned + in (const size_t)POINTER_OFFSET((const void *)buf->buffer) + buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.18] line 61 dereference failure: pointer invalid in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.19] line 61 dereference failure: pointer NULL in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.20] line 61 dereference failure: deallocated dynamic object in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.21] line 61 dereference failure: dead object in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.22] line 61 dereference failure: pointer outside dynamic object bounds in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.23] line 61 dereference failure: pointer outside object bounds in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.24] line 61 dereference failure: invalid integer address in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.25] line 61 dereference failure: pointer outside dynamic object bounds in buf->len: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.26] line 61 dereference failure: pointer outside object bounds in buf->len: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.27] line 61 dereference failure: invalid integer address in buf->len: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.28] line 61 dereference failure: pointer invalid in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.29] line 61 dereference failure: pointer NULL in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.30] line 61 dereference failure: deallocated dynamic object in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.31] line 61 dereference failure: dead object in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.32] line 61 dereference failure: pointer outside dynamic object bounds in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.33] line 61 dereference failure: pointer outside object bounds in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.34] line 61 dereference failure: invalid integer address in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.35] line 61 dereference failure: pointer invalid in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.36] line 61 dereference failure: pointer NULL in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.37] line 61 dereference failure: deallocated dynamic object in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.38] line 61 dereference failure: dead object in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.39] line 61 dereference failure: pointer outside dynamic object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.40] line 61 dereference failure: pointer outside object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.41] line 61 dereference failure: invalid integer address in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.42] line 61 dereference failure: pointer invalid in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.43] line 61 dereference failure: pointer NULL in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.44] line 61 dereference failure: deallocated dynamic object in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.45] line 61 dereference failure: dead object in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.46] line 61 dereference failure: pointer outside dynamic object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.47] line 61 dereference failure: pointer outside object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.48] line 61 dereference failure: invalid integer address in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.49] line 61 dereference failure: pointer invalid in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.50] line 61 dereference failure: pointer NULL in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.51] line 61 dereference failure: deallocated dynamic object in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.52] line 61 dereference failure: dead object in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.53] line 61 dereference failure: pointer outside dynamic object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.54] line 61 dereference failure: pointer outside object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.55] line 61 dereference failure: invalid integer address in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.56] line 61 dereference failure: pointer invalid in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.57] line 61 dereference failure: pointer NULL in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.58] line 61 dereference failure: deallocated dynamic object in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.59] line 61 dereference failure: dead object in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.60] line 61 dereference failure: pointer outside dynamic object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.61] line 61 dereference failure: pointer outside object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.62] line 61 dereference failure: invalid integer address in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.63] line 61 dereference failure: pointer invalid in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.64] line 61 dereference failure: pointer NULL in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.65] line 61 dereference failure: deallocated dynamic object in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.66] line 61 dereference failure: dead object in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.67] line 61 dereference failure: pointer outside dynamic object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.68] line 61 dereference failure: pointer outside object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.69] line 61 dereference failure: invalid integer address in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.70] line 61 dereference failure: pointer invalid in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.71] line 61 dereference failure: pointer NULL in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.72] line 61 dereference failure: deallocated dynamic object in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.73] line 61 dereference failure: dead object in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.74] line 61 dereference failure: pointer outside dynamic object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.75] line 61 dereference failure: pointer outside object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.76] line 61 dereference failure: invalid integer address in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.77] line 61 dereference failure: pointer NULL in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.78] line 61 dereference failure: pointer outside dynamic object bounds in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.79] line 61 dereference failure: pointer outside object bounds in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.80] line 61 dereference failure: invalid integer address in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.81] line 61 dereference failure: pointer invalid in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.82] line 61 dereference failure: pointer NULL in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.83] line 61 dereference failure: deallocated dynamic object in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.84] line 61 dereference failure: dead object in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.85] line 61 dereference failure: pointer outside dynamic object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.86] line 61 dereference failure: pointer outside object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.87] line 61 dereference failure: invalid integer address in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.88] line 61 dereference failure: pointer invalid in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.89] line 61 dereference failure: pointer NULL in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.90] line 61 dereference failure: deallocated dynamic object in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.91] line 61 dereference failure: dead object in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.92] line 61 dereference failure: pointer outside dynamic object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.93] line 61 dereference failure: pointer outside object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.94] line 61 dereference failure: invalid integer address in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.95] line 61 dereference failure: pointer NULL in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.96] line 61 dereference failure: pointer outside dynamic object bounds in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.97] line 61 dereference failure: pointer outside object bounds in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.98] line 61 dereference failure: invalid integer address in buf->capacity: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.99] line 61 dereference failure: pointer invalid in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.100] line 61 dereference failure: pointer NULL in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.101] line 61 dereference failure: deallocated dynamic object in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.102] line 61 dereference failure: dead object in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.103] line 61 dereference failure: pointer outside dynamic object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.104] line 61 dereference failure: pointer outside object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.105] line 61 dereference failure: invalid integer address in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.106] line 61 dereference failure: pointer invalid in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.107] line 61 dereference failure: pointer NULL in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.108] line 61 dereference failure: deallocated dynamic object in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.109] line 61 dereference failure: dead object in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.110] line 61 dereference failure: pointer outside dynamic object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.111] line 61 dereference failure: pointer outside object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_dereference.112] line 61 dereference failure: invalid integer address in buf->buffer: SUCCESS
+[aws_byte_buf_is_valid.pointer_primitives.1] line 61 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)buf->buffer): SUCCESS
+[aws_byte_buf_is_valid.pointer_primitives.2] line 61 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)buf->buffer): SUCCESS
+[aws_byte_buf_is_valid.pointer_primitives.3] line 61 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)buf->buffer): SUCCESS
+[aws_byte_buf_is_valid.pointer_primitives.4] line 61 pointer in pointer primitive is neither null nor valid in IS_DYNAMIC_OBJECT((const void *)buf->buffer): SUCCESS
+[aws_byte_buf_is_valid.pointer_primitives.5] line 61 pointer in pointer primitive is neither null nor valid in POINTER_OFFSET((const void *)buf->buffer): SUCCESS
+[aws_byte_buf_is_valid.pointer_primitives.6] line 61 pointer in pointer primitive is neither null nor valid in IS_DYNAMIC_OBJECT((const void *)buf->buffer): SUCCESS
+[aws_byte_buf_is_valid.pointer_primitives.7] line 61 pointer in pointer primitive is neither null nor valid in POINTER_OFFSET((const void *)buf->buffer): SUCCESS
+[aws_byte_buf_is_valid.pointer_primitives.8] line 61 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)buf->buffer): SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/aws-c-common/source/byte_buf.c function aws_byte_buf_secure_zero
+[aws_byte_buf_secure_zero.precondition.1] line 88 aws_byte_buf_is_valid(buf) check failed: SUCCESS
+[aws_byte_buf_secure_zero.pointer_dereference.1] line 89 dereference failure: pointer invalid in buf->buffer: SUCCESS
+[aws_byte_buf_secure_zero.pointer_dereference.2] line 89 dereference failure: pointer NULL in buf->buffer: SUCCESS
+[aws_byte_buf_secure_zero.pointer_dereference.3] line 89 dereference failure: deallocated dynamic object in buf->buffer: SUCCESS
+[aws_byte_buf_secure_zero.pointer_dereference.4] line 89 dereference failure: dead object in buf->buffer: SUCCESS
+[aws_byte_buf_secure_zero.pointer_dereference.5] line 89 dereference failure: pointer outside dynamic object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_secure_zero.pointer_dereference.6] line 89 dereference failure: pointer outside object bounds in buf->buffer: SUCCESS
+[aws_byte_buf_secure_zero.pointer_dereference.7] line 89 dereference failure: invalid integer address in buf->buffer: SUCCESS
+[aws_byte_buf_secure_zero.pointer_dereference.8] line 90 dereference failure: pointer NULL in buf->capacity: SUCCESS
+[aws_byte_buf_secure_zero.pointer_dereference.9] line 90 dereference failure: pointer outside dynamic object bounds in buf->capacity: SUCCESS
+[aws_byte_buf_secure_zero.pointer_dereference.10] line 90 dereference failure: pointer outside object bounds in buf->capacity: SUCCESS
+[aws_byte_buf_secure_zero.pointer_dereference.11] line 90 dereference failure: invalid integer address in buf->capacity: SUCCESS
+[aws_byte_buf_secure_zero.pointer_dereference.12] line 92 dereference failure: pointer invalid in buf->len: SUCCESS
+[aws_byte_buf_secure_zero.pointer_dereference.13] line 92 dereference failure: pointer NULL in buf->len: SUCCESS
+[aws_byte_buf_secure_zero.pointer_dereference.14] line 92 dereference failure: deallocated dynamic object in buf->len: SUCCESS
+[aws_byte_buf_secure_zero.pointer_dereference.15] line 92 dereference failure: dead object in buf->len: SUCCESS
+[aws_byte_buf_secure_zero.pointer_dereference.16] line 92 dereference failure: pointer outside dynamic object bounds in buf->len: SUCCESS
+[aws_byte_buf_secure_zero.pointer_dereference.17] line 92 dereference failure: pointer outside object bounds in buf->len: SUCCESS
+[aws_byte_buf_secure_zero.pointer_dereference.18] line 92 dereference failure: invalid integer address in buf->len: SUCCESS
+[aws_byte_buf_secure_zero.assertion.1] line 93 aws_byte_buf_is_valid(buf) check failed: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/aws-c-common/source/common.c function aws_secure_zero
+[aws_secure_zero.precondition_instance.1] line 38 memset destination region writeable: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/aws-c-common/source/error.c function aws_raise_error_private
+[aws_raise_error_private.pointer_dereference.1] line 97 dereference failure: pointer invalid in tl_thread_handler: SUCCESS
+[aws_raise_error_private.pointer_dereference.2] line 97 dereference failure: pointer NULL in tl_thread_handler: SUCCESS
+[aws_raise_error_private.pointer_dereference.3] line 97 dereference failure: deallocated dynamic object in tl_thread_handler: SUCCESS
+[aws_raise_error_private.pointer_dereference.4] line 97 dereference failure: dead object in tl_thread_handler: SUCCESS
+[aws_raise_error_private.pointer_dereference.5] line 97 dereference failure: pointer outside dynamic object bounds in tl_thread_handler: SUCCESS
+[aws_raise_error_private.pointer_dereference.6] line 97 dereference failure: pointer outside object bounds in tl_thread_handler: SUCCESS
+[aws_raise_error_private.pointer_dereference.7] line 97 dereference failure: invalid integer address in tl_thread_handler: SUCCESS
+[aws_raise_error_private.pointer_dereference.8] line 99 dereference failure: pointer invalid in s_global_handler: SUCCESS
+[aws_raise_error_private.pointer_dereference.9] line 99 dereference failure: pointer NULL in s_global_handler: SUCCESS
+[aws_raise_error_private.pointer_dereference.10] line 99 dereference failure: deallocated dynamic object in s_global_handler: SUCCESS
+[aws_raise_error_private.pointer_dereference.11] line 99 dereference failure: dead object in s_global_handler: SUCCESS
+[aws_raise_error_private.pointer_dereference.12] line 99 dereference failure: pointer outside dynamic object bounds in s_global_handler: SUCCESS
+[aws_raise_error_private.pointer_dereference.13] line 99 dereference failure: pointer outside object bounds in s_global_handler: SUCCESS
+[aws_raise_error_private.pointer_dereference.14] line 99 dereference failure: invalid integer address in s_global_handler: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c function aws_byte_buf_is_bounded
+[aws_byte_buf_is_bounded.pointer_dereference.1] line 14 dereference failure: pointer invalid in buf->capacity: SUCCESS
+[aws_byte_buf_is_bounded.pointer_dereference.2] line 14 dereference failure: pointer NULL in buf->capacity: SUCCESS
+[aws_byte_buf_is_bounded.pointer_dereference.3] line 14 dereference failure: deallocated dynamic object in buf->capacity: SUCCESS
+[aws_byte_buf_is_bounded.pointer_dereference.4] line 14 dereference failure: dead object in buf->capacity: SUCCESS
+[aws_byte_buf_is_bounded.pointer_dereference.5] line 14 dereference failure: pointer outside dynamic object bounds in buf->capacity: SUCCESS
+[aws_byte_buf_is_bounded.pointer_dereference.6] line 14 dereference failure: pointer outside object bounds in buf->capacity: SUCCESS
+[aws_byte_buf_is_bounded.pointer_dereference.7] line 14 dereference failure: invalid integer address in buf->capacity: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c function ensure_byte_buf_has_allocated_buffer_member
+[ensure_byte_buf_has_allocated_buffer_member.pointer_dereference.1] line 23 dereference failure: pointer invalid in buf->allocator: SUCCESS
+[ensure_byte_buf_has_allocated_buffer_member.pointer_dereference.2] line 23 dereference failure: pointer NULL in buf->allocator: SUCCESS
+[ensure_byte_buf_has_allocated_buffer_member.pointer_dereference.3] line 23 dereference failure: deallocated dynamic object in buf->allocator: SUCCESS
+[ensure_byte_buf_has_allocated_buffer_member.pointer_dereference.4] line 23 dereference failure: dead object in buf->allocator: SUCCESS
+[ensure_byte_buf_has_allocated_buffer_member.pointer_dereference.5] line 23 dereference failure: pointer outside dynamic object bounds in buf->allocator: SUCCESS
+[ensure_byte_buf_has_allocated_buffer_member.pointer_dereference.6] line 23 dereference failure: pointer outside object bounds in buf->allocator: SUCCESS
+[ensure_byte_buf_has_allocated_buffer_member.pointer_dereference.7] line 23 dereference failure: invalid integer address in buf->allocator: SUCCESS
+[ensure_byte_buf_has_allocated_buffer_member.overflow.1] line 24 arithmetic overflow on unsigned * in sizeof(uint8_t) /*1ul*/  * buf->capacity: SUCCESS
+[ensure_byte_buf_has_allocated_buffer_member.pointer_dereference.8] line 24 dereference failure: pointer invalid in buf->capacity: SUCCESS
+[ensure_byte_buf_has_allocated_buffer_member.pointer_dereference.9] line 24 dereference failure: pointer NULL in buf->capacity: SUCCESS
+[ensure_byte_buf_has_allocated_buffer_member.pointer_dereference.10] line 24 dereference failure: deallocated dynamic object in buf->capacity: SUCCESS
+[ensure_byte_buf_has_allocated_buffer_member.pointer_dereference.11] line 24 dereference failure: dead object in buf->capacity: SUCCESS
+[ensure_byte_buf_has_allocated_buffer_member.pointer_dereference.12] line 24 dereference failure: pointer outside dynamic object bounds in buf->capacity: SUCCESS
+[ensure_byte_buf_has_allocated_buffer_member.pointer_dereference.13] line 24 dereference failure: pointer outside object bounds in buf->capacity: SUCCESS
+[ensure_byte_buf_has_allocated_buffer_member.pointer_dereference.14] line 24 dereference failure: invalid integer address in buf->capacity: SUCCESS
+[ensure_byte_buf_has_allocated_buffer_member.pointer_dereference.15] line 24 dereference failure: pointer invalid in buf->buffer: SUCCESS
+[ensure_byte_buf_has_allocated_buffer_member.pointer_dereference.16] line 24 dereference failure: pointer NULL in buf->buffer: SUCCESS
+[ensure_byte_buf_has_allocated_buffer_member.pointer_dereference.17] line 24 dereference failure: deallocated dynamic object in buf->buffer: SUCCESS
+[ensure_byte_buf_has_allocated_buffer_member.pointer_dereference.18] line 24 dereference failure: dead object in buf->buffer: SUCCESS
+[ensure_byte_buf_has_allocated_buffer_member.pointer_dereference.19] line 24 dereference failure: pointer outside dynamic object bounds in buf->buffer: SUCCESS
+[ensure_byte_buf_has_allocated_buffer_member.pointer_dereference.20] line 24 dereference failure: pointer outside object bounds in buf->buffer: SUCCESS
+[ensure_byte_buf_has_allocated_buffer_member.pointer_dereference.21] line 24 dereference failure: invalid integer address in buf->buffer: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c function ensure_c_str_is_allocated
+[ensure_c_str_is_allocated.overflow.1] line 220 arithmetic overflow on unsigned - in cap - (unsigned long int)1: SUCCESS
+[ensure_c_str_is_allocated.overflow.2] line 220 arithmetic overflow on unsigned to signed type conversion in (signed long int)(cap - (unsigned long int)1): SUCCESS
+[ensure_c_str_is_allocated.overflow.3] line 220 pointer arithmetic overflow on + in str + (signed long int)(cap - (unsigned long int)1): SUCCESS
+[ensure_c_str_is_allocated.pointer_dereference.1] line 220 dereference failure: pointer invalid in str[(signed long int)(cap - (unsigned long int)1)]: SUCCESS
+[ensure_c_str_is_allocated.pointer_dereference.2] line 220 dereference failure: pointer NULL in str[(signed long int)(cap - (unsigned long int)1)]: SUCCESS
+[ensure_c_str_is_allocated.pointer_dereference.3] line 220 dereference failure: deallocated dynamic object in str[(signed long int)(cap - (unsigned long int)1)]: SUCCESS
+[ensure_c_str_is_allocated.pointer_dereference.4] line 220 dereference failure: dead object in str[(signed long int)(cap - (unsigned long int)1)]: SUCCESS
+[ensure_c_str_is_allocated.pointer_dereference.5] line 220 dereference failure: pointer outside dynamic object bounds in str[(signed long int)(cap - (unsigned long int)1)]: SUCCESS
+[ensure_c_str_is_allocated.pointer_dereference.6] line 220 dereference failure: pointer outside object bounds in str[(signed long int)(cap - (unsigned long int)1)]: SUCCESS
+[ensure_c_str_is_allocated.pointer_dereference.7] line 220 dereference failure: invalid integer address in str[(signed long int)(cap - (unsigned long int)1)]: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c function bounded_malloc
+[bounded_malloc.overflow.1] line 63 arithmetic overflow on signed + in 8 + 1: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c function s_can_fail_free_allocator
+[s_can_fail_free_allocator.precondition_instance.1] line 34 free argument must be NULL or valid pointer: SUCCESS
+[s_can_fail_free_allocator.precondition_instance.2] line 34 free argument must be dynamic object: SUCCESS
+[s_can_fail_free_allocator.precondition_instance.3] line 34 free argument has offset zero: SUCCESS
+[s_can_fail_free_allocator.precondition_instance.4] line 34 double free: SUCCESS
+[s_can_fail_free_allocator.precondition_instance.5] line 34 free called for new[] object: SUCCESS
+[s_can_fail_free_allocator.precondition_instance.6] line 34 free called for stack-allocated object: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c function assert_byte_buf_equivalence
+[assert_byte_buf_equivalence.assertion.1] line 71 assertion lhs && rhs: SUCCESS
+[assert_byte_buf_equivalence.assertion.2] line 73 assertion lhs->len == rhs->len: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.1] line 73 dereference failure: pointer invalid in lhs->len: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.2] line 73 dereference failure: pointer NULL in lhs->len: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.3] line 73 dereference failure: deallocated dynamic object in lhs->len: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.4] line 73 dereference failure: dead object in lhs->len: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.5] line 73 dereference failure: pointer outside dynamic object bounds in lhs->len: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.6] line 73 dereference failure: pointer outside object bounds in lhs->len: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.7] line 73 dereference failure: invalid integer address in lhs->len: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.8] line 73 dereference failure: pointer invalid in rhs->len: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.9] line 73 dereference failure: pointer NULL in rhs->len: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.10] line 73 dereference failure: deallocated dynamic object in rhs->len: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.11] line 73 dereference failure: dead object in rhs->len: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.12] line 73 dereference failure: pointer outside dynamic object bounds in rhs->len: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.13] line 73 dereference failure: pointer outside object bounds in rhs->len: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.14] line 73 dereference failure: invalid integer address in rhs->len: SUCCESS
+[assert_byte_buf_equivalence.assertion.3] line 74 assertion lhs->capacity == rhs->capacity: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.15] line 74 dereference failure: pointer outside dynamic object bounds in lhs->capacity: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.16] line 74 dereference failure: pointer outside object bounds in lhs->capacity: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.17] line 74 dereference failure: invalid integer address in lhs->capacity: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.18] line 74 dereference failure: pointer outside dynamic object bounds in rhs->capacity: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.19] line 74 dereference failure: pointer outside object bounds in rhs->capacity: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.20] line 74 dereference failure: invalid integer address in rhs->capacity: SUCCESS
+[assert_byte_buf_equivalence.assertion.4] line 75 assertion lhs->allocator == rhs->allocator: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.21] line 75 dereference failure: pointer NULL in lhs->allocator: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.22] line 75 dereference failure: pointer outside dynamic object bounds in lhs->allocator: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.23] line 75 dereference failure: pointer outside object bounds in lhs->allocator: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.24] line 75 dereference failure: invalid integer address in lhs->allocator: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.25] line 75 dereference failure: pointer NULL in rhs->allocator: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.26] line 75 dereference failure: pointer outside dynamic object bounds in rhs->allocator: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.27] line 75 dereference failure: pointer outside object bounds in rhs->allocator: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.28] line 75 dereference failure: invalid integer address in rhs->allocator: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.29] line 77 dereference failure: pointer NULL in lhs->buffer: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.30] line 77 dereference failure: pointer outside dynamic object bounds in lhs->buffer: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.31] line 77 dereference failure: pointer outside object bounds in lhs->buffer: SUCCESS
+[assert_byte_buf_equivalence.pointer_dereference.32] line 77 dereference failure: invalid integer address in lhs->buffer: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c function assert_byte_from_buffer_matches
+[assert_byte_from_buffer_matches.assertion.1] line 32 assertion *(buffer + b->index) == b->byte: SUCCESS
+[assert_byte_from_buffer_matches.overflow.1] line 32 arithmetic overflow on unsigned to signed type conversion in (signed long int)b->index: SUCCESS
+[assert_byte_from_buffer_matches.overflow.2] line 32 pointer arithmetic overflow on + in buffer + (signed long int)b->index: SUCCESS
+[assert_byte_from_buffer_matches.pointer_dereference.1] line 32 dereference failure: pointer invalid in b->index: SUCCESS
+[assert_byte_from_buffer_matches.pointer_dereference.2] line 32 dereference failure: pointer NULL in b->index: SUCCESS
+[assert_byte_from_buffer_matches.pointer_dereference.3] line 32 dereference failure: deallocated dynamic object in b->index: SUCCESS
+[assert_byte_from_buffer_matches.pointer_dereference.4] line 32 dereference failure: dead object in b->index: SUCCESS
+[assert_byte_from_buffer_matches.pointer_dereference.5] line 32 dereference failure: pointer outside dynamic object bounds in b->index: SUCCESS
+[assert_byte_from_buffer_matches.pointer_dereference.6] line 32 dereference failure: pointer outside object bounds in b->index: SUCCESS
+[assert_byte_from_buffer_matches.pointer_dereference.7] line 32 dereference failure: invalid integer address in b->index: SUCCESS
+[assert_byte_from_buffer_matches.pointer_dereference.8] line 32 dereference failure: pointer invalid in buffer[(signed long int)b->index]: SUCCESS
+[assert_byte_from_buffer_matches.pointer_dereference.9] line 32 dereference failure: pointer NULL in buffer[(signed long int)b->index]: SUCCESS
+[assert_byte_from_buffer_matches.pointer_dereference.10] line 32 dereference failure: deallocated dynamic object in buffer[(signed long int)b->index]: SUCCESS
+[assert_byte_from_buffer_matches.pointer_dereference.11] line 32 dereference failure: dead object in buffer[(signed long int)b->index]: SUCCESS
+[assert_byte_from_buffer_matches.pointer_dereference.12] line 32 dereference failure: pointer outside dynamic object bounds in buffer[(signed long int)b->index]: SUCCESS
+[assert_byte_from_buffer_matches.pointer_dereference.13] line 32 dereference failure: pointer outside object bounds in buffer[(signed long int)b->index]: SUCCESS
+[assert_byte_from_buffer_matches.pointer_dereference.14] line 32 dereference failure: invalid integer address in buffer[(signed long int)b->index]: SUCCESS
+[assert_byte_from_buffer_matches.pointer_dereference.15] line 32 dereference failure: pointer NULL in b->byte: SUCCESS
+[assert_byte_from_buffer_matches.pointer_dereference.16] line 32 dereference failure: pointer outside dynamic object bounds in b->byte: SUCCESS
+[assert_byte_from_buffer_matches.pointer_dereference.17] line 32 dereference failure: pointer outside object bounds in b->byte: SUCCESS
+[assert_byte_from_buffer_matches.pointer_dereference.18] line 32 dereference failure: invalid integer address in b->byte: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c function nondet_compare
+[nondet_compare.assertion.1] line 108 assertion a != NULL: SUCCESS
+[nondet_compare.assertion.2] line 109 assertion b != NULL: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c function save_byte_from_array
+[save_byte_from_array.pointer_dereference.1] line 38 dereference failure: pointer invalid in storage->index: SUCCESS
+[save_byte_from_array.pointer_dereference.2] line 38 dereference failure: pointer NULL in storage->index: SUCCESS
+[save_byte_from_array.pointer_dereference.3] line 38 dereference failure: deallocated dynamic object in storage->index: SUCCESS
+[save_byte_from_array.pointer_dereference.4] line 38 dereference failure: dead object in storage->index: SUCCESS
+[save_byte_from_array.pointer_dereference.5] line 38 dereference failure: pointer outside dynamic object bounds in storage->index: SUCCESS
+[save_byte_from_array.pointer_dereference.6] line 38 dereference failure: pointer outside object bounds in storage->index: SUCCESS
+[save_byte_from_array.pointer_dereference.7] line 38 dereference failure: invalid integer address in storage->index: SUCCESS
+[save_byte_from_array.pointer_dereference.8] line 39 dereference failure: pointer invalid in storage->index: SUCCESS
+[save_byte_from_array.pointer_dereference.9] line 39 dereference failure: pointer NULL in storage->index: SUCCESS
+[save_byte_from_array.pointer_dereference.10] line 39 dereference failure: deallocated dynamic object in storage->index: SUCCESS
+[save_byte_from_array.pointer_dereference.11] line 39 dereference failure: dead object in storage->index: SUCCESS
+[save_byte_from_array.pointer_dereference.12] line 39 dereference failure: pointer outside dynamic object bounds in storage->index: SUCCESS
+[save_byte_from_array.pointer_dereference.13] line 39 dereference failure: pointer outside object bounds in storage->index: SUCCESS
+[save_byte_from_array.pointer_dereference.14] line 39 dereference failure: invalid integer address in storage->index: SUCCESS
+[save_byte_from_array.overflow.1] line 40 arithmetic overflow on unsigned to signed type conversion in (signed long int)storage->index: SUCCESS
+[save_byte_from_array.overflow.2] line 40 pointer arithmetic overflow on + in array + (signed long int)storage->index: SUCCESS
+[save_byte_from_array.pointer_dereference.15] line 40 dereference failure: pointer NULL in storage->byte: SUCCESS
+[save_byte_from_array.pointer_dereference.16] line 40 dereference failure: pointer outside dynamic object bounds in storage->byte: SUCCESS
+[save_byte_from_array.pointer_dereference.17] line 40 dereference failure: pointer outside object bounds in storage->byte: SUCCESS
+[save_byte_from_array.pointer_dereference.18] line 40 dereference failure: invalid integer address in storage->byte: SUCCESS
+[save_byte_from_array.pointer_dereference.19] line 40 dereference failure: pointer invalid in array[(signed long int)storage->index]: SUCCESS
+[save_byte_from_array.pointer_dereference.20] line 40 dereference failure: pointer NULL in array[(signed long int)storage->index]: SUCCESS
+[save_byte_from_array.pointer_dereference.21] line 40 dereference failure: deallocated dynamic object in array[(signed long int)storage->index]: SUCCESS
+[save_byte_from_array.pointer_dereference.22] line 40 dereference failure: dead object in array[(signed long int)storage->index]: SUCCESS
+[save_byte_from_array.pointer_dereference.23] line 40 dereference failure: pointer outside dynamic object bounds in array[(signed long int)storage->index]: SUCCESS
+[save_byte_from_array.pointer_dereference.24] line 40 dereference failure: pointer outside object bounds in array[(signed long int)storage->index]: SUCCESS
+[save_byte_from_array.pointer_dereference.25] line 40 dereference failure: invalid integer address in array[(signed long int)storage->index]: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/proofs/aws_cryptosdk_private_derive_key_v1/aws_cryptosdk_private_derive_key_v1_harness.c function aws_cryptosdk_private_derive_key_v1_harness
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.1] line 42 dereference failure: pointer invalid in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.2] line 42 dereference failure: pointer NULL in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.3] line 42 dereference failure: deallocated dynamic object in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.4] line 42 dereference failure: dead object in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.5] line 42 dereference failure: pointer outside dynamic object bounds in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.6] line 42 dereference failure: pointer outside object bounds in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.7] line 42 dereference failure: invalid integer address in message_id->buffer: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.8] line 42 dereference failure: pointer NULL in message_id->len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.9] line 42 dereference failure: pointer outside dynamic object bounds in message_id->len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.10] line 42 dereference failure: pointer outside object bounds in message_id->len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.11] line 42 dereference failure: invalid integer address in message_id->len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.assertion.1] line 49 assertion aws_cryptosdk_alg_properties_is_valid(props): SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.assertion.2] line 50 assertion aws_cryptosdk_content_key_is_valid(content_key): SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.assertion.3] line 51 assertion aws_cryptosdk_data_key_is_valid(data_key): SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.assertion.4] line 52 assertion aws_byte_buf_is_valid(message_id): SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.assertion.5] line 55 assertion message_id->len != MSG_ID_LEN: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.12] line 55 dereference failure: pointer invalid in message_id->len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.13] line 55 dereference failure: pointer NULL in message_id->len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.14] line 55 dereference failure: deallocated dynamic object in message_id->len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.15] line 55 dereference failure: dead object in message_id->len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.16] line 55 dereference failure: pointer outside dynamic object bounds in message_id->len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.17] line 55 dereference failure: pointer outside object bounds in message_id->len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.18] line 55 dereference failure: invalid integer address in message_id->len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.19] line 56 dereference failure: pointer invalid in props->alg_id: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.20] line 56 dereference failure: pointer NULL in props->alg_id: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.21] line 56 dereference failure: deallocated dynamic object in props->alg_id: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.22] line 56 dereference failure: dead object in props->alg_id: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.23] line 56 dereference failure: pointer outside dynamic object bounds in props->alg_id: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.24] line 56 dereference failure: pointer outside object bounds in props->alg_id: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.25] line 56 dereference failure: invalid integer address in props->alg_id: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.assertion.6] line 57 assertion key_contents_match(content_key, data_key, props->data_key_len): SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.26] line 57 dereference failure: pointer invalid in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.27] line 57 dereference failure: pointer NULL in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.28] line 57 dereference failure: deallocated dynamic object in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.29] line 57 dereference failure: dead object in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.30] line 57 dereference failure: pointer outside dynamic object bounds in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.31] line 57 dereference failure: pointer outside object bounds in props->data_key_len: SUCCESS
+[aws_cryptosdk_private_derive_key_v1_harness.pointer_dereference.32] line 57 dereference failure: invalid integer address in props->data_key_len: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/make_common_data_structures.c function ensure_alg_properties_attempt_allocation
+[ensure_alg_properties_attempt_allocation.pointer_dereference.1] line 49 dereference failure: pointer invalid in alg_props->md_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.2] line 49 dereference failure: pointer NULL in alg_props->md_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.3] line 49 dereference failure: deallocated dynamic object in alg_props->md_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.4] line 49 dereference failure: dead object in alg_props->md_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.5] line 49 dereference failure: pointer outside dynamic object bounds in alg_props->md_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.6] line 49 dereference failure: pointer outside object bounds in alg_props->md_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.7] line 49 dereference failure: invalid integer address in alg_props->md_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.8] line 50 dereference failure: pointer invalid in alg_props->cipher_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.9] line 50 dereference failure: pointer NULL in alg_props->cipher_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.10] line 50 dereference failure: deallocated dynamic object in alg_props->cipher_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.11] line 50 dereference failure: dead object in alg_props->cipher_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.12] line 50 dereference failure: pointer outside dynamic object bounds in alg_props->cipher_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.13] line 50 dereference failure: pointer outside object bounds in alg_props->cipher_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.14] line 50 dereference failure: invalid integer address in alg_props->cipher_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.15] line 51 dereference failure: pointer invalid in alg_props->alg_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.16] line 51 dereference failure: pointer NULL in alg_props->alg_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.17] line 51 dereference failure: deallocated dynamic object in alg_props->alg_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.18] line 51 dereference failure: dead object in alg_props->alg_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.19] line 51 dereference failure: pointer outside dynamic object bounds in alg_props->alg_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.20] line 51 dereference failure: pointer outside object bounds in alg_props->alg_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.21] line 51 dereference failure: invalid integer address in alg_props->alg_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.22] line 52 dereference failure: pointer invalid in alg_props->sig_md_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.23] line 52 dereference failure: pointer NULL in alg_props->sig_md_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.24] line 52 dereference failure: deallocated dynamic object in alg_props->sig_md_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.25] line 52 dereference failure: dead object in alg_props->sig_md_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.26] line 52 dereference failure: pointer outside dynamic object bounds in alg_props->sig_md_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.27] line 52 dereference failure: pointer outside object bounds in alg_props->sig_md_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.28] line 52 dereference failure: invalid integer address in alg_props->sig_md_name: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.29] line 53 dereference failure: pointer invalid in alg_props->impl: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.30] line 53 dereference failure: pointer NULL in alg_props->impl: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.31] line 53 dereference failure: deallocated dynamic object in alg_props->impl: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.32] line 53 dereference failure: dead object in alg_props->impl: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.33] line 53 dereference failure: pointer outside dynamic object bounds in alg_props->impl: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.34] line 53 dereference failure: pointer outside object bounds in alg_props->impl: SUCCESS
+[ensure_alg_properties_attempt_allocation.pointer_dereference.35] line 53 dereference failure: invalid integer address in alg_props->impl: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/make_common_data_structures.c function ensure_content_key_attempt_allocation
+[ensure_content_key_attempt_allocation.overflow.1] line 59 arithmetic overflow on unsigned * in sizeof(uint8_t) /*1ul*/  * (unsigned long int)32: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/make_common_data_structures.c function ensure_data_key_attempt_allocation
+[ensure_data_key_attempt_allocation.overflow.1] line 64 arithmetic overflow on unsigned * in sizeof(uint8_t) /*1ul*/  * (unsigned long int)32: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/openssl/ec_override.c function write_unconstrained_data
+[write_unconstrained_data.assertion.1] line 487 assertion AWS_MEM_IS_WRITABLE(out, len): SUCCESS
+[write_unconstrained_data.overflow.1] line 487 arithmetic overflow on signed to unsigned type conversion in (size_t)POINTER_OFFSET((const void *)out): SUCCESS
+[write_unconstrained_data.overflow.2] line 487 arithmetic overflow on unsigned + in (size_t)POINTER_OFFSET((const void *)out) + len: SUCCESS
+[write_unconstrained_data.overflow.3] line 487 arithmetic overflow on signed to unsigned type conversion in (size_t)POINTER_OFFSET((const void *)out): SUCCESS
+[write_unconstrained_data.overflow.4] line 487 arithmetic overflow on unsigned + in (size_t)POINTER_OFFSET((const void *)out) + len: SUCCESS
+[write_unconstrained_data.pointer_primitives.1] line 487 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)out): SUCCESS
+[write_unconstrained_data.pointer_primitives.2] line 487 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)out): SUCCESS
+[write_unconstrained_data.pointer_primitives.3] line 487 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)out): SUCCESS
+[write_unconstrained_data.pointer_primitives.4] line 487 pointer in pointer primitive is neither null nor valid in IS_DYNAMIC_OBJECT((const void *)out): SUCCESS
+[write_unconstrained_data.pointer_primitives.5] line 487 pointer in pointer primitive is neither null nor valid in POINTER_OFFSET((const void *)out): SUCCESS
+[write_unconstrained_data.pointer_primitives.6] line 487 pointer in pointer primitive is neither null nor valid in IS_DYNAMIC_OBJECT((const void *)out): SUCCESS
+[write_unconstrained_data.pointer_primitives.7] line 487 pointer in pointer primitive is neither null nor valid in POINTER_OFFSET((const void *)out): SUCCESS
+[write_unconstrained_data.pointer_primitives.8] line 487 pointer in pointer primitive is neither null nor valid in POINTER_OBJECT((const void *)out): SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/openssl/evp_override.c function EVP_MD_size
+[EVP_MD_size.pointer_dereference.1] line 717 dereference failure: pointer invalid in md->from: SUCCESS
+[EVP_MD_size.pointer_dereference.2] line 717 dereference failure: pointer NULL in md->from: SUCCESS
+[EVP_MD_size.pointer_dereference.3] line 717 dereference failure: deallocated dynamic object in md->from: SUCCESS
+[EVP_MD_size.pointer_dereference.4] line 717 dereference failure: dead object in md->from: SUCCESS
+[EVP_MD_size.pointer_dereference.5] line 717 dereference failure: pointer outside dynamic object bounds in md->from: SUCCESS
+[EVP_MD_size.pointer_dereference.6] line 717 dereference failure: pointer outside object bounds in md->from: SUCCESS
+[EVP_MD_size.pointer_dereference.7] line 717 dereference failure: invalid integer address in md->from: SUCCESS
+[EVP_MD_size.pointer_dereference.8] line 720 dereference failure: pointer invalid in md->from: SUCCESS
+[EVP_MD_size.pointer_dereference.9] line 720 dereference failure: pointer NULL in md->from: SUCCESS
+[EVP_MD_size.pointer_dereference.10] line 720 dereference failure: deallocated dynamic object in md->from: SUCCESS
+[EVP_MD_size.pointer_dereference.11] line 720 dereference failure: dead object in md->from: SUCCESS
+[EVP_MD_size.pointer_dereference.12] line 720 dereference failure: pointer outside dynamic object bounds in md->from: SUCCESS
+[EVP_MD_size.pointer_dereference.13] line 720 dereference failure: pointer outside object bounds in md->from: SUCCESS
+[EVP_MD_size.pointer_dereference.14] line 720 dereference failure: invalid integer address in md->from: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/openssl/evp_override.c function EVP_PKEY_CTX_ctrl
+[EVP_PKEY_CTX_ctrl.assertion.1] line 221 assertion ctx != NULL: SUCCESS
+[EVP_PKEY_CTX_ctrl.assertion.2] line 222 assertion keytype == -1: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/openssl/evp_override.c function EVP_PKEY_CTX_free
+[EVP_PKEY_CTX_free.precondition_instance.1] line 404 free argument must be NULL or valid pointer: SUCCESS
+[EVP_PKEY_CTX_free.precondition_instance.2] line 404 free argument must be dynamic object: SUCCESS
+[EVP_PKEY_CTX_free.precondition_instance.3] line 404 free argument has offset zero: SUCCESS
+[EVP_PKEY_CTX_free.precondition_instance.4] line 404 double free: SUCCESS
+[EVP_PKEY_CTX_free.precondition_instance.5] line 404 free called for new[] object: SUCCESS
+[EVP_PKEY_CTX_free.precondition_instance.6] line 404 free called for stack-allocated object: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/openssl/evp_override.c function EVP_PKEY_CTX_new_id
+[EVP_PKEY_CTX_new_id.pointer_dereference.1] line 129 dereference failure: pointer invalid in ctx->is_initialized_for_signing: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.2] line 129 dereference failure: pointer NULL in ctx->is_initialized_for_signing: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.3] line 129 dereference failure: deallocated dynamic object in ctx->is_initialized_for_signing: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.4] line 129 dereference failure: dead object in ctx->is_initialized_for_signing: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.5] line 129 dereference failure: pointer outside dynamic object bounds in ctx->is_initialized_for_signing: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.6] line 129 dereference failure: pointer outside object bounds in ctx->is_initialized_for_signing: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.7] line 129 dereference failure: invalid integer address in ctx->is_initialized_for_signing: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.8] line 130 dereference failure: pointer invalid in ctx->is_initialized_for_derivation: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.9] line 130 dereference failure: pointer NULL in ctx->is_initialized_for_derivation: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.10] line 130 dereference failure: deallocated dynamic object in ctx->is_initialized_for_derivation: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.11] line 130 dereference failure: dead object in ctx->is_initialized_for_derivation: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.12] line 130 dereference failure: pointer outside dynamic object bounds in ctx->is_initialized_for_derivation: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.13] line 130 dereference failure: pointer outside object bounds in ctx->is_initialized_for_derivation: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.14] line 130 dereference failure: invalid integer address in ctx->is_initialized_for_derivation: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.15] line 131 dereference failure: pointer invalid in ctx->is_initialized_for_encryption: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.16] line 131 dereference failure: pointer NULL in ctx->is_initialized_for_encryption: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.17] line 131 dereference failure: deallocated dynamic object in ctx->is_initialized_for_encryption: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.18] line 131 dereference failure: dead object in ctx->is_initialized_for_encryption: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.19] line 131 dereference failure: pointer outside dynamic object bounds in ctx->is_initialized_for_encryption: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.20] line 131 dereference failure: pointer outside object bounds in ctx->is_initialized_for_encryption: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.21] line 131 dereference failure: invalid integer address in ctx->is_initialized_for_encryption: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.22] line 132 dereference failure: pointer invalid in ctx->is_initialized_for_decryption: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.23] line 132 dereference failure: pointer NULL in ctx->is_initialized_for_decryption: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.24] line 132 dereference failure: deallocated dynamic object in ctx->is_initialized_for_decryption: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.25] line 132 dereference failure: dead object in ctx->is_initialized_for_decryption: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.26] line 132 dereference failure: pointer outside dynamic object bounds in ctx->is_initialized_for_decryption: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.27] line 132 dereference failure: pointer outside object bounds in ctx->is_initialized_for_decryption: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.28] line 132 dereference failure: invalid integer address in ctx->is_initialized_for_decryption: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.29] line 133 dereference failure: pointer invalid in ctx->pkey: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.30] line 133 dereference failure: pointer NULL in ctx->pkey: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.31] line 133 dereference failure: deallocated dynamic object in ctx->pkey: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.32] line 133 dereference failure: dead object in ctx->pkey: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.33] line 133 dereference failure: pointer outside dynamic object bounds in ctx->pkey: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.34] line 133 dereference failure: pointer outside object bounds in ctx->pkey: SUCCESS
+[EVP_PKEY_CTX_new_id.pointer_dereference.35] line 133 dereference failure: invalid integer address in ctx->pkey: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/openssl/evp_override.c function EVP_PKEY_derive
+[EVP_PKEY_derive.assertion.1] line 239 assertion ctx != NULL: SUCCESS
+[EVP_PKEY_derive.assertion.2] line 240 assertion ctx->is_initialized_for_derivation == true: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.1] line 240 dereference failure: pointer invalid in ctx->is_initialized_for_derivation: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.2] line 240 dereference failure: pointer NULL in ctx->is_initialized_for_derivation: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.3] line 240 dereference failure: deallocated dynamic object in ctx->is_initialized_for_derivation: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.4] line 240 dereference failure: dead object in ctx->is_initialized_for_derivation: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.5] line 240 dereference failure: pointer outside dynamic object bounds in ctx->is_initialized_for_derivation: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.6] line 240 dereference failure: pointer outside object bounds in ctx->is_initialized_for_derivation: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.7] line 240 dereference failure: invalid integer address in ctx->is_initialized_for_derivation: SUCCESS
+[EVP_PKEY_derive.assertion.3] line 241 assertion keylen: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.8] line 252 dereference failure: pointer invalid in *keylen: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.9] line 252 dereference failure: pointer NULL in *keylen: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.10] line 252 dereference failure: deallocated dynamic object in *keylen: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.11] line 252 dereference failure: dead object in *keylen: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.12] line 252 dereference failure: pointer outside dynamic object bounds in *keylen: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.13] line 252 dereference failure: pointer outside object bounds in *keylen: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.14] line 252 dereference failure: invalid integer address in *keylen: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.15] line 255 dereference failure: pointer invalid in *keylen: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.16] line 255 dereference failure: pointer NULL in *keylen: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.17] line 255 dereference failure: deallocated dynamic object in *keylen: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.18] line 255 dereference failure: dead object in *keylen: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.19] line 255 dereference failure: pointer outside dynamic object bounds in *keylen: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.20] line 255 dereference failure: pointer outside object bounds in *keylen: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.21] line 255 dereference failure: invalid integer address in *keylen: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.22] line 257 dereference failure: pointer invalid in *keylen: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.23] line 257 dereference failure: pointer NULL in *keylen: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.24] line 257 dereference failure: deallocated dynamic object in *keylen: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.25] line 257 dereference failure: dead object in *keylen: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.26] line 257 dereference failure: pointer outside dynamic object bounds in *keylen: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.27] line 257 dereference failure: pointer outside object bounds in *keylen: SUCCESS
+[EVP_PKEY_derive.pointer_dereference.28] line 257 dereference failure: invalid integer address in *keylen: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/openssl/evp_override.c function EVP_PKEY_derive_init
+[EVP_PKEY_derive_init.assertion.1] line 145 assertion ctx: SUCCESS
+[EVP_PKEY_derive_init.pointer_dereference.1] line 147 dereference failure: pointer invalid in ctx->is_initialized_for_derivation: SUCCESS
+[EVP_PKEY_derive_init.pointer_dereference.2] line 147 dereference failure: pointer NULL in ctx->is_initialized_for_derivation: SUCCESS
+[EVP_PKEY_derive_init.pointer_dereference.3] line 147 dereference failure: deallocated dynamic object in ctx->is_initialized_for_derivation: SUCCESS
+[EVP_PKEY_derive_init.pointer_dereference.4] line 147 dereference failure: dead object in ctx->is_initialized_for_derivation: SUCCESS
+[EVP_PKEY_derive_init.pointer_dereference.5] line 147 dereference failure: pointer outside dynamic object bounds in ctx->is_initialized_for_derivation: SUCCESS
+[EVP_PKEY_derive_init.pointer_dereference.6] line 147 dereference failure: pointer outside object bounds in ctx->is_initialized_for_derivation: SUCCESS
+[EVP_PKEY_derive_init.pointer_dereference.7] line 147 dereference failure: invalid integer address in ctx->is_initialized_for_derivation: SUCCESS
+
+/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/sources/utils.c function key_contents_match
+[key_contents_match.overflow.2] line 28 arithmetic overflow on unsigned + in i + 1ul: SUCCESS
+[key_contents_match.unwind.0] line 28 unwinding assertion loop 0: SUCCESS
+[key_contents_match.array_bounds.1] line 29 array.keybuf dynamic object upper bound in ckey->keybuf[(signed long int)i]: SUCCESS
+[key_contents_match.array_bounds.2] line 29 array.keybuf upper bound in ckey->keybuf[(signed long int)i]: SUCCESS
+[key_contents_match.array_bounds.3] line 29 array.keybuf dynamic object upper bound in dkey->keybuf[(signed long int)i]: SUCCESS
+[key_contents_match.array_bounds.4] line 29 array.keybuf upper bound in dkey->keybuf[(signed long int)i]: SUCCESS
+[key_contents_match.overflow.1] line 29 arithmetic overflow on unsigned to signed type conversion in (signed long int)i: SUCCESS
+[key_contents_match.pointer_dereference.1] line 29 dereference failure: pointer invalid in ckey->keybuf: SUCCESS
+[key_contents_match.pointer_dereference.2] line 29 dereference failure: pointer NULL in ckey->keybuf: SUCCESS
+[key_contents_match.pointer_dereference.3] line 29 dereference failure: deallocated dynamic object in ckey->keybuf: SUCCESS
+[key_contents_match.pointer_dereference.4] line 29 dereference failure: dead object in ckey->keybuf: SUCCESS
+[key_contents_match.pointer_dereference.5] line 29 dereference failure: pointer outside dynamic object bounds in ckey->keybuf: SUCCESS
+[key_contents_match.pointer_dereference.6] line 29 dereference failure: pointer outside object bounds in ckey->keybuf: SUCCESS
+[key_contents_match.pointer_dereference.7] line 29 dereference failure: invalid integer address in ckey->keybuf: SUCCESS
+[key_contents_match.pointer_dereference.8] line 29 dereference failure: pointer invalid in dkey->keybuf: SUCCESS
+[key_contents_match.pointer_dereference.9] line 29 dereference failure: pointer NULL in dkey->keybuf: SUCCESS
+[key_contents_match.pointer_dereference.10] line 29 dereference failure: deallocated dynamic object in dkey->keybuf: SUCCESS
+[key_contents_match.pointer_dereference.11] line 29 dereference failure: dead object in dkey->keybuf: SUCCESS
+[key_contents_match.pointer_dereference.12] line 29 dereference failure: pointer outside dynamic object bounds in dkey->keybuf: SUCCESS
+[key_contents_match.pointer_dereference.13] line 29 dereference failure: pointer outside object bounds in dkey->keybuf: SUCCESS
+[key_contents_match.pointer_dereference.14] line 29 dereference failure: invalid integer address in dkey->keybuf: SUCCESS
+
+<builtin-library-__builtin___memcpy_chk> function __builtin___memcpy_chk
+[__builtin___memcpy_chk.overflow.1] line 26 pointer arithmetic overflow on + in (const char *)(void *)&info[(signed long int)2] + (signed long int)(sizeof(uint8_t [18l]) /*18ul*/  - (unsigned long int)2): SUCCESS
+[__builtin___memcpy_chk.overflow.3] line 26 pointer arithmetic overflow on + in (const char *)(void *)content_key->keybuf + (signed long int)props->data_key_len: SUCCESS
+[__builtin___memcpy_chk.pointer.1] line 26 same object violation in (const char *)(const void *)message_id->buffer >= (const char *)(void *)&info[(signed long int)2] + (signed long int)(sizeof(uint8_t [18l]) /*18ul*/  - (unsigned long int)2): SUCCESS
+[__builtin___memcpy_chk.pointer.3] line 26 same object violation in (const char *)(const void *)data_key->keybuf >= (const char *)(void *)content_key->keybuf + (signed long int)props->data_key_len: SUCCESS
+[__builtin___memcpy_chk.overflow.2] line 27 pointer arithmetic overflow on + in (const char *)(const void *)message_id->buffer + (signed long int)(sizeof(uint8_t [18l]) /*18ul*/  - (unsigned long int)2): SUCCESS
+[__builtin___memcpy_chk.overflow.4] line 27 pointer arithmetic overflow on + in (const char *)(const void *)data_key->keybuf + (signed long int)props->data_key_len: SUCCESS
+[__builtin___memcpy_chk.pointer.2] line 27 same object violation in (const char *)(void *)&info[(signed long int)2] >= (const char *)(const void *)message_id->buffer + (signed long int)(sizeof(uint8_t [18l]) /*18ul*/  - (unsigned long int)2): SUCCESS
+[__builtin___memcpy_chk.pointer.4] line 27 same object violation in (const char *)(void *)content_key->keybuf >= (const char *)(const void *)data_key->keybuf + (signed long int)props->data_key_len: SUCCESS
+[__builtin___memcpy_chk.overflow.5] line 38 arithmetic overflow on unsigned to signed type conversion in (signed long int)n: SUCCESS
+[__builtin___memcpy_chk.overflow.6] line 38 arithmetic overflow on signed to unsigned type conversion in (unsigned long int)(signed long int)n: SUCCESS
+
+<builtin-library-__builtin___memset_chk> function __builtin___memset_chk
+[__builtin___memset_chk.overflow.1] line 32 arithmetic overflow on unsigned to signed type conversion in (signed long int)n: SUCCESS
+[__builtin___memset_chk.overflow.2] line 32 arithmetic overflow on signed to unsigned type conversion in (unsigned long int)(signed long int)n: SUCCESS
+
+<builtin-library-malloc> function malloc
+[malloc.assertion.1] line 26 max allocation size exceeded: SUCCESS
+[malloc.assertion.2] line 31 max allocation may fail: SUCCESS
+
+<builtin-library-strlen> function strlen
+[strlen.overflow.1] line 18 arithmetic overflow on unsigned to signed type conversion in (signed long int)len: SUCCESS
+[strlen.overflow.2] line 18 pointer arithmetic overflow on + in s + (signed long int)len: SUCCESS
+[strlen.overflow.3] line 18 arithmetic overflow on unsigned + in len + 1ul: SUCCESS
+[strlen.pointer_dereference.1] line 18 dereference failure: pointer invalid in s[(signed long int)len]: SUCCESS
+[strlen.pointer_dereference.2] line 18 dereference failure: pointer NULL in s[(signed long int)len]: SUCCESS
+[strlen.pointer_dereference.3] line 18 dereference failure: deallocated dynamic object in s[(signed long int)len]: SUCCESS
+[strlen.pointer_dereference.4] line 18 dereference failure: dead object in s[(signed long int)len]: SUCCESS
+[strlen.pointer_dereference.5] line 18 dereference failure: pointer outside dynamic object bounds in s[(signed long int)len]: SUCCESS
+[strlen.pointer_dereference.6] line 18 dereference failure: pointer outside object bounds in s[(signed long int)len]: SUCCESS
+[strlen.pointer_dereference.7] line 18 dereference failure: invalid integer address in s[(signed long int)len]: SUCCESS
+
+** 0 of 791 failed (1 iterations)
+VERIFICATION SUCCESSFUL
+

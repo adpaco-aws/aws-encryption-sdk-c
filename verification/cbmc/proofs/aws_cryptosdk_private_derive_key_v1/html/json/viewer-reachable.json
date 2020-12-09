@@ -1,0 +1,74 @@
+{
+  "viewer-reachable": {
+    "reachable": {
+      "verification/cbmc/proofs/aws_cryptosdk_private_derive_key_v1/aws_cryptosdk_private_derive_key_v1_harness.c": [
+        "aws_cryptosdk_private_derive_key_v1_harness"
+      ],
+      "verification/cbmc/sources/openssl/evp_override.c": [
+        "EVP_MD_size",
+        "EVP_PKEY_CTX_ctrl",
+        "EVP_PKEY_CTX_free",
+        "EVP_PKEY_CTX_new_id",
+        "EVP_PKEY_derive",
+        "EVP_PKEY_derive_init",
+        "EVP_sha256",
+        "EVP_sha384",
+        "EVP_sha512"
+      ],
+      "verification/cbmc/sources/make_common_data_structures.c": [
+        "aws_cryptosdk_which_sha",
+        "ensure_alg_properties_attempt_allocation",
+        "ensure_content_key_attempt_allocation",
+        "ensure_data_key_attempt_allocation"
+      ],
+      "verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c": [
+        "bounded_malloc",
+        "can_fail_allocator",
+        "can_fail_malloc"
+      ],
+      "source/cipher.c": [
+        "aws_cryptosdk_alg_properties_is_valid",
+        "aws_cryptosdk_alg_props",
+        "aws_cryptosdk_content_key_is_valid",
+        "aws_cryptosdk_data_key_is_valid",
+        "aws_cryptosdk_which_sha"
+      ],
+      "verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c": [
+        "assert_byte_buf_equivalence",
+        "assert_byte_from_buffer_matches",
+        "nondet_compare",
+        "save_byte_from_array"
+      ],
+      "verification/cbmc/aws-c-common/source/byte_buf.c": [
+        "aws_byte_buf_from_array",
+        "aws_byte_buf_from_c_str",
+        "aws_byte_buf_is_valid",
+        "aws_byte_buf_secure_zero"
+      ],
+      "verification/cbmc/aws-c-common/source/common.c": [
+        "aws_secure_zero"
+      ],
+      "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c": [
+        "aws_byte_buf_is_bounded",
+        "ensure_byte_buf_has_allocated_buffer_member",
+        "ensure_c_str_is_allocated"
+      ],
+      "verification/cbmc/sources/utils.c": [
+        "key_contents_match"
+      ],
+      "source/hkdf.c": [
+        "aws_cryptosdk_hkdf"
+      ],
+      "verification/cbmc/sources/openssl/ec_override.c": [
+        "max_derivation_size",
+        "write_unconstrained_data"
+      ],
+      "verification/cbmc/aws-c-common/include/aws/common/error.inl": [
+        "aws_raise_error"
+      ],
+      "verification/cbmc/aws-c-common/source/error.c": [
+        "aws_raise_error_private"
+      ]
+    }
+  }
+}

@@ -14,7 +14,6 @@
  */
 
 #include <aws/cryptosdk/private/cipher.h>
-#include <utils.h>
 #include <make_common_data_structures.h>
 #include <utils.h>
 

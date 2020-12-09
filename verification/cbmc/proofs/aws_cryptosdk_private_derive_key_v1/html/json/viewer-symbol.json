@@ -1,0 +1,5396 @@
+{
+  "viewer-symbol": {
+    "symbols": {
+      "ALG_AES128_GCM_IV12_TAG16_HKDF_SHA256": {
+        "file": "include/aws/cryptosdk/header.h",
+        "function": null,
+        "line": 34
+      },
+      "ALG_AES128_GCM_IV12_TAG16_HKDF_SHA256_ECDSA_P256": {
+        "file": "include/aws/cryptosdk/header.h",
+        "function": null,
+        "line": 31
+      },
+      "ALG_AES128_GCM_IV12_TAG16_NO_KDF": {
+        "file": "include/aws/cryptosdk/header.h",
+        "function": null,
+        "line": 37
+      },
+      "ALG_AES192_GCM_IV12_TAG16_HKDF_SHA256": {
+        "file": "include/aws/cryptosdk/header.h",
+        "function": null,
+        "line": 33
+      },
+      "ALG_AES192_GCM_IV12_TAG16_HKDF_SHA384_ECDSA_P384": {
+        "file": "include/aws/cryptosdk/header.h",
+        "function": null,
+        "line": 30
+      },
+      "ALG_AES192_GCM_IV12_TAG16_NO_KDF": {
+        "file": "include/aws/cryptosdk/header.h",
+        "function": null,
+        "line": 36
+      },
+      "ALG_AES256_GCM_HKDF_SHA512_COMMIT_KEY": {
+        "file": "include/aws/cryptosdk/header.h",
+        "function": null,
+        "line": 28
+      },
+      "ALG_AES256_GCM_HKDF_SHA512_COMMIT_KEY_ECDSA_P384": {
+        "file": "include/aws/cryptosdk/header.h",
+        "function": null,
+        "line": 27
+      },
+      "ALG_AES256_GCM_IV12_TAG16_HKDF_SHA256": {
+        "file": "include/aws/cryptosdk/header.h",
+        "function": null,
+        "line": 32
+      },
+      "ALG_AES256_GCM_IV12_TAG16_HKDF_SHA384_ECDSA_P384": {
+        "file": "include/aws/cryptosdk/header.h",
+        "function": null,
+        "line": 29
+      },
+      "ALG_AES256_GCM_IV12_TAG16_NO_KDF": {
+        "file": "include/aws/cryptosdk/header.h",
+        "function": null,
+        "line": 35
+      },
+      "ASN1_INTEGER": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 23
+      },
+      "ASN1_INTEGER_to_BN": {
+        "file": "verification/cbmc/include/openssl/asn1.h",
+        "function": null,
+        "line": 23
+      },
+      "ASN1_STRING": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 24
+      },
+      "ASN1_STRING_clear_free": {
+        "file": "verification/cbmc/include/openssl/asn1.h",
+        "function": null,
+        "line": 22
+      },
+      "AWS_ALIGN_ROUND_UP": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c",
+        "function": null,
+        "line": 148
+      },
+      "AWS_ARRAY_LIST_DEBUG_FILL": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.h",
+        "function": null,
+        "line": 13
+      },
+      "AWS_ATOMIC_INIT_INT": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.h",
+        "function": null,
+        "line": 80
+      },
+      "AWS_ATOMIC_INIT_PTR": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.h",
+        "function": null,
+        "line": 86
+      },
+      "AWS_ATOMIC_VAR_INTVAL": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.h",
+        "function": null,
+        "line": 21
+      },
+      "AWS_ATOMIC_VAR_PTRVAL": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.h",
+        "function": null,
+        "line": 20
+      },
+      "AWS_BYTE_BUF_PRI": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/byte_buf.h",
+        "function": null,
+        "line": 56
+      },
+      "AWS_BYTE_CURSOR_PRI": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/byte_buf.h",
+        "function": null,
+        "line": 49
+      },
+      "AWS_BYTE_CUR_INIT_FROM_STRING_LITERAL": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/byte_buf.h",
+        "function": null,
+        "line": 61
+      },
+      "AWS_COMMON_ALLOCATOR_H": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/allocator.h",
+        "function": null,
+        "line": 2
+      },
+      "AWS_COMMON_ARRAY_LIST_H": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.h",
+        "function": null,
+        "line": 2
+      },
+      "AWS_COMMON_ATOMICS_H": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.h",
+        "function": null,
+        "line": 2
+      },
+      "AWS_COMMON_BYTE_BUF_H": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/byte_buf.h",
+        "function": null,
+        "line": 2
+      },
+      "AWS_COMMON_ENCODING_H": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/encoding.h",
+        "function": null,
+        "line": 2
+      },
+      "AWS_COMMON_ERROR_H": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 2
+      },
+      "AWS_COMMON_HASH_TABLE_H": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 2
+      },
+      "AWS_COMMON_HASH_TABLE_ITER_CONTINUE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 13
+      },
+      "AWS_COMMON_HASH_TABLE_ITER_DELETE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 14
+      },
+      "AWS_COMMON_LINKED_LIST_H": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.h",
+        "function": null,
+        "line": 2
+      },
+      "AWS_COMMON_LOGGING_H": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 2
+      },
+      "AWS_COMMON_PRIORITY_QUEUE_H": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/priority_queue.h",
+        "function": null,
+        "line": 2
+      },
+      "AWS_COMMON_PRIVATE_HASH_TABLE_IMPL_H": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/private/hash_table_impl.h",
+        "function": null,
+        "line": 2
+      },
+      "AWS_COMMON_RING_BUFFER_H": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/ring_buffer.h",
+        "function": null,
+        "line": 2
+      },
+      "AWS_COMMON_STRING_H": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/string.h",
+        "function": null,
+        "line": 2
+      },
+      "AWS_CRYPTOSDK_AES128": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 36
+      },
+      "AWS_CRYPTOSDK_AES192": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 37
+      },
+      "AWS_CRYPTOSDK_AES256": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 38
+      },
+      "AWS_CRYPTOSDK_CIPHER_H": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 17
+      },
+      "AWS_CRYPTOSDK_EDK_H": {
+        "file": "include/aws/cryptosdk/edk.h",
+        "function": null,
+        "line": 17
+      },
+      "AWS_CRYPTOSDK_HEADER_CTYPE_FRAMED": {
+        "file": "include/aws/cryptosdk/private/header.h",
+        "function": null,
+        "line": 49
+      },
+      "AWS_CRYPTOSDK_HEADER_CTYPE_NONFRAMED": {
+        "file": "include/aws/cryptosdk/private/header.h",
+        "function": null,
+        "line": 48
+      },
+      "AWS_CRYPTOSDK_HEADER_H": {
+        "file": "include/aws/cryptosdk/header.h",
+        "function": null,
+        "line": 17
+      },
+      "AWS_CRYPTOSDK_HEADER_TYPE_CUSTOMER_AED": {
+        "file": "include/aws/cryptosdk/private/header.h",
+        "function": null,
+        "line": 44
+      },
+      "AWS_CRYPTOSDK_HEADER_VERSION_1_0": {
+        "file": "include/aws/cryptosdk/header.h",
+        "function": null,
+        "line": 40
+      },
+      "AWS_CRYPTOSDK_HEADER_VERSION_2_0": {
+        "file": "include/aws/cryptosdk/header.h",
+        "function": null,
+        "line": 40
+      },
+      "AWS_CRYPTOSDK_KEYRING_TRACE_H": {
+        "file": "include/aws/cryptosdk/keyring_trace.h",
+        "function": null,
+        "line": 17
+      },
+      "AWS_CRYPTOSDK_MATERIALS_H": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 17
+      },
+      "AWS_CRYPTOSDK_MD_MAX_SIZE": {
+        "file": "include/aws/cryptosdk/private/cipher.h",
+        "function": null,
+        "line": 49
+      },
+      "AWS_CRYPTOSDK_MD_SHA512": {
+        "file": "include/aws/cryptosdk/private/cipher.h",
+        "function": null,
+        "line": 51
+      },
+      "AWS_CRYPTOSDK_NOSHA": {
+        "file": "include/aws/cryptosdk/private/hkdf.h",
+        "function": null,
+        "line": 22
+      },
+      "AWS_CRYPTOSDK_PRIVATE_BASE_TYPE": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 253
+      },
+      "AWS_CRYPTOSDK_PRIVATE_BASE_TYPE_2": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 254
+      },
+      "AWS_CRYPTOSDK_PRIVATE_BASE_TYPE_3": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 255
+      },
+      "AWS_CRYPTOSDK_PRIVATE_CIPHER_H": {
+        "file": "include/aws/cryptosdk/private/cipher.h",
+        "function": null,
+        "line": 17
+      },
+      "AWS_CRYPTOSDK_PRIVATE_HEADER_H": {
+        "file": "include/aws/cryptosdk/private/header.h",
+        "function": null,
+        "line": 17
+      },
+      "AWS_CRYPTOSDK_PRIVATE_HKDF_H": {
+        "file": "include/aws/cryptosdk/private/hkdf.h",
+        "function": null,
+        "line": 17
+      },
+      "AWS_CRYPTOSDK_PRIVATE_STRUCT_NAME": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 249
+      },
+      "AWS_CRYPTOSDK_PRIVATE_STRUCT_NAME_2": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 250
+      },
+      "AWS_CRYPTOSDK_PRIVATE_STRUCT_NAME_3": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 251
+      },
+      "AWS_CRYPTOSDK_PRIVATE_VF_CALL": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 267
+      },
+      "AWS_CRYPTOSDK_PRIVATE_VF_CALL_NO_RETURN": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 285
+      },
+      "AWS_CRYPTOSDK_RSA_OAEP_SHA1_MGF1": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 44
+      },
+      "AWS_CRYPTOSDK_RSA_OAEP_SHA256_MGF1": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 45
+      },
+      "AWS_CRYPTOSDK_RSA_PKCS1": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 43
+      },
+      "AWS_CRYPTOSDK_SHA256": {
+        "file": "include/aws/cryptosdk/private/hkdf.h",
+        "function": null,
+        "line": 23
+      },
+      "AWS_CRYPTOSDK_SHA384": {
+        "file": "include/aws/cryptosdk/private/hkdf.h",
+        "function": null,
+        "line": 24
+      },
+      "AWS_CRYPTOSDK_SHA512": {
+        "file": "include/aws/cryptosdk/private/hkdf.h",
+        "function": null,
+        "line": 25
+      },
+      "AWS_CRYPTOSDK_WRAPPING_KEY_DECRYPTED_DATA_KEY": {
+        "file": "include/aws/cryptosdk/keyring_trace.h",
+        "function": null,
+        "line": 69
+      },
+      "AWS_CRYPTOSDK_WRAPPING_KEY_ENCRYPTED_DATA_KEY": {
+        "file": "include/aws/cryptosdk/keyring_trace.h",
+        "function": null,
+        "line": 64
+      },
+      "AWS_CRYPTOSDK_WRAPPING_KEY_GENERATED_DATA_KEY": {
+        "file": "include/aws/cryptosdk/keyring_trace.h",
+        "function": null,
+        "line": 59
+      },
+      "AWS_CRYPTOSDK_WRAPPING_KEY_SIGNED_ENC_CTX": {
+        "file": "include/aws/cryptosdk/keyring_trace.h",
+        "function": null,
+        "line": 74
+      },
+      "AWS_CRYPTOSDK_WRAPPING_KEY_VERIFIED_ENC_CTX": {
+        "file": "include/aws/cryptosdk/keyring_trace.h",
+        "function": null,
+        "line": 79
+      },
+      "AWS_DEFINE_ERROR_INFO": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 37
+      },
+      "AWS_DEFINE_ERROR_INFO_COMMON": {
+        "file": "verification/cbmc/aws-c-common/source/common.c",
+        "function": null,
+        "line": 64
+      },
+      "AWS_ERROR_CLOCK_FAILURE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 167
+      },
+      "AWS_ERROR_COND_VARIABLE_ERROR_UNKNOWN": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 166
+      },
+      "AWS_ERROR_COND_VARIABLE_INIT_FAILED": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 164
+      },
+      "AWS_ERROR_COND_VARIABLE_TIMED_OUT": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 165
+      },
+      "AWS_ERROR_C_STRING_BUFFER_NOT_NULL_TERMINATED": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 190
+      },
+      "AWS_ERROR_DEST_COPY_TOO_SMALL": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 169
+      },
+      "AWS_ERROR_DIVIDE_BY_ZERO": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 192
+      },
+      "AWS_ERROR_END_COMMON_RANGE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 194
+      },
+      "AWS_ERROR_ENUM_BEGIN_RANGE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 21
+      },
+      "AWS_ERROR_ENUM_END_RANGE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 22
+      },
+      "AWS_ERROR_ENUM_STRIDE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 20
+      },
+      "AWS_ERROR_ENUM_STRIDE_BITS": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 19
+      },
+      "AWS_ERROR_ENVIRONMENT_GET": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 182
+      },
+      "AWS_ERROR_ENVIRONMENT_SET": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 183
+      },
+      "AWS_ERROR_ENVIRONMENT_UNSET": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 184
+      },
+      "AWS_ERROR_FILE_INVALID_PATH": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 187
+      },
+      "AWS_ERROR_HASHTBL_ITEM_NOT_FOUND": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 175
+      },
+      "AWS_ERROR_INVALID_ARGUMENT": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 177
+      },
+      "AWS_ERROR_INVALID_BASE64_STR": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 152
+      },
+      "AWS_ERROR_INVALID_BUFFER_SIZE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 150
+      },
+      "AWS_ERROR_INVALID_DATE_STR": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 176
+      },
+      "AWS_ERROR_INVALID_HEX_STR": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 151
+      },
+      "AWS_ERROR_INVALID_INDEX": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 153
+      },
+      "AWS_ERROR_INVALID_STATE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 181
+      },
+      "AWS_ERROR_LIST_EMPTY": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 168
+      },
+      "AWS_ERROR_LIST_EXCEEDS_MAX_SIZE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 170
+      },
+      "AWS_ERROR_LIST_STATIC_MODE_CANT_SHRINK": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 171
+      },
+      "AWS_ERROR_MALFORMED_INPUT_STRING": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 179
+      },
+      "AWS_ERROR_MAX_FDS_EXCEEDED": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 188
+      },
+      "AWS_ERROR_MUTEX_CALLER_NOT_OWNER": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 162
+      },
+      "AWS_ERROR_MUTEX_FAILED": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 163
+      },
+      "AWS_ERROR_MUTEX_NOT_INIT": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 160
+      },
+      "AWS_ERROR_MUTEX_TIMEOUT": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 161
+      },
+      "AWS_ERROR_NO_PERMISSION": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 186
+      },
+      "AWS_ERROR_OOM": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 145
+      },
+      "AWS_ERROR_OVERFLOW_DETECTED": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 148
+      },
+      "AWS_ERROR_PRIORITY_QUEUE_BAD_NODE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 174
+      },
+      "AWS_ERROR_PRIORITY_QUEUE_EMPTY": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 173
+      },
+      "AWS_ERROR_PRIORITY_QUEUE_FULL": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 172
+      },
+      "AWS_ERROR_RANDOM_GEN_FAILED": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 178
+      },
+      "AWS_ERROR_SHORT_BUFFER": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 147
+      },
+      "AWS_ERROR_STREAM_UNSEEKABLE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 185
+      },
+      "AWS_ERROR_STRING_MATCH_NOT_FOUND": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 191
+      },
+      "AWS_ERROR_SUCCESS": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 144
+      },
+      "AWS_ERROR_SYS_CALL_FAILURE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 189
+      },
+      "AWS_ERROR_THREAD_DEADLOCK_DETECTED": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 159
+      },
+      "AWS_ERROR_THREAD_INSUFFICIENT_RESOURCE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 155
+      },
+      "AWS_ERROR_THREAD_INVALID_SETTINGS": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 154
+      },
+      "AWS_ERROR_THREAD_NOT_JOINABLE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 157
+      },
+      "AWS_ERROR_THREAD_NO_PERMISSIONS": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 156
+      },
+      "AWS_ERROR_THREAD_NO_SUCH_THREAD_ID": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 158
+      },
+      "AWS_ERROR_UNIMPLEMENTED": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 180
+      },
+      "AWS_ERROR_UNKNOWN": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 146
+      },
+      "AWS_ERROR_UNSUPPORTED_OPERATION": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 149
+      },
+      "AWS_HASH_ITER_STATUS_DELETE_CALLED": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 70
+      },
+      "AWS_HASH_ITER_STATUS_DONE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 69
+      },
+      "AWS_HASH_ITER_STATUS_READY_FOR_USE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 71
+      },
+      "AWS_LL_COUNT": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 39
+      },
+      "AWS_LL_DEBUG": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 36
+      },
+      "AWS_LL_ERROR": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 33
+      },
+      "AWS_LL_FATAL": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 32
+      },
+      "AWS_LL_INFO": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 35
+      },
+      "AWS_LL_NONE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 31
+      },
+      "AWS_LL_TRACE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 37
+      },
+      "AWS_LL_WARN": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 34
+      },
+      "AWS_LOGF": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 124
+      },
+      "AWS_LOGF_DEBUG": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 168
+      },
+      "AWS_LOGF_ERROR": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 150
+      },
+      "AWS_LOGF_FATAL": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 144
+      },
+      "AWS_LOGF_INFO": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 162
+      },
+      "AWS_LOGF_TRACE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 174
+      },
+      "AWS_LOGF_WARN": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 156
+      },
+      "AWS_LOG_LEVEL_DEBUG": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 17
+      },
+      "AWS_LOG_LEVEL_ERROR": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 14
+      },
+      "AWS_LOG_LEVEL_FATAL": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 13
+      },
+      "AWS_LOG_LEVEL_INFO": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 16
+      },
+      "AWS_LOG_LEVEL_NONE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 12
+      },
+      "AWS_LOG_LEVEL_TRACE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 18
+      },
+      "AWS_LOG_LEVEL_WARN": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 15
+      },
+      "AWS_LOG_SUBJECT_BEGIN_RANGE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 60
+      },
+      "AWS_LOG_SUBJECT_END_RANGE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 61
+      },
+      "AWS_LOG_SUBJECT_STRIDE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 59
+      },
+      "AWS_LOG_SUBJECT_STRIDE_BITS": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 58
+      },
+      "AWS_LS_COMMON_GENERAL": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 78
+      },
+      "AWS_LS_COMMON_LAST": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 83
+      },
+      "AWS_LS_COMMON_MEMTRACE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 80
+      },
+      "AWS_LS_COMMON_TASK_SCHEDULER": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 79
+      },
+      "AWS_LS_COMMON_XML_PARSER": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 81
+      },
+      "AWS_MEMTRACE_BYTES": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/allocator.h",
+        "function": null,
+        "line": 106
+      },
+      "AWS_MEMTRACE_NONE": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/allocator.h",
+        "function": null,
+        "line": 105
+      },
+      "AWS_MEMTRACE_STACKS": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/allocator.h",
+        "function": null,
+        "line": 107
+      },
+      "AWS_OP_ERR": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 16
+      },
+      "AWS_OP_SUCCESS": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 15
+      },
+      "AWS_STATIC_STRING_FROM_LITERAL": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/string.h",
+        "function": null,
+        "line": 171
+      },
+      "AWS_STRING_FROM_LITERAL": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/string.h",
+        "function": null,
+        "line": 182
+      },
+      "AWS_TEXT_ASCII": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/encoding.h",
+        "function": null,
+        "line": 138
+      },
+      "AWS_TEXT_UNKNOWN": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/encoding.h",
+        "function": null,
+        "line": 134
+      },
+      "AWS_TEXT_UTF16": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/encoding.h",
+        "function": null,
+        "line": 136
+      },
+      "AWS_TEXT_UTF32": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/encoding.h",
+        "function": null,
+        "line": 137
+      },
+      "AWS_TEXT_UTF8": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/encoding.h",
+        "function": null,
+        "line": 135
+      },
+      "BIGNUM": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 31
+      },
+      "BIO": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 30
+      },
+      "BIO_free": {
+        "file": "verification/cbmc/include/openssl/bio.h",
+        "function": null,
+        "line": 31
+      },
+      "BIO_new_mem_buf": {
+        "file": "verification/cbmc/include/openssl/bio.h",
+        "function": null,
+        "line": 25
+      },
+      "BN_clear_free": {
+        "file": "verification/cbmc/sources/openssl/bn_override.c",
+        "function": null,
+        "line": 85
+      },
+      "BN_dup": {
+        "file": "verification/cbmc/sources/openssl/bn_override.c",
+        "function": null,
+        "line": 49
+      },
+      "BN_free": {
+        "file": "verification/cbmc/sources/openssl/bn_override.c",
+        "function": null,
+        "line": 77
+      },
+      "BN_new": {
+        "file": "verification/cbmc/sources/openssl/bn_override.c",
+        "function": null,
+        "line": 34
+      },
+      "BN_sub": {
+        "file": "verification/cbmc/sources/openssl/bn_override.c",
+        "function": null,
+        "line": 63
+      },
+      "BN_to_ASN1_INTEGER": {
+        "file": "verification/cbmc/include/openssl/asn1.h",
+        "function": null,
+        "line": 24
+      },
+      "CFAllocatorRef": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/allocator.h",
+        "function": null,
+        "line": 37
+      },
+      "COMMITMENT_POLICY_FORBID_ENCRYPT_ALLOW_DECRYPT": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 125
+      },
+      "COMMITMENT_POLICY_REQUIRE_ENCRYPT_ALLOW_DECRYPT": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 118
+      },
+      "COMMITMENT_POLICY_REQUIRE_ENCRYPT_REQUIRE_DECRYPT": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 111
+      },
+      "DEFAULT_BLOCK_SIZE": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 25
+      },
+      "DEFAULT_IV_LEN": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 24
+      },
+      "DEFINE_LOG_SUBJECT_INFO": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 69
+      },
+      "ECDSA_SIG": {
+        "file": "verification/cbmc/include/openssl/ec.h",
+        "function": null,
+        "line": 45
+      },
+      "ECDSA_SIG_free": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 320
+      },
+      "ECDSA_SIG_get0": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 290
+      },
+      "ECDSA_SIG_set0": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 305
+      },
+      "ECDSA_SIG_st": {
+        "file": "verification/cbmc/include/openssl/ec.h",
+        "function": null,
+        "line": 45
+      },
+      "EC_GROUP": {
+        "file": "verification/cbmc/include/openssl/ec.h",
+        "function": null,
+        "line": 38
+      },
+      "EC_GROUP_free": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 73
+      },
+      "EC_GROUP_get0_order": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 65
+      },
+      "EC_GROUP_new_by_curve_name": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 38
+      },
+      "EC_GROUP_set_point_conversion_form": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 57
+      },
+      "EC_KEY": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 33
+      },
+      "EC_KEY_free": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 210
+      },
+      "EC_KEY_generate_key": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 183
+      },
+      "EC_KEY_get0_group": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 113
+      },
+      "EC_KEY_get0_private_key": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 171
+      },
+      "EC_KEY_new": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 94
+      },
+      "EC_KEY_set_conv_form": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 144
+      },
+      "EC_KEY_set_group": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 122
+      },
+      "EC_KEY_set_private_key": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 154
+      },
+      "EC_KEY_up_ref": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 199
+      },
+      "ENGINE": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 44
+      },
+      "ERROR_SLOTS": {
+        "file": "verification/cbmc/aws-c-common/source/error.c",
+        "function": null,
+        "line": 30
+      },
+      "ERR_get_error": {
+        "file": "verification/cbmc/include/openssl/err.h",
+        "function": null,
+        "line": 24
+      },
+      "ERR_peek_last_error": {
+        "file": "verification/cbmc/include/openssl/err.h",
+        "function": null,
+        "line": 26
+      },
+      "ERR_print_errors_fp": {
+        "file": "verification/cbmc/include/openssl/err.h",
+        "function": null,
+        "line": 22
+      },
+      "EVP_AES_128_GCM": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 408
+      },
+      "EVP_AES_192_GCM": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 408
+      },
+      "EVP_AES_256_GCM": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 408
+      },
+      "EVP_CIPHER": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 38
+      },
+      "EVP_CIPHER_CTX": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 39
+      },
+      "EVP_CIPHER_CTX_ctrl": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 494
+      },
+      "EVP_CIPHER_CTX_free": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 523
+      },
+      "EVP_CIPHER_CTX_new": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 449
+      },
+      "EVP_CipherInit_ex": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 468
+      },
+      "EVP_CipherUpdate": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 568
+      },
+      "EVP_DecryptFinal_ex": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 675
+      },
+      "EVP_DecryptInit_ex": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 550
+      },
+      "EVP_DecryptUpdate": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 619
+      },
+      "EVP_DigestFinal": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 836
+      },
+      "EVP_DigestFinal_ex": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 811
+      },
+      "EVP_DigestInit": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 783
+      },
+      "EVP_DigestInit_ex": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 765
+      },
+      "EVP_DigestUpdate": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 791
+      },
+      "EVP_DigestVerifyFinal": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 880
+      },
+      "EVP_DigestVerifyInit": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 855
+      },
+      "EVP_EncryptFinal_ex": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 657
+      },
+      "EVP_EncryptInit_ex": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 537
+      },
+      "EVP_EncryptUpdate": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 583
+      },
+      "EVP_MD": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 40
+      },
+      "EVP_MD_CTX": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 41
+      },
+      "EVP_MD_CTX_free": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 753
+      },
+      "EVP_MD_CTX_new": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 729
+      },
+      "EVP_MD_CTX_size": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 745
+      },
+      "EVP_MD_size": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 716
+      },
+      "EVP_NULL": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 34
+      },
+      "EVP_PKEY": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 42
+      },
+      "EVP_PKEY_CTX": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 35
+      },
+      "EVP_PKEY_CTX_ctrl": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 220
+      },
+      "EVP_PKEY_CTX_free": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 402
+      },
+      "EVP_PKEY_CTX_new": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 99
+      },
+      "EVP_PKEY_CTX_new_id": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 123
+      },
+      "EVP_PKEY_CTX_set_rsa_mgf1_md": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 332
+      },
+      "EVP_PKEY_CTX_set_rsa_oaep_md": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 319
+      },
+      "EVP_PKEY_CTX_set_rsa_padding": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 304
+      },
+      "EVP_PKEY_decrypt": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 376
+      },
+      "EVP_PKEY_decrypt_init": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 285
+      },
+      "EVP_PKEY_derive": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 237
+      },
+      "EVP_PKEY_derive_init": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 144
+      },
+      "EVP_PKEY_encrypt": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 347
+      },
+      "EVP_PKEY_encrypt_init": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 268
+      },
+      "EVP_PKEY_free": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 74
+      },
+      "EVP_PKEY_get0_EC_KEY": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 48
+      },
+      "EVP_PKEY_new": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 32
+      },
+      "EVP_PKEY_set1_EC_KEY": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 59
+      },
+      "EVP_PKEY_sign": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 184
+      },
+      "EVP_PKEY_sign_init": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 162
+      },
+      "EVP_SHA256": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 687
+      },
+      "EVP_SHA384": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 687
+      },
+      "EVP_SHA512": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 687
+      },
+      "EVP_aes_128_gcm": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 421
+      },
+      "EVP_aes_192_gcm": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 425
+      },
+      "EVP_aes_256_gcm": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 429
+      },
+      "EVP_sha256": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 700
+      },
+      "EVP_sha384": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 704
+      },
+      "EVP_sha512": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 708
+      },
+      "FRAME_TYPE_FINAL": {
+        "file": "include/aws/cryptosdk/private/cipher.h",
+        "function": null,
+        "line": 117
+      },
+      "FRAME_TYPE_FRAME": {
+        "file": "include/aws/cryptosdk/private/cipher.h",
+        "function": null,
+        "line": 117
+      },
+      "FRAME_TYPE_SINGLE": {
+        "file": "include/aws/cryptosdk/private/cipher.h",
+        "function": null,
+        "line": 117
+      },
+      "HEADER_ASN1_H": {
+        "file": "verification/cbmc/include/openssl/asn1.h",
+        "function": null,
+        "line": 18
+      },
+      "HEADER_BIO_H": {
+        "file": "verification/cbmc/include/openssl/bio.h",
+        "function": null,
+        "line": 11
+      },
+      "HEADER_EC_H": {
+        "file": "verification/cbmc/include/openssl/ec.h",
+        "function": null,
+        "line": 18
+      },
+      "HEADER_ERR_H": {
+        "file": "verification/cbmc/include/openssl/err.h",
+        "function": null,
+        "line": 18
+      },
+      "HEADER_OBJECTS_H": {
+        "file": "verification/cbmc/include/openssl/objects.h",
+        "function": null,
+        "line": 18
+      },
+      "HEADER_OPENSSL_TYPES_H": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 18
+      },
+      "HMAC": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 912
+      },
+      "HMAC_CTX": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 36
+      },
+      "HMAC_CTX_init": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 895
+      },
+      "HMAC_Final": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 974
+      },
+      "HMAC_Init_ex": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 948
+      },
+      "HMAC_Update": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 964
+      },
+      "IMPLIES": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/include/proof_helpers/utils.h",
+        "function": null,
+        "line": 19
+      },
+      "MAX_DATA_KEY_SIZE": {
+        "file": "include/aws/cryptosdk/private/cipher.h",
+        "function": null,
+        "line": 37
+      },
+      "MAX_ERROR_CODE": {
+        "file": "verification/cbmc/aws-c-common/source/error.c",
+        "function": null,
+        "line": 28
+      },
+      "MAX_PUBKEY_SIZE": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 37
+      },
+      "MAX_PUBKEY_SIZE_B64": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 38
+      },
+      "MAX_SIGNATURE_SIZE": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 45
+      },
+      "MAX_SIGNATURE_SIZE_B64": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 46
+      },
+      "MSG_ID_LEN": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 30
+      },
+      "MSG_ID_LEN_V2": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 31
+      },
+      "NID_X9_62_prime256v1": {
+        "file": "verification/cbmc/include/openssl/objects.h",
+        "function": null,
+        "line": 21
+      },
+      "NID_secp384r1": {
+        "file": "verification/cbmc/include/openssl/objects.h",
+        "function": null,
+        "line": 22
+      },
+      "NID_undef": {
+        "file": "verification/cbmc/include/openssl/objects.h",
+        "function": null,
+        "line": 20
+      },
+      "OBJ_txt2nid": {
+        "file": "verification/cbmc/include/openssl/objects.h",
+        "function": null,
+        "line": 24
+      },
+      "OSSL_100": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 50
+      },
+      "PEM_read_bio_PUBKEY": {
+        "file": "verification/cbmc/include/openssl/bio.h",
+        "function": null,
+        "line": 27
+      },
+      "PEM_read_bio_PrivateKey": {
+        "file": "verification/cbmc/include/openssl/bio.h",
+        "function": null,
+        "line": 29
+      },
+      "POINT_CONVERSION_COMPRESSED": {
+        "file": "verification/cbmc/include/openssl/ec.h",
+        "function": null,
+        "line": 30
+      },
+      "POINT_CONVERSION_HYBRID": {
+        "file": "verification/cbmc/include/openssl/ec.h",
+        "function": null,
+        "line": 35
+      },
+      "POINT_CONVERSION_UNCOMPRESSED": {
+        "file": "verification/cbmc/include/openssl/ec.h",
+        "function": null,
+        "line": 32
+      },
+      "RAND_bytes": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 814
+      },
+      "SLOT_MASK": {
+        "file": "verification/cbmc/aws-c-common/source/error.c",
+        "function": null,
+        "line": 26
+      },
+      "STATIC_ALG_PROPS": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 35
+      },
+      "__CPROVER_file_local_cipher_c_aws_cryptosdk_private_derive_key_v1": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 319
+      },
+      "__CPROVER_uninterpreted_compare": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c",
+        "function": null,
+        "line": 113
+      },
+      "__CPROVER_uninterpreted_equals": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c",
+        "function": null,
+        "line": 135
+      },
+      "__CPROVER_uninterpreted_hasher": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/include/proof_helpers/utils.h",
+        "function": null,
+        "line": 17
+      },
+      "__atomic_compare_exchange_n_U64": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 131
+      },
+      "__atomic_compare_exchange_n__ptr_start_sub_V_end_sub_V_": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 152
+      },
+      "__atomic_exchange_n_U64": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 104
+      },
+      "__atomic_exchange_n__ptr_start_sub_V_end_sub_V_": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 116
+      },
+      "__atomic_fetch_add_U64": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 166
+      },
+      "__atomic_fetch_and_U64": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 190
+      },
+      "__atomic_fetch_or_U64": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 182
+      },
+      "__atomic_fetch_sub_U64": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 174
+      },
+      "__atomic_fetch_xor_U64": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 198
+      },
+      "__atomic_load_n_U64": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 68
+      },
+      "__atomic_load_n_c_ptr_start_sub_V_end_sub_V_": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 76
+      },
+      "__atomic_store_n_U64": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 84
+      },
+      "__atomic_store_n__ptr_start_sub_V_end_sub_V_": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 92
+      },
+      "__builtin_va_list": {
+        "file": "verification/cbmc/proofs/aws_cryptosdk_private_derive_key_v1/gcc_builtin_headers_types.h",
+        "function": null,
+        "line": 1
+      },
+      "abort": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/stubs/abort_override_assert_false.c",
+        "function": null,
+        "line": 14
+      },
+      "aes_gcm_iv_len": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 835
+      },
+      "aes_gcm_tag_len": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 834
+      },
+      "alg": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 182
+      },
+      "alg_id": {
+        "file": "include/aws/cryptosdk/private/header.h",
+        "function": null,
+        "line": 27
+      },
+      "alg_name": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 60
+      },
+      "alg_suite_data": {
+        "file": "include/aws/cryptosdk/private/header.h",
+        "function": null,
+        "line": 31
+      },
+      "alg_suite_data_len": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 103
+      },
+      "alloc": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.h",
+        "function": null,
+        "line": 16
+      },
+      "allocation": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/ring_buffer.h",
+        "function": null,
+        "line": 20
+      },
+      "allocation_end": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/ring_buffer.h",
+        "function": null,
+        "line": 23
+      },
+      "allocator": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/ring_buffer.h",
+        "function": null,
+        "line": 19
+      },
+      "asn1_form": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 29
+      },
+      "asn1_string_st": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 23
+      },
+      "assert_all_bytes_are": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c",
+        "function": null,
+        "line": 18
+      },
+      "assert_all_zeroes": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c",
+        "function": null,
+        "line": 26
+      },
+      "assert_array_list_equivalence": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c",
+        "function": null,
+        "line": 44
+      },
+      "assert_byte_buf_equivalence": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c",
+        "function": null,
+        "line": 63
+      },
+      "assert_byte_cursor_equivalence": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c",
+        "function": null,
+        "line": 81
+      },
+      "assert_byte_from_buffer_matches": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c",
+        "function": null,
+        "line": 30
+      },
+      "assert_bytes_match": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c",
+        "function": null,
+        "line": 9
+      },
+      "auth_len": {
+        "file": "include/aws/cryptosdk/private/header.h",
+        "function": null,
+        "line": 39
+      },
+      "auth_tag": {
+        "file": "include/aws/cryptosdk/private/header.h",
+        "function": null,
+        "line": 31
+      },
+      "aws_add_size_checked": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 126
+      },
+      "aws_add_size_saturating": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 112
+      },
+      "aws_add_u32_checked": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.cbmc.inl",
+        "function": null,
+        "line": 96
+      },
+      "aws_add_u32_saturating": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.cbmc.inl",
+        "function": null,
+        "line": 86
+      },
+      "aws_add_u64_checked": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.cbmc.inl",
+        "function": null,
+        "line": 76
+      },
+      "aws_add_u64_saturating": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.cbmc.inl",
+        "function": null,
+        "line": 66
+      },
+      "aws_allocator": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/allocator.h",
+        "function": null,
+        "line": 15
+      },
+      "aws_allocator_is_valid": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c",
+        "function": null,
+        "line": 112
+      },
+      "aws_array_eq": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 419
+      },
+      "aws_array_eq_c_str": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 464
+      },
+      "aws_array_eq_c_str_ignore_case": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 436
+      },
+      "aws_array_eq_ignore_case": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 394
+      },
+      "aws_array_list": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.h",
+        "function": null,
+        "line": 15
+      },
+      "aws_array_list_back": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.inl",
+        "function": null,
+        "line": 231
+      },
+      "aws_array_list_capacity": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.inl",
+        "function": null,
+        "line": 298
+      },
+      "aws_array_list_clean_up": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.inl",
+        "function": null,
+        "line": 109
+      },
+      "aws_array_list_clean_up_secure": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.inl",
+        "function": null,
+        "line": 119
+      },
+      "aws_array_list_clear": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.inl",
+        "function": null,
+        "line": 268
+      },
+      "aws_array_list_comparator_fn": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.h",
+        "function": null,
+        "line": 31
+      },
+      "aws_array_list_debug_print": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.inl",
+        "function": null,
+        "line": 97
+      },
+      "aws_array_list_ensure_capacity": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.h",
+        "function": null,
+        "line": 187
+      },
+      "aws_array_list_erase": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.inl",
+        "function": null,
+        "line": 199
+      },
+      "aws_array_list_front": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.inl",
+        "function": null,
+        "line": 148
+      },
+      "aws_array_list_get_at": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.inl",
+        "function": null,
+        "line": 320
+      },
+      "aws_array_list_get_at_ptr": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.inl",
+        "function": null,
+        "line": 335
+      },
+      "aws_array_list_init_dynamic": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.inl",
+        "function": null,
+        "line": 18
+      },
+      "aws_array_list_init_static": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.inl",
+        "function": null,
+        "line": 59
+      },
+      "aws_array_list_is_bounded": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 88
+      },
+      "aws_array_list_is_valid": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.inl",
+        "function": null,
+        "line": 82
+      },
+      "aws_array_list_length": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.inl",
+        "function": null,
+        "line": 307
+      },
+      "aws_array_list_pop_back": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.inl",
+        "function": null,
+        "line": 249
+      },
+      "aws_array_list_pop_front": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.inl",
+        "function": null,
+        "line": 165
+      },
+      "aws_array_list_pop_front_n": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.inl",
+        "function": null,
+        "line": 178
+      },
+      "aws_array_list_push_back": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.inl",
+        "function": null,
+        "line": 130
+      },
+      "aws_array_list_set_at": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.inl",
+        "function": null,
+        "line": 348
+      },
+      "aws_array_list_sort": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.inl",
+        "function": null,
+        "line": 379
+      },
+      "aws_array_list_swap_contents": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.inl",
+        "function": null,
+        "line": 280
+      },
+      "aws_atomic_compare_exchange_int": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.inl",
+        "function": null,
+        "line": 70
+      },
+      "aws_atomic_compare_exchange_int_explicit": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 125
+      },
+      "aws_atomic_compare_exchange_ptr": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.inl",
+        "function": null,
+        "line": 81
+      },
+      "aws_atomic_compare_exchange_ptr_explicit": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 146
+      },
+      "aws_atomic_exchange_int": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.inl",
+        "function": null,
+        "line": 51
+      },
+      "aws_atomic_exchange_int_explicit": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 100
+      },
+      "aws_atomic_exchange_ptr": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.inl",
+        "function": null,
+        "line": 60
+      },
+      "aws_atomic_exchange_ptr_explicit": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 112
+      },
+      "aws_atomic_fetch_add": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.inl",
+        "function": null,
+        "line": 91
+      },
+      "aws_atomic_fetch_add_explicit": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 165
+      },
+      "aws_atomic_fetch_and": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.inl",
+        "function": null,
+        "line": 109
+      },
+      "aws_atomic_fetch_and_explicit": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 189
+      },
+      "aws_atomic_fetch_or": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.inl",
+        "function": null,
+        "line": 118
+      },
+      "aws_atomic_fetch_or_explicit": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 181
+      },
+      "aws_atomic_fetch_sub": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.inl",
+        "function": null,
+        "line": 100
+      },
+      "aws_atomic_fetch_sub_explicit": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 173
+      },
+      "aws_atomic_fetch_xor": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.inl",
+        "function": null,
+        "line": 127
+      },
+      "aws_atomic_fetch_xor_explicit": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 197
+      },
+      "aws_atomic_impl_int_t": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 26
+      },
+      "aws_atomic_init_int": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 50
+      },
+      "aws_atomic_init_ptr": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 59
+      },
+      "aws_atomic_load_int": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.inl",
+        "function": null,
+        "line": 18
+      },
+      "aws_atomic_load_int_explicit": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 67
+      },
+      "aws_atomic_load_ptr": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.inl",
+        "function": null,
+        "line": 26
+      },
+      "aws_atomic_load_ptr_explicit": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 75
+      },
+      "aws_atomic_priv_xlate_order": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 28
+      },
+      "aws_atomic_store_int": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.inl",
+        "function": null,
+        "line": 34
+      },
+      "aws_atomic_store_int_explicit": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 83
+      },
+      "aws_atomic_store_ptr": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.inl",
+        "function": null,
+        "line": 42
+      },
+      "aws_atomic_store_ptr_explicit": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 91
+      },
+      "aws_atomic_thread_fence": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics_gnu.inl",
+        "function": null,
+        "line": 206
+      },
+      "aws_atomic_var": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.h",
+        "function": null,
+        "line": 16
+      },
+      "aws_atomic_var_is_valid_int": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 403
+      },
+      "aws_atomic_var_is_valid_ptr": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 410
+      },
+      "aws_base64_compute_encoded_len": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/encoding.h",
+        "function": null,
+        "line": 63
+      },
+      "aws_base64_decode": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/encoding.h",
+        "function": null,
+        "line": 82
+      },
+      "aws_base64_encode": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/encoding.h",
+        "function": null,
+        "line": 69
+      },
+      "aws_byte_buf": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/byte_buf.h",
+        "function": null,
+        "line": 25
+      },
+      "aws_byte_buf_advance": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1366
+      },
+      "aws_byte_buf_append": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 561
+      },
+      "aws_byte_buf_append_and_update": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1577
+      },
+      "aws_byte_buf_append_byte_dynamic": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 737
+      },
+      "aws_byte_buf_append_byte_dynamic_secure": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 741
+      },
+      "aws_byte_buf_append_dynamic": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 713
+      },
+      "aws_byte_buf_append_dynamic_secure": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 717
+      },
+      "aws_byte_buf_append_null_terminator": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1590
+      },
+      "aws_byte_buf_append_with_lookup": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 584
+      },
+      "aws_byte_buf_cat": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 334
+      },
+      "aws_byte_buf_clean_up": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 76
+      },
+      "aws_byte_buf_clean_up_secure": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 96
+      },
+      "aws_byte_buf_contents_match": {
+        "file": "verification/cbmc/sources/utils.c",
+        "function": null,
+        "line": 8
+      },
+      "aws_byte_buf_eq": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 103
+      },
+      "aws_byte_buf_eq_c_str": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 121
+      },
+      "aws_byte_buf_eq_c_str_ignore_case": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 129
+      },
+      "aws_byte_buf_eq_ignore_case": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 112
+      },
+      "aws_byte_buf_from_array": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 910
+      },
+      "aws_byte_buf_from_c_str": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 900
+      },
+      "aws_byte_buf_from_empty_array": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 921
+      },
+      "aws_byte_buf_has_allocator": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 17
+      },
+      "aws_byte_buf_init": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 17
+      },
+      "aws_byte_buf_init_cache_and_update_cursors": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 162
+      },
+      "aws_byte_buf_init_copy": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 34
+      },
+      "aws_byte_buf_init_copy_from_cursor": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 137
+      },
+      "aws_byte_buf_is_bounded": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 13
+      },
+      "aws_byte_buf_is_valid": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 58
+      },
+      "aws_byte_buf_reserve": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 745
+      },
+      "aws_byte_buf_reserve_relative": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 764
+      },
+      "aws_byte_buf_reset": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 69
+      },
+      "aws_byte_buf_secure_zero": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 87
+      },
+      "aws_byte_buf_write": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1394
+      },
+      "aws_byte_buf_write_be16": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1497
+      },
+      "aws_byte_buf_write_be24": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1511
+      },
+      "aws_byte_buf_write_be32": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1532
+      },
+      "aws_byte_buf_write_be64": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1558
+      },
+      "aws_byte_buf_write_float_be32": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1545
+      },
+      "aws_byte_buf_write_float_be64": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1571
+      },
+      "aws_byte_buf_write_from_whole_buffer": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1422
+      },
+      "aws_byte_buf_write_from_whole_cursor": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1435
+      },
+      "aws_byte_buf_write_to_capacity": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1441
+      },
+      "aws_byte_buf_write_u8": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1464
+      },
+      "aws_byte_buf_write_u8_n": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1475
+      },
+      "aws_byte_cursor": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/byte_buf.h",
+        "function": null,
+        "line": 38
+      },
+      "aws_byte_cursor_advance": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1041
+      },
+      "aws_byte_cursor_advance_nospec": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1069
+      },
+      "aws_byte_cursor_compare_lexical": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 827
+      },
+      "aws_byte_cursor_compare_lookup": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 853
+      },
+      "aws_byte_cursor_eq": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 356
+      },
+      "aws_byte_cursor_eq_byte_buf": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 525
+      },
+      "aws_byte_cursor_eq_byte_buf_ignore_case": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 534
+      },
+      "aws_byte_cursor_eq_c_str": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 545
+      },
+      "aws_byte_cursor_eq_c_str_ignore_case": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 553
+      },
+      "aws_byte_cursor_eq_ignore_case": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 365
+      },
+      "aws_byte_cursor_find_exact": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 296
+      },
+      "aws_byte_cursor_from_array": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 950
+      },
+      "aws_byte_cursor_from_buf": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 933
+      },
+      "aws_byte_cursor_from_c_str": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 942
+      },
+      "aws_byte_cursor_from_string": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/string.h",
+        "function": null,
+        "line": 206
+      },
+      "aws_byte_cursor_is_bounded": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 78
+      },
+      "aws_byte_cursor_is_valid": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 64
+      },
+      "aws_byte_cursor_left_trim_pred": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 792
+      },
+      "aws_byte_cursor_next_split": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 196
+      },
+      "aws_byte_cursor_read": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1112
+      },
+      "aws_byte_cursor_read_and_fill_buffer": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1137
+      },
+      "aws_byte_cursor_read_be16": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1176
+      },
+      "aws_byte_cursor_read_be24": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1198
+      },
+      "aws_byte_cursor_read_be32": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1226
+      },
+      "aws_byte_cursor_read_be64": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1289
+      },
+      "aws_byte_cursor_read_float_be32": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1247
+      },
+      "aws_byte_cursor_read_float_be64": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1268
+      },
+      "aws_byte_cursor_read_hex_u8": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1333
+      },
+      "aws_byte_cursor_read_u8": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1160
+      },
+      "aws_byte_cursor_right_trim_pred": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 777
+      },
+      "aws_byte_cursor_satisfies_pred": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 820
+      },
+      "aws_byte_cursor_split_on_char": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 288
+      },
+      "aws_byte_cursor_split_on_char_n": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 256
+      },
+      "aws_byte_cursor_trim_pred": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 808
+      },
+      "aws_byte_predicate_fn": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/byte_buf.h",
+        "function": null,
+        "line": 67
+      },
+      "aws_c_string_is_valid": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/string.inl",
+        "function": null,
+        "line": 42
+      },
+      "aws_char_is_space": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/string.inl",
+        "function": null,
+        "line": 55
+      },
+      "aws_clz_i32": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.gcc_builtin.inl",
+        "function": null,
+        "line": 27
+      },
+      "aws_clz_i64": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.gcc_builtin.inl",
+        "function": null,
+        "line": 35
+      },
+      "aws_clz_size": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.gcc_builtin.inl",
+        "function": null,
+        "line": 39
+      },
+      "aws_clz_u32": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.gcc_builtin.inl",
+        "function": null,
+        "line": 23
+      },
+      "aws_clz_u64": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.gcc_builtin.inl",
+        "function": null,
+        "line": 31
+      },
+      "aws_common_error": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 143
+      },
+      "aws_common_fatal_assert_library_initialized": {
+        "file": "verification/cbmc/aws-c-common/source/common.c",
+        "function": null,
+        "line": 269
+      },
+      "aws_common_library_clean_up": {
+        "file": "verification/cbmc/aws-c-common/source/common.c",
+        "function": null,
+        "line": 261
+      },
+      "aws_common_library_init": {
+        "file": "verification/cbmc/aws-c-common/source/common.c",
+        "function": null,
+        "line": 251
+      },
+      "aws_common_log_subject": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 77
+      },
+      "aws_cryptosdk_aes_gcm_decrypt": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 884
+      },
+      "aws_cryptosdk_aes_gcm_encrypt": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 837
+      },
+      "aws_cryptosdk_aes_key_len": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 35
+      },
+      "aws_cryptosdk_alg_id": {
+        "file": "include/aws/cryptosdk/header.h",
+        "function": null,
+        "line": 26
+      },
+      "aws_cryptosdk_alg_impl": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 67
+      },
+      "aws_cryptosdk_alg_properties": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 54
+      },
+      "aws_cryptosdk_alg_properties_equal": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 256
+      },
+      "aws_cryptosdk_alg_properties_is_valid": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 269
+      },
+      "aws_cryptosdk_alg_props": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 33
+      },
+      "aws_cryptosdk_cmm": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 83
+      },
+      "aws_cryptosdk_cmm_base_init": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 436
+      },
+      "aws_cryptosdk_cmm_base_is_valid": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 426
+      },
+      "aws_cryptosdk_cmm_decrypt_materials": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 501
+      },
+      "aws_cryptosdk_cmm_generate_enc_materials": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 478
+      },
+      "aws_cryptosdk_cmm_release": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 449
+      },
+      "aws_cryptosdk_cmm_retain": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 460
+      },
+      "aws_cryptosdk_cmm_vt": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 85
+      },
+      "aws_cryptosdk_cmm_vtable_is_valid": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 417
+      },
+      "aws_cryptosdk_commitment_policy": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 105
+      },
+      "aws_cryptosdk_commitment_policy_encrypt_must_include_commitment": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 725
+      },
+      "aws_cryptosdk_commitment_policy_is_valid": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 712
+      },
+      "aws_cryptosdk_content_key_is_valid": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 1060
+      },
+      "aws_cryptosdk_data_key_is_valid": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 1056
+      },
+      "aws_cryptosdk_dec_materials": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 203
+      },
+      "aws_cryptosdk_dec_materials_is_valid": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 227
+      },
+      "aws_cryptosdk_dec_request": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 188
+      },
+      "aws_cryptosdk_dec_request_is_valid": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 195
+      },
+      "aws_cryptosdk_decrypt_body": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 746
+      },
+      "aws_cryptosdk_edk": {
+        "file": "include/aws/cryptosdk/edk.h",
+        "function": null,
+        "line": 39
+      },
+      "aws_cryptosdk_edk_eq": {
+        "file": "include/aws/cryptosdk/edk.h",
+        "function": null,
+        "line": 112
+      },
+      "aws_cryptosdk_edk_is_bounded": {
+        "file": "verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 121
+      },
+      "aws_cryptosdk_edk_list_elements_are_bounded": {
+        "file": "verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 145
+      },
+      "aws_cryptosdk_edk_list_is_bounded": {
+        "file": "verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 133
+      },
+      "aws_cryptosdk_edk_list_is_valid": {
+        "file": "include/aws/cryptosdk/edk.h",
+        "function": null,
+        "line": 62
+      },
+      "aws_cryptosdk_enc_materials": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 173
+      },
+      "aws_cryptosdk_enc_materials_is_valid": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 213
+      },
+      "aws_cryptosdk_enc_request": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 133
+      },
+      "aws_cryptosdk_enc_request_is_valid": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 166
+      },
+      "aws_cryptosdk_encrypt_body": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 646
+      },
+      "aws_cryptosdk_frame_type": {
+        "file": "include/aws/cryptosdk/private/cipher.h",
+        "function": null,
+        "line": 117
+      },
+      "aws_cryptosdk_genrandom": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 808
+      },
+      "aws_cryptosdk_get_evp_md": {
+        "file": "source/hkdf.c",
+        "function": null,
+        "line": 23
+      },
+      "aws_cryptosdk_hdr": {
+        "file": "include/aws/cryptosdk/private/header.h",
+        "function": null,
+        "line": 24
+      },
+      "aws_cryptosdk_hdr_content_type": {
+        "file": "include/aws/cryptosdk/private/header.h",
+        "function": null,
+        "line": 47
+      },
+      "aws_cryptosdk_hdr_members_are_bounded": {
+        "file": "verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 191
+      },
+      "aws_cryptosdk_hdr_type": {
+        "file": "include/aws/cryptosdk/private/header.h",
+        "function": null,
+        "line": 42
+      },
+      "aws_cryptosdk_hdr_version": {
+        "file": "include/aws/cryptosdk/header.h",
+        "function": null,
+        "line": 40
+      },
+      "aws_cryptosdk_hkdf": {
+        "file": "source/hkdf.c",
+        "function": null,
+        "line": 148
+      },
+      "aws_cryptosdk_hkdf_expand": {
+        "file": "source/hkdf.c",
+        "function": null,
+        "line": 62
+      },
+      "aws_cryptosdk_hkdf_extract": {
+        "file": "source/hkdf.c",
+        "function": null,
+        "line": 34
+      },
+      "aws_cryptosdk_keyring": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 96
+      },
+      "aws_cryptosdk_keyring_base_init": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 589
+      },
+      "aws_cryptosdk_keyring_is_valid": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 579
+      },
+      "aws_cryptosdk_keyring_release": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 602
+      },
+      "aws_cryptosdk_keyring_retain": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 613
+      },
+      "aws_cryptosdk_keyring_trace_is_valid": {
+        "file": "include/aws/cryptosdk/keyring_trace.h",
+        "function": null,
+        "line": 96
+      },
+      "aws_cryptosdk_keyring_trace_record": {
+        "file": "include/aws/cryptosdk/keyring_trace.h",
+        "function": null,
+        "line": 50
+      },
+      "aws_cryptosdk_keyring_vt": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 98
+      },
+      "aws_cryptosdk_keyring_vt_is_valid": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 570
+      },
+      "aws_cryptosdk_md_abort": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 178
+      },
+      "aws_cryptosdk_md_alg": {
+        "file": "include/aws/cryptosdk/private/cipher.h",
+        "function": null,
+        "line": 51
+      },
+      "aws_cryptosdk_md_context": {
+        "file": "include/aws/cryptosdk/private/cipher.h",
+        "function": null,
+        "line": 47
+      },
+      "aws_cryptosdk_md_context_is_valid": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 96
+      },
+      "aws_cryptosdk_md_context_is_valid_cbmc": {
+        "file": "verification/cbmc/sources/cbmc_invariants.c",
+        "function": null,
+        "line": 23
+      },
+      "aws_cryptosdk_md_finish": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 156
+      },
+      "aws_cryptosdk_md_init": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 100
+      },
+      "aws_cryptosdk_md_size": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 136
+      },
+      "aws_cryptosdk_md_update": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 143
+      },
+      "aws_cryptosdk_openssl_hkdf_version": {
+        "file": "source/hkdf.c",
+        "function": null,
+        "line": 110
+      },
+      "aws_cryptosdk_private_algorithm_message_id_len": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 226
+      },
+      "aws_cryptosdk_private_authtag_len": {
+        "file": "include/aws/cryptosdk/private/cipher.h",
+        "function": null,
+        "line": 53
+      },
+      "aws_cryptosdk_private_commitment_eq": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 282
+      },
+      "aws_cryptosdk_private_derive_key": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 408
+      },
+      "aws_cryptosdk_private_derive_key_v1": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 319
+      },
+      "aws_cryptosdk_private_derive_key_v1_harness": {
+        "file": "verification/cbmc/proofs/aws_cryptosdk_private_derive_key_v1/aws_cryptosdk_private_derive_key_v1_harness.c",
+        "function": null,
+        "line": 22
+      },
+      "aws_cryptosdk_private_derive_key_v2": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 352
+      },
+      "aws_cryptosdk_private_refcount_down": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 301
+      },
+      "aws_cryptosdk_private_refcount_up": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 336
+      },
+      "aws_cryptosdk_rsa_decrypt": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 1003
+      },
+      "aws_cryptosdk_rsa_encrypt": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 952
+      },
+      "aws_cryptosdk_rsa_padding_mode": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 42
+      },
+      "aws_cryptosdk_sha_version": {
+        "file": "include/aws/cryptosdk/private/hkdf.h",
+        "function": null,
+        "line": 21
+      },
+      "aws_cryptosdk_sig_abort": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 510
+      },
+      "aws_cryptosdk_sig_ctx": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 132
+      },
+      "aws_cryptosdk_sig_ctx_is_valid": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 82
+      },
+      "aws_cryptosdk_sig_ctx_is_valid_cbmc": {
+        "file": "verification/cbmc/sources/cbmc_invariants.c",
+        "function": null,
+        "line": 27
+      },
+      "aws_cryptosdk_sig_get_privkey": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 321
+      },
+      "aws_cryptosdk_sig_get_pubkey": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 311
+      },
+      "aws_cryptosdk_sig_sign_finish": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 819
+      },
+      "aws_cryptosdk_sig_sign_start": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 524
+      },
+      "aws_cryptosdk_sig_sign_start_keygen": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 431
+      },
+      "aws_cryptosdk_sig_update": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 789
+      },
+      "aws_cryptosdk_sig_verify_finish": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 809
+      },
+      "aws_cryptosdk_sig_verify_start": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 723
+      },
+      "aws_cryptosdk_sign_header": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 504
+      },
+      "aws_cryptosdk_verify_header": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 563
+      },
+      "aws_cryptosdk_which_sha": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 239
+      },
+      "aws_ctz_i32": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.gcc_builtin.inl",
+        "function": null,
+        "line": 54
+      },
+      "aws_ctz_i64": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.gcc_builtin.inl",
+        "function": null,
+        "line": 62
+      },
+      "aws_ctz_size": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.gcc_builtin.inl",
+        "function": null,
+        "line": 66
+      },
+      "aws_ctz_u32": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.gcc_builtin.inl",
+        "function": null,
+        "line": 50
+      },
+      "aws_ctz_u64": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.gcc_builtin.inl",
+        "function": null,
+        "line": 58
+      },
+      "aws_error_debug_str": {
+        "file": "verification/cbmc/aws-c-common/source/error.c",
+        "function": null,
+        "line": 83
+      },
+      "aws_error_handler_fn": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 43
+      },
+      "aws_error_info": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 24
+      },
+      "aws_error_info_list": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 32
+      },
+      "aws_error_lib_name": {
+        "file": "verification/cbmc/aws-c-common/source/error.c",
+        "function": null,
+        "line": 73
+      },
+      "aws_error_name": {
+        "file": "verification/cbmc/aws-c-common/source/error.c",
+        "function": null,
+        "line": 63
+      },
+      "aws_error_str": {
+        "file": "verification/cbmc/aws-c-common/source/error.c",
+        "function": null,
+        "line": 53
+      },
+      "aws_hash_array_ignore_case": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 492
+      },
+      "aws_hash_byte_cursor_ptr_ignore_case": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 517
+      },
+      "aws_hash_callback_destroy_fn": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 116
+      },
+      "aws_hash_callback_eq_fn": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 104
+      },
+      "aws_hash_element": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 63
+      },
+      "aws_hash_fn": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 92
+      },
+      "aws_hash_iter": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 74
+      },
+      "aws_hash_iter_status": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 68
+      },
+      "aws_hash_table": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 48
+      },
+      "aws_hash_table_has_an_empty_slot": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 167
+      },
+      "aws_hash_table_is_valid": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 418
+      },
+      "aws_hton16": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/byte_order.inl",
+        "function": null,
+        "line": 143
+      },
+      "aws_hton32": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/byte_order.inl",
+        "function": null,
+        "line": 61
+      },
+      "aws_hton64": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/byte_order.inl",
+        "function": null,
+        "line": 34
+      },
+      "aws_htonf32": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/byte_order.inl",
+        "function": null,
+        "line": 72
+      },
+      "aws_htonf64": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/byte_order.inl",
+        "function": null,
+        "line": 93
+      },
+      "aws_is_big_endian": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/byte_order.inl",
+        "function": null,
+        "line": 26
+      },
+      "aws_is_mem_zeroed": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/zero.inl",
+        "function": null,
+        "line": 19
+      },
+      "aws_is_power_of_two": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 159
+      },
+      "aws_isalnum": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1594
+      },
+      "aws_isalpha": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1598
+      },
+      "aws_isdigit": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1602
+      },
+      "aws_isspace": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1610
+      },
+      "aws_isxdigit": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1606
+      },
+      "aws_last_error": {
+        "file": "verification/cbmc/aws-c-common/source/error.c",
+        "function": null,
+        "line": 32
+      },
+      "aws_linked_list": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.h",
+        "function": null,
+        "line": 18
+      },
+      "aws_linked_list_back": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 283
+      },
+      "aws_linked_list_begin": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 121
+      },
+      "aws_linked_list_empty": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 32
+      },
+      "aws_linked_list_end": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 132
+      },
+      "aws_linked_list_front": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 320
+      },
+      "aws_linked_list_init": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 108
+      },
+      "aws_linked_list_insert_after": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 192
+      },
+      "aws_linked_list_insert_before": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 241
+      },
+      "aws_linked_list_is_valid": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 40
+      },
+      "aws_linked_list_is_valid_deep": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 81
+      },
+      "aws_linked_list_move_all_back": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 376
+      },
+      "aws_linked_list_move_all_front": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 405
+      },
+      "aws_linked_list_next": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 168
+      },
+      "aws_linked_list_node": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.h",
+        "function": null,
+        "line": 13
+      },
+      "aws_linked_list_node_next_is_valid": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 56
+      },
+      "aws_linked_list_node_prev_is_valid": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 65
+      },
+      "aws_linked_list_node_reset": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 18
+      },
+      "aws_linked_list_pop_back": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 296
+      },
+      "aws_linked_list_pop_front": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 333
+      },
+      "aws_linked_list_prev": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 180
+      },
+      "aws_linked_list_push_back": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 272
+      },
+      "aws_linked_list_push_front": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 309
+      },
+      "aws_linked_list_rbegin": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 145
+      },
+      "aws_linked_list_remove": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 260
+      },
+      "aws_linked_list_rend": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 157
+      },
+      "aws_linked_list_swap_contents": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 343
+      },
+      "aws_linked_list_swap_nodes": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.inl",
+        "function": null,
+        "line": 210
+      },
+      "aws_log_level": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 30
+      },
+      "aws_log_subject_info": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 63
+      },
+      "aws_log_subject_info_list": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 72
+      },
+      "aws_log_subject_t": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 55
+      },
+      "aws_logger": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 113
+      },
+      "aws_logger_pipeline": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 186
+      },
+      "aws_logger_standard_options": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 199
+      },
+      "aws_logger_vtable": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 98
+      },
+      "aws_lookup_table_hex_to_num_get": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1329
+      },
+      "aws_lookup_table_to_lower_get": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 390
+      },
+      "aws_max_double": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 287
+      },
+      "aws_max_float": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 279
+      },
+      "aws_max_i16": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 223
+      },
+      "aws_max_i32": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 239
+      },
+      "aws_max_i64": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 255
+      },
+      "aws_max_i8": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 207
+      },
+      "aws_max_int": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 271
+      },
+      "aws_max_size": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 263
+      },
+      "aws_max_u16": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 215
+      },
+      "aws_max_u32": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 231
+      },
+      "aws_max_u64": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 247
+      },
+      "aws_max_u8": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 199
+      },
+      "aws_mem_acquire": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c",
+        "function": null,
+        "line": 116
+      },
+      "aws_mem_acquire_many": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c",
+        "function": null,
+        "line": 150
+      },
+      "aws_mem_calloc": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c",
+        "function": null,
+        "line": 128
+      },
+      "aws_mem_realloc": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c",
+        "function": null,
+        "line": 210
+      },
+      "aws_mem_release": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c",
+        "function": null,
+        "line": 201
+      },
+      "aws_mem_trace_level": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/allocator.h",
+        "function": null,
+        "line": 104
+      },
+      "aws_memory_order": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.h",
+        "function": null,
+        "line": 34
+      },
+      "aws_memory_order_acq_rel": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.h",
+        "function": null,
+        "line": 65
+      },
+      "aws_memory_order_acquire": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.h",
+        "function": null,
+        "line": 50
+      },
+      "aws_memory_order_relaxed": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.h",
+        "function": null,
+        "line": 39
+      },
+      "aws_memory_order_release": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.h",
+        "function": null,
+        "line": 58
+      },
+      "aws_memory_order_seq_cst": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.h",
+        "function": null,
+        "line": 74
+      },
+      "aws_min_double": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 283
+      },
+      "aws_min_float": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 275
+      },
+      "aws_min_i16": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 219
+      },
+      "aws_min_i32": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 235
+      },
+      "aws_min_i64": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 251
+      },
+      "aws_min_i8": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 203
+      },
+      "aws_min_int": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 267
+      },
+      "aws_min_size": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 259
+      },
+      "aws_min_u16": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 211
+      },
+      "aws_min_u32": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 227
+      },
+      "aws_min_u64": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 243
+      },
+      "aws_min_u8": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 195
+      },
+      "aws_mul_size_checked": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 99
+      },
+      "aws_mul_size_saturating": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 85
+      },
+      "aws_mul_u32_checked": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.cbmc.inl",
+        "function": null,
+        "line": 56
+      },
+      "aws_mul_u32_saturating": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.cbmc.inl",
+        "function": null,
+        "line": 46
+      },
+      "aws_mul_u64_checked": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.cbmc.inl",
+        "function": null,
+        "line": 36
+      },
+      "aws_mul_u64_saturating": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.cbmc.inl",
+        "function": null,
+        "line": 26
+      },
+      "aws_nospec_mask": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 969
+      },
+      "aws_ntoh16": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/byte_order.inl",
+        "function": null,
+        "line": 154
+      },
+      "aws_ntoh32": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/byte_order.inl",
+        "function": null,
+        "line": 118
+      },
+      "aws_ntoh64": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/byte_order.inl",
+        "function": null,
+        "line": 54
+      },
+      "aws_ntohf32": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/byte_order.inl",
+        "function": null,
+        "line": 129
+      },
+      "aws_ntohf64": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/byte_order.inl",
+        "function": null,
+        "line": 136
+      },
+      "aws_priority_queue": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/priority_queue.h",
+        "function": null,
+        "line": 20
+      },
+      "aws_priority_queue_compare_fn": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/priority_queue.h",
+        "function": null,
+        "line": 18
+      },
+      "aws_priority_queue_is_bounded": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 122
+      },
+      "aws_priority_queue_node": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/priority_queue.h",
+        "function": null,
+        "line": 43
+      },
+      "aws_raise_error": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.inl",
+        "function": null,
+        "line": 17
+      },
+      "aws_raise_error_private": {
+        "file": "verification/cbmc/aws-c-common/source/error.c",
+        "function": null,
+        "line": 93
+      },
+      "aws_read_u16": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/encoding.inl",
+        "function": null,
+        "line": 95
+      },
+      "aws_read_u24": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/encoding.inl",
+        "function": null,
+        "line": 73
+      },
+      "aws_read_u32": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/encoding.inl",
+        "function": null,
+        "line": 51
+      },
+      "aws_read_u64": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/encoding.inl",
+        "function": null,
+        "line": 30
+      },
+      "aws_register_error_info": {
+        "file": "verification/cbmc/aws-c-common/source/error.c",
+        "function": null,
+        "line": 127
+      },
+      "aws_register_log_subject_info_list": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 262
+      },
+      "aws_reset_error": {
+        "file": "verification/cbmc/aws-c-common/source/error.c",
+        "function": null,
+        "line": 103
+      },
+      "aws_restore_error": {
+        "file": "verification/cbmc/aws-c-common/source/error.c",
+        "function": null,
+        "line": 107
+      },
+      "aws_ring_buffer": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/ring_buffer.h",
+        "function": null,
+        "line": 18
+      },
+      "aws_ring_buffer_check_atomic_ptr": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/ring_buffer.inl",
+        "function": null,
+        "line": 14
+      },
+      "aws_ring_buffer_is_empty": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/ring_buffer.inl",
+        "function": null,
+        "line": 23
+      },
+      "aws_ring_buffer_is_valid": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/ring_buffer.inl",
+        "function": null,
+        "line": 33
+      },
+      "aws_round_up_to_power_of_two": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 168
+      },
+      "aws_secure_zero": {
+        "file": "verification/cbmc/aws-c-common/source/common.c",
+        "function": null,
+        "line": 27
+      },
+      "aws_set_global_error_handler_fn": {
+        "file": "verification/cbmc/aws-c-common/source/error.c",
+        "function": null,
+        "line": 111
+      },
+      "aws_set_thread_local_error_handler_fn": {
+        "file": "verification/cbmc/aws-c-common/source/error.c",
+        "function": null,
+        "line": 119
+      },
+      "aws_string": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/string.h",
+        "function": null,
+        "line": 41
+      },
+      "aws_string_bytes": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/string.inl",
+        "function": null,
+        "line": 15
+      },
+      "aws_string_c_str": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/string.inl",
+        "function": null,
+        "line": 24
+      },
+      "aws_string_destroy": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/string.h",
+        "function": null,
+        "line": 132
+      },
+      "aws_string_is_valid": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/string.inl",
+        "function": null,
+        "line": 34
+      },
+      "aws_string_new_from_array": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/string.h",
+        "function": null,
+        "line": 108
+      },
+      "aws_sub_size_checked": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 146
+      },
+      "aws_sub_size_saturating": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 136
+      },
+      "aws_sub_u32_checked": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 73
+      },
+      "aws_sub_u32_saturating": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 69
+      },
+      "aws_sub_u64_checked": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 60
+      },
+      "aws_sub_u64_saturating": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/math.inl",
+        "function": null,
+        "line": 56
+      },
+      "aws_text_detect_encoding": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/encoding.inl",
+        "function": null,
+        "line": 103
+      },
+      "aws_text_encoding": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/encoding.h",
+        "function": null,
+        "line": 133
+      },
+      "aws_text_is_utf8": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/encoding.inl",
+        "function": null,
+        "line": 135
+      },
+      "aws_translate_and_raise_io_error": {
+        "file": "verification/cbmc/aws-c-common/source/error.c",
+        "function": null,
+        "line": 184
+      },
+      "aws_unregister_error_info": {
+        "file": "verification/cbmc/aws-c-common/source/error.c",
+        "function": null,
+        "line": 166
+      },
+      "aws_unregister_log_subject_info_list": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 268
+      },
+      "aws_write_u16": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/encoding.inl",
+        "function": null,
+        "line": 84
+      },
+      "aws_write_u24": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/encoding.inl",
+        "function": null,
+        "line": 63
+      },
+      "aws_write_u32": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/encoding.inl",
+        "function": null,
+        "line": 40
+      },
+      "aws_write_u64": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/encoding.inl",
+        "function": null,
+        "line": 19
+      },
+      "backpointers": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/priority_queue.h",
+        "function": null,
+        "line": 40
+      },
+      "bignum_is_valid": {
+        "file": "verification/cbmc/sources/openssl/bn_override.c",
+        "function": null,
+        "line": 92
+      },
+      "bignum_nondet_alloc": {
+        "file": "verification/cbmc/sources/openssl/bn_override.c",
+        "function": null,
+        "line": 96
+      },
+      "bignum_st": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 31
+      },
+      "bio_st": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 30
+      },
+      "block_size": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 413
+      },
+      "bounded_calloc": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c",
+        "function": null,
+        "line": 54
+      },
+      "bounded_malloc": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c",
+        "function": null,
+        "line": 62
+      },
+      "buffer": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/byte_buf.h",
+        "function": null,
+        "line": 28
+      },
+      "byte": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/include/proof_helpers/utils.h",
+        "function": null,
+        "line": 23
+      },
+      "bytes": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/string.h",
+        "function": null,
+        "line": 45
+      },
+      "can_fail_allocator": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c",
+        "function": null,
+        "line": 68
+      },
+      "can_fail_calloc": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c",
+        "function": null,
+        "line": 72
+      },
+      "can_fail_malloc": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c",
+        "function": null,
+        "line": 76
+      },
+      "can_fail_realloc": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c",
+        "function": null,
+        "line": 90
+      },
+      "capacity": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/byte_buf.h",
+        "function": null,
+        "line": 29
+      },
+      "channel": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 188
+      },
+      "check_hash_table_unchanged": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c",
+        "function": null,
+        "line": 101
+      },
+      "cipher": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 437
+      },
+      "cipher_ctor": {
+        "file": "include/aws/cryptosdk/private/cipher.h",
+        "function": null,
+        "line": 28
+      },
+      "cipher_name": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 58
+      },
+      "ciphertext": {
+        "file": "include/aws/cryptosdk/edk.h",
+        "function": null,
+        "line": 42
+      },
+      "clean_up": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 110
+      },
+      "commitment_len": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 109
+      },
+      "commitment_policy": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 163
+      },
+      "container": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/priority_queue.h",
+        "function": null,
+        "line": 29
+      },
+      "content_key": {
+        "file": "include/aws/cryptosdk/private/cipher.h",
+        "function": null,
+        "line": 43
+      },
+      "content_key_len": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 75
+      },
+      "conv_form": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 84
+      },
+      "count": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 34
+      },
+      "ctx": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 78
+      },
+      "current_index": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/priority_queue.h",
+        "function": null,
+        "line": 45
+      },
+      "current_size": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.h",
+        "function": null,
+        "line": 17
+      },
+      "curve_name": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 28
+      },
+      "d2i_ASN1_INTEGER": {
+        "file": "verification/cbmc/include/openssl/asn1.h",
+        "function": null,
+        "line": 25
+      },
+      "d2i_ECDSA_SIG": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 332
+      },
+      "data": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.h",
+        "function": null,
+        "line": 20
+      },
+      "data_key": {
+        "file": "include/aws/cryptosdk/private/cipher.h",
+        "function": null,
+        "line": 39
+      },
+      "data_key_len": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 70
+      },
+      "data_processed": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 442
+      },
+      "data_remaining": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 443
+      },
+      "decrypt_materials": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 394
+      },
+      "decryption_size": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 472
+      },
+      "derivation_size": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 446
+      },
+      "destroy": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 382
+      },
+      "destroy_key_fn": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/private/hash_table_impl.h",
+        "function": null,
+        "line": 31
+      },
+      "destroy_value_fn": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/private/hash_table_impl.h",
+        "function": null,
+        "line": 32
+      },
+      "ec_group_is_valid": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 381
+      },
+      "ec_group_nondet_alloc": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 387
+      },
+      "ec_group_st": {
+        "file": "verification/cbmc/include/openssl/ec.h",
+        "function": null,
+        "line": 38
+      },
+      "ec_key_get_reference_count": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 414
+      },
+      "ec_key_is_valid": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 396
+      },
+      "ec_key_nondet_alloc": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 402
+      },
+      "ec_key_st": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 33
+      },
+      "ec_key_unconditional_free": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 419
+      },
+      "ecdsa_sig_is_valid": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 426
+      },
+      "edk_list": {
+        "file": "include/aws/cryptosdk/private/header.h",
+        "function": null,
+        "line": 35
+      },
+      "element": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/private/hash_table_impl.h",
+        "function": null,
+        "line": 14
+      },
+      "enc_ctx": {
+        "file": "include/aws/cryptosdk/private/header.h",
+        "function": null,
+        "line": 34
+      },
+      "encrypt": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 438
+      },
+      "encrypted_data_keys": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 179
+      },
+      "encryption_size": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 459
+      },
+      "engine_st": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 44
+      },
+      "ensure_alg_properties_attempt_allocation": {
+        "file": "verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 46
+      },
+      "ensure_allocated_hash_table": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 143
+      },
+      "ensure_array_list_has_allocated_data_member": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 97
+      },
+      "ensure_byte_buf_has_allocated_buffer_member": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 21
+      },
+      "ensure_byte_buf_has_allocated_buffer_member_in_range": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 45
+      },
+      "ensure_byte_buf_has_allocated_buffer_member_in_ring_buf": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 59
+      },
+      "ensure_byte_cursor_has_allocated_buffer_member": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 82
+      },
+      "ensure_c_str_is_allocated": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 213
+      },
+      "ensure_content_key_attempt_allocation": {
+        "file": "verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 58
+      },
+      "ensure_cryptosdk_edk_has_allocated_members": {
+        "file": "verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 127
+      },
+      "ensure_cryptosdk_edk_list_has_allocated_list": {
+        "file": "verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 155
+      },
+      "ensure_cryptosdk_edk_list_has_allocated_list_elements": {
+        "file": "verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 168
+      },
+      "ensure_cryptosdk_keyring_has_allocated_members": {
+        "file": "verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 223
+      },
+      "ensure_data_key_attempt_allocation": {
+        "file": "verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 63
+      },
+      "ensure_hash_table_has_valid_destroy_functions": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 162
+      },
+      "ensure_impl_attempt_allocation": {
+        "file": "verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 36
+      },
+      "ensure_linked_list_is_allocated": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 102
+      },
+      "ensure_md_context_has_allocated_members": {
+        "file": "verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 92
+      },
+      "ensure_nondet_allocate_cmm_vtable_members": {
+        "file": "verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 237
+      },
+      "ensure_nondet_allocate_keyring_vtable_members": {
+        "file": "verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 231
+      },
+      "ensure_nondet_hdr_has_allocated_members": {
+        "file": "verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 177
+      },
+      "ensure_nondet_sig_ctx_has_allocated_members": {
+        "file": "verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 97
+      },
+      "ensure_priority_queue_has_allocated_members": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 137
+      },
+      "ensure_record_has_allocated_members": {
+        "file": "verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 68
+      },
+      "ensure_ring_buffer_has_allocated_members": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 28
+      },
+      "ensure_string_is_allocated": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 198
+      },
+      "ensure_string_is_allocated_nondet_length": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 187
+      },
+      "ensure_trace_has_allocated_records": {
+        "file": "verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 80
+      },
+      "entry_count": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/private/hash_table_impl.h",
+        "function": null,
+        "line": 35
+      },
+      "equals_fn": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/private/hash_table_impl.h",
+        "function": null,
+        "line": 30
+      },
+      "error_code": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 25
+      },
+      "error_list": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 33
+      },
+      "error_str": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 27
+      },
+      "errors": {
+        "file": "verification/cbmc/aws-c-common/source/common.c",
+        "function": null,
+        "line": 66
+      },
+      "evp_aes": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 408
+      },
+      "evp_cipher_ctx_st": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 39
+      },
+      "evp_cipher_is_valid": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 1024
+      },
+      "evp_cipher_st": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 38
+      },
+      "evp_gcm_cipher_init": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 435
+      },
+      "evp_gcm_decrypt_final": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 478
+      },
+      "evp_gcm_encrypt_final": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 456
+      },
+      "evp_md_ctx": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 93
+      },
+      "evp_md_ctx_get0_evp_pkey": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 1056
+      },
+      "evp_md_ctx_get_digest_size": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 1051
+      },
+      "evp_md_ctx_is_initialized": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 1046
+      },
+      "evp_md_ctx_is_valid": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 1035
+      },
+      "evp_md_ctx_nondet_alloc": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 1041
+      },
+      "evp_md_ctx_set0_evp_pkey": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 1061
+      },
+      "evp_md_ctx_shallow_free": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 1066
+      },
+      "evp_md_ctx_st": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 41
+      },
+      "evp_md_is_valid": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 1029
+      },
+      "evp_md_st": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 40
+      },
+      "evp_pkey_ctx_is_valid": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 1020
+      },
+      "evp_pkey_ctx_st": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 35
+      },
+      "evp_pkey_get_reference_count": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 1005
+      },
+      "evp_pkey_is_valid": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 994
+      },
+      "evp_pkey_nondet_alloc": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 999
+      },
+      "evp_pkey_set0_ec_key": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 1010
+      },
+      "evp_pkey_st": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 42
+      },
+      "evp_pkey_unconditional_free": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 1015
+      },
+      "evp_sha": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 687
+      },
+      "file": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 202
+      },
+      "filename": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 201
+      },
+      "flags": {
+        "file": "include/aws/cryptosdk/keyring_trace.h",
+        "function": null,
+        "line": 53
+      },
+      "flush_openssl_errors": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 473
+      },
+      "formatted_name": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 29
+      },
+      "formatter": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 187
+      },
+      "frame_len": {
+        "file": "include/aws/cryptosdk/private/header.h",
+        "function": null,
+        "line": 29
+      },
+      "from": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 412
+      },
+      "generate_enc_materials": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 387
+      },
+      "get_alg_from_key_size": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 824
+      },
+      "get_error_by_code": {
+        "file": "verification/cbmc/aws-c-common/source/error.c",
+        "function": null,
+        "line": 36
+      },
+      "get_log_level": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 109
+      },
+      "get_openssl_rsa_padding_mode": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 943
+      },
+      "group": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 83
+      },
+      "group_for_props": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 188
+      },
+      "hash_code": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/private/hash_table_impl.h",
+        "function": null,
+        "line": 15
+      },
+      "hash_fn": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/private/hash_table_impl.h",
+        "function": null,
+        "line": 29
+      },
+      "hash_proof_destroy_noop": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 185
+      },
+      "hash_table_entry": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/private/hash_table_impl.h",
+        "function": null,
+        "line": 13
+      },
+      "hash_table_state": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 47
+      },
+      "hash_table_state_has_an_empty_slot": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 171
+      },
+      "hash_table_state_required_bytes": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/private/hash_table_impl.h",
+        "function": null,
+        "line": 60
+      },
+      "head": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.h",
+        "function": null,
+        "line": 19
+      },
+      "hmac_ctx_is_valid": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 989
+      },
+      "hmac_ctx_st": {
+        "file": "verification/cbmc/include/openssl/ossl_typ.h",
+        "function": null,
+        "line": 36
+      },
+      "i2d_ASN1_INTEGER": {
+        "file": "verification/cbmc/include/openssl/asn1.h",
+        "function": null,
+        "line": 26
+      },
+      "i2d_ECDSA_SIG": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 356
+      },
+      "i2o_ECPublicKey": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 258
+      },
+      "impl": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/allocator.h",
+        "function": null,
+        "line": 22
+      },
+      "index": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/include/proof_helpers/utils.h",
+        "function": null,
+        "line": 22
+      },
+      "initialize_max_decryption_size": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 474
+      },
+      "initialize_max_derivation_size": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 448
+      },
+      "initialize_max_encryption_size": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 461
+      },
+      "initialize_max_signature_size": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 432
+      },
+      "is_initialized": {
+        "file": "verification/cbmc/sources/openssl/bn_override.c",
+        "function": null,
+        "line": 26
+      },
+      "is_initialized_for_decryption": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 89
+      },
+      "is_initialized_for_derivation": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 87
+      },
+      "is_initialized_for_encryption": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 88
+      },
+      "is_initialized_for_signing": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 86
+      },
+      "is_sign": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 79
+      },
+      "item_size": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.h",
+        "function": null,
+        "line": 19
+      },
+      "iv": {
+        "file": "include/aws/cryptosdk/private/header.h",
+        "function": null,
+        "line": 31
+      },
+      "iv_len": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 77
+      },
+      "iv_set": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 440
+      },
+      "key": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 64
+      },
+      "key_contents_match": {
+        "file": "verification/cbmc/sources/utils.c",
+        "function": null,
+        "line": 23
+      },
+      "keybuf": {
+        "file": "include/aws/cryptosdk/private/cipher.h",
+        "function": null,
+        "line": 40
+      },
+      "keypair": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 76
+      },
+      "keyring_trace": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 177
+      },
+      "len": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/byte_buf.h",
+        "function": null,
+        "line": 27
+      },
+      "length": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/array_list.h",
+        "function": null,
+        "line": 18
+      },
+      "level": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 191
+      },
+      "lib_name": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 28
+      },
+      "limit": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 78
+      },
+      "literal_name": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/error.h",
+        "function": null,
+        "line": 26
+      },
+      "load_pubkey": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 667
+      },
+      "log": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 99
+      },
+      "map": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 75
+      },
+      "mask": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/private/hash_table_impl.h",
+        "function": null,
+        "line": 38
+      },
+      "max_decryption_size": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 481
+      },
+      "max_derivation_size": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 455
+      },
+      "max_encryption_size": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 468
+      },
+      "max_load": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/private/hash_table_impl.h",
+        "function": null,
+        "line": 36
+      },
+      "max_load_factor": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/private/hash_table_impl.h",
+        "function": null,
+        "line": 39
+      },
+      "max_signature_size": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 442
+      },
+      "md_ctor": {
+        "file": "include/aws/cryptosdk/private/cipher.h",
+        "function": null,
+        "line": 26
+      },
+      "md_name": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 56
+      },
+      "mem_acquire": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/allocator.h",
+        "function": null,
+        "line": 16
+      },
+      "mem_calloc": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/allocator.h",
+        "function": null,
+        "line": 21
+      },
+      "mem_realloc": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/allocator.h",
+        "function": null,
+        "line": 19
+      },
+      "mem_release": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/allocator.h",
+        "function": null,
+        "line": 17
+      },
+      "message_id": {
+        "file": "include/aws/cryptosdk/private/header.h",
+        "function": null,
+        "line": 31
+      },
+      "msg_format_version": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 98
+      },
+      "name": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 377
+      },
+      "next": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.h",
+        "function": null,
+        "line": 14
+      },
+      "nondet_EVP_CIPHER_ptr": {
+        "file": "verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 34
+      },
+      "nondet_EVP_MD_ptr": {
+        "file": "verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 33
+      },
+      "nondet_allocate_string_bounded_length": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/make_common_data_structures.c",
+        "function": null,
+        "line": 192
+      },
+      "nondet_bool": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/include/proof_helpers/nondet.h",
+        "function": null,
+        "line": 15
+      },
+      "nondet_compare": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c",
+        "function": null,
+        "line": 107
+      },
+      "nondet_equals": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c",
+        "function": null,
+        "line": 129
+      },
+      "nondet_hasher": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c",
+        "function": null,
+        "line": 160
+      },
+      "nondet_int": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/include/proof_helpers/nondet.h",
+        "function": null,
+        "line": 16
+      },
+      "nondet_size_t": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/include/proof_helpers/nondet.h",
+        "function": null,
+        "line": 17
+      },
+      "nondet_uint64_t": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/include/proof_helpers/nondet.h",
+        "function": null,
+        "line": 20
+      },
+      "nondet_voidp": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/include/proof_helpers/nondet.h",
+        "function": null,
+        "line": 22
+      },
+      "o2i_ECPublicKey": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 229
+      },
+      "on_decrypt": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 557
+      },
+      "on_encrypt": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 540
+      },
+      "order": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 30
+      },
+      "p_impl": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 49
+      },
+      "padding": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 441
+      },
+      "pem_password_cb": {
+        "file": "verification/cbmc/include/openssl/bio.h",
+        "function": null,
+        "line": 23
+      },
+      "pkey": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 77
+      },
+      "plaintext_size": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 155
+      },
+      "point_conversion_form_t": {
+        "file": "verification/cbmc/include/openssl/ec.h",
+        "function": null,
+        "line": 36
+      },
+      "pred": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/priority_queue.h",
+        "function": null,
+        "line": 24
+      },
+      "prev": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.h",
+        "function": null,
+        "line": 15
+      },
+      "priv_key": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 85
+      },
+      "props": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 75
+      },
+      "provider_id": {
+        "file": "include/aws/cryptosdk/edk.h",
+        "function": null,
+        "line": 40
+      },
+      "provider_info": {
+        "file": "include/aws/cryptosdk/edk.h",
+        "function": null,
+        "line": 41
+      },
+      "ptr": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/byte_buf.h",
+        "function": null,
+        "line": 41
+      },
+      "pub_key_is_set": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 86
+      },
+      "r": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 282
+      },
+      "refcount": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 84
+      },
+      "references": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 82
+      },
+      "requested_alg": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 148
+      },
+      "rsa_pad": {
+        "file": "verification/cbmc/sources/openssl/evp_override.c",
+        "function": null,
+        "line": 90
+      },
+      "s": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 283
+      },
+      "s_aws_byte_buf_append_byte_dynamic": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 721
+      },
+      "s_aws_byte_buf_append_dynamic": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 612
+      },
+      "s_can_fail_allocator_static": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c",
+        "function": null,
+        "line": 47
+      },
+      "s_can_fail_calloc_allocator": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c",
+        "function": null,
+        "line": 15
+      },
+      "s_can_fail_free_allocator": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c",
+        "function": null,
+        "line": 32
+      },
+      "s_can_fail_malloc_allocator": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c",
+        "function": null,
+        "line": 24
+      },
+      "s_can_fail_realloc_allocator": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/proof_allocators.c",
+        "function": null,
+        "line": 41
+      },
+      "s_common_library_initialized": {
+        "file": "verification/cbmc/aws-c-common/source/common.c",
+        "function": null,
+        "line": 249
+      },
+      "s_common_log_subject_infos": {
+        "file": "verification/cbmc/aws-c-common/source/common.c",
+        "function": null,
+        "line": 231
+      },
+      "s_common_log_subject_list": {
+        "file": "verification/cbmc/aws-c-common/source/common.c",
+        "function": null,
+        "line": 244
+      },
+      "s_global_error_context": {
+        "file": "verification/cbmc/aws-c-common/source/error.c",
+        "function": null,
+        "line": 17
+      },
+      "s_global_handler": {
+        "file": "verification/cbmc/aws-c-common/source/error.c",
+        "function": null,
+        "line": 16
+      },
+      "s_hex_to_num_table": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1305
+      },
+      "s_list": {
+        "file": "verification/cbmc/aws-c-common/source/common.c",
+        "function": null,
+        "line": 226
+      },
+      "s_null_terminator_cursor": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 1589
+      },
+      "s_tolower_table": {
+        "file": "verification/cbmc/aws-c-common/source/byte_buf.c",
+        "function": null,
+        "line": 375
+      },
+      "save_byte_from_array": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c",
+        "function": null,
+        "line": 36
+      },
+      "save_byte_from_hash_table": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c",
+        "function": null,
+        "line": 94
+      },
+      "serialize_pubkey": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 259
+      },
+      "sig_md_ctor": {
+        "file": "include/aws/cryptosdk/private/cipher.h",
+        "function": null,
+        "line": 27
+      },
+      "sig_md_name": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 112
+      },
+      "sign_start": {
+        "file": "source/cipher_openssl.c",
+        "function": null,
+        "line": 210
+      },
+      "signature_len": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 88
+      },
+      "signature_size": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 430
+      },
+      "signctx": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 181
+      },
+      "size": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/private/hash_table_impl.h",
+        "function": null,
+        "line": 35
+      },
+      "slot": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 77
+      },
+      "slots": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/private/hash_table_impl.h",
+        "function": null,
+        "line": 41
+      },
+      "status": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 79
+      },
+      "store_byte_from_buffer": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/include/proof_helpers/utils.h",
+        "function": null,
+        "line": 21
+      },
+      "subject_description": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 66
+      },
+      "subject_id": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 64
+      },
+      "subject_list": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 73
+      },
+      "subject_name": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 65
+      },
+      "tag_len": {
+        "file": "include/aws/cryptosdk/cipher.h",
+        "function": null,
+        "line": 83
+      },
+      "tail": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/linked_list.h",
+        "function": null,
+        "line": 20
+      },
+      "tl_last_error": {
+        "file": "verification/cbmc/aws-c-common/source/error.c",
+        "function": null,
+        "line": 14
+      },
+      "tl_thread_handler": {
+        "file": "verification/cbmc/aws-c-common/source/error.c",
+        "function": null,
+        "line": 19
+      },
+      "tl_thread_handler_context": {
+        "file": "verification/cbmc/aws-c-common/source/error.c",
+        "function": null,
+        "line": 20
+      },
+      "unencrypted_data_key": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 175
+      },
+      "uninterpreted_compare": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c",
+        "function": null,
+        "line": 114
+      },
+      "uninterpreted_equals": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c",
+        "function": null,
+        "line": 141
+      },
+      "uninterpreted_equals_assert_inputs_nonnull": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c",
+        "function": null,
+        "line": 154
+      },
+      "uninterpreted_hasher": {
+        "file": "verification/cbmc/aws-c-common/verification/cbmc/sources/utils.c",
+        "function": null,
+        "line": 168
+      },
+      "unused_0": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 84
+      },
+      "unused_1": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 85
+      },
+      "unused_2": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/hash_table.h",
+        "function": null,
+        "line": 86
+      },
+      "update_frame_aad": {
+        "file": "source/cipher.c",
+        "function": null,
+        "line": 615
+      },
+      "value": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/atomics.h",
+        "function": null,
+        "line": 17
+      },
+      "vt_size": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 373
+      },
+      "vtable": {
+        "file": "include/aws/cryptosdk/materials.h",
+        "function": null,
+        "line": 85
+      },
+      "wrapping_key_name": {
+        "file": "include/aws/cryptosdk/keyring_trace.h",
+        "function": null,
+        "line": 52
+      },
+      "wrapping_key_namespace": {
+        "file": "include/aws/cryptosdk/keyring_trace.h",
+        "function": null,
+        "line": 51
+      },
+      "write_unconstrained_data": {
+        "file": "verification/cbmc/sources/openssl/ec_override.c",
+        "function": null,
+        "line": 486
+      },
+      "writer": {
+        "file": "verification/cbmc/aws-c-common/include/aws/common/logging.h",
+        "function": null,
+        "line": 189
+      }
+    }
+  }
+}

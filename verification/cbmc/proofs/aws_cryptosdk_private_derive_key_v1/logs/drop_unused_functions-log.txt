@@ -1,0 +1,23 @@
+Reading GOTO program from '/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/proofs/aws_cryptosdk_private_derive_key_v1/gotos/aws_cryptosdk_private_derive_key_v1_harness.c2.goto'
+Function Pointer Removal
+file /Users/accorell/aws-encryption-sdk-c-adrian/include/aws/cryptosdk/materials.h line 452 function aws_cryptosdk_cmm_release: replacing function pointer by 1 possible targets
+file /Users/accorell/aws-encryption-sdk-c-adrian/include/aws/cryptosdk/materials.h line 452 function aws_cryptosdk_cmm_release: replacing function pointer by 1 possible targets
+file /Users/accorell/aws-encryption-sdk-c-adrian/include/aws/cryptosdk/materials.h line 488 function aws_cryptosdk_cmm_generate_enc_materials: replacing function pointer by 1 possible targets
+file /Users/accorell/aws-encryption-sdk-c-adrian/include/aws/cryptosdk/materials.h line 512 function aws_cryptosdk_cmm_decrypt_materials: replacing function pointer by 1 possible targets
+file /Users/accorell/aws-encryption-sdk-c-adrian/include/aws/cryptosdk/materials.h line 605 function aws_cryptosdk_keyring_release: replacing function pointer by 1 possible targets
+file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/aws-c-common/source/error.c line 97 function aws_raise_error_private: replacing function pointer by 2 possible targets
+file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/aws-c-common/source/error.c line 99 function aws_raise_error_private: replacing function pointer by 2 possible targets
+file /Users/accorell/aws-encryption-sdk-c-adrian/include/aws/cryptosdk/materials.h line 605 function aws_cryptosdk_keyring_release: replacing function pointer by 1 possible targets
+file /Users/accorell/aws-encryption-sdk-c-adrian/include/aws/cryptosdk/materials.h line 488 function aws_cryptosdk_cmm_generate_enc_materials: replacing function pointer by 1 possible targets
+file /Users/accorell/aws-encryption-sdk-c-adrian/source/cipher_openssl.c line 765 function aws_cryptosdk_sig_verify_start: replacing function pointer by 8 possible targets
+file /Users/accorell/aws-encryption-sdk-c-adrian/source/cipher.c line 443 function evp_gcm_cipher_init: replacing function pointer by 8 possible targets
+file /Users/accorell/aws-encryption-sdk-c-adrian/include/aws/cryptosdk/materials.h line 512 function aws_cryptosdk_cmm_decrypt_materials: replacing function pointer by 1 possible targets
+file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/aws-c-common/source/byte_buf.c line 799 function aws_byte_cursor_left_trim_pred: replacing function pointer by 0 possible targets
+file /Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/aws-c-common/source/byte_buf.c line 784 function aws_byte_cursor_right_trim_pred: replacing function pointer by 0 possible targets
+file /Users/accorell/aws-encryption-sdk-c-adrian/source/cipher_openssl.c line 242 function sign_start: replacing function pointer by 8 possible targets
+Virtual function removal
+Cleaning inline assembler statements
+Removing unused functions
+Dropping 1398 of 1450 functions (52 used)
+Writing GOTO program to '/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/proofs/aws_cryptosdk_private_derive_key_v1/gotos/aws_cryptosdk_private_derive_key_v1_harness.c3.goto'
+

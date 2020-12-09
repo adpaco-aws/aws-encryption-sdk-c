@@ -42,12 +42,8 @@ void aws_cryptosdk_private_derive_key_v1_harness() {
     save_byte_from_array(message_id->buffer, message_id->len, &old_byte_from_message_id);
 
     /* Operation under verification */
-<<<<<<< HEAD
     int rv =
         __CPROVER_file_local_cipher_c_aws_cryptosdk_private_derive_key_v1(props, content_key, data_key, message_id);
-=======
-    int rv = __CPROVER_file_local_cipher_c_aws_cryptosdk_private_derive_key_v1(props, content_key, data_key, message_id);
->>>>>>> dbd5396 (Enhance postconditions and update non-static which_sha function)
 
     /* Postconditions */
     assert(aws_cryptosdk_alg_properties_is_valid(props));

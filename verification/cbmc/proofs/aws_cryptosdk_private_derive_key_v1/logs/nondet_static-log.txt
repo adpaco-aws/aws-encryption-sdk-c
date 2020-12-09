@@ -1,0 +1,3 @@
+Reading GOTO program from '/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/proofs/aws_cryptosdk_private_derive_key_v1/gotos/aws_cryptosdk_private_derive_key_v1_harness.c1.goto'
+Writing GOTO program to '/Users/accorell/aws-encryption-sdk-c-adrian/verification/cbmc/proofs/aws_cryptosdk_private_derive_key_v1/gotos/aws_cryptosdk_private_derive_key_v1_harness.c2.goto'
+
