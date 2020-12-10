@@ -23,7 +23,6 @@ void assert_byte_buf_contents_match(const struct aws_byte_buf *const lhs, const 
     return true;
 }
 
-<<<<<<< HEAD
 bool aws_byte_buf_contents_match(const struct aws_byte_buf *const lhs, const struct aws_byte_buf *const rhs) {
     /* Filter null pointers */
     if (!lhs || !rhs) return (lhs == rhs); /* Return true if both null */
@@ -36,8 +35,6 @@ bool aws_byte_buf_contents_match(const struct aws_byte_buf *const lhs, const str
     return true;
 }
 
-=======
->>>>>>> dea7cc7 (Minor improvements)
 bool key_contents_match(const struct content_key *ckey, const struct data_key *dkey, const size_t max_len) {
     /* Filter null pointers */
     if (!ckey || !dkey) return (ckey == dkey); /* Return true if both null */
