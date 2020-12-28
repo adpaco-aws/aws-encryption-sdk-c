@@ -124,14 +124,17 @@ static int validate_header(struct aws_cryptosdk_session *session) {
 }
 
 int aws_cryptosdk_priv_unwrap_keys(struct aws_cryptosdk_session *AWS_RESTRICT session) {
+    AWS_PRECONDITION(aws_cryptosdk_session_is_valid(session));
     struct aws_cryptosdk_dec_request request;
     struct aws_cryptosdk_dec_materials *materials = NULL;
 
-    session->alg_props = aws_cryptosdk_alg_props(session->header.alg_id);
+    struct aws_cryptosdk_alg_props *props = aws_cryptosdk_alg_props(session->header.alg_id);
 
-    if (!session->alg_props) {
+    if (!props) {
         // Unknown algorithm
         return aws_raise_error(AWS_CRYPTOSDK_ERR_BAD_CIPHERTEXT);
+    } else {
+        session->alg_props = props;
     }
 
     if (fill_request(&request, session)) return AWS_OP_ERR;
