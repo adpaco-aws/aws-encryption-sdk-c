@@ -140,36 +140,36 @@ int aws_cryptosdk_priv_unwrap_keys(struct aws_cryptosdk_session *AWS_RESTRICT se
     if (fill_request(&request, session)) return AWS_OP_ERR;
     int rv = AWS_OP_ERR;
 
-    if (aws_cryptosdk_cmm_decrypt_materials(session->cmm, &materials, &request)) goto out;
+    // if (aws_cryptosdk_cmm_decrypt_materials(session->cmm, &materials, &request)) goto out;
 
-    aws_cryptosdk_transfer_list(&session->keyring_trace, &materials->keyring_trace);
-    session->cmm_success = true;
+    // aws_cryptosdk_transfer_list(&session->keyring_trace, &materials->keyring_trace);
+    // session->cmm_success = true;
 
-    if (derive_data_key(session, materials)) goto out;
-    if (validate_header(session)) goto out;
+    // if (derive_data_key(session, materials)) goto out;
+    // if (validate_header(session)) goto out;
 
-    if (session->alg_props->signature_len) {
-        if (!materials->signctx) {
-            aws_raise_error(AWS_CRYPTOSDK_ERR_BAD_CIPHERTEXT);
-            goto out;
-        }
+    // if (session->alg_props->signature_len) {
+    //     if (!materials->signctx) {
+    //         aws_raise_error(AWS_CRYPTOSDK_ERR_BAD_CIPHERTEXT);
+    //         goto out;
+    //     }
 
-        // Move ownership of the signature context out of the materials
-        session->signctx   = materials->signctx;
-        materials->signctx = NULL;
+    //     // Move ownership of the signature context out of the materials
+    //     session->signctx   = materials->signctx;
+    //     materials->signctx = NULL;
 
-        // Backfill the context with the header
-        if (aws_cryptosdk_sig_update(
-                session->signctx, aws_byte_cursor_from_array(session->header_copy, session->header_size))) {
-            goto out;
-        }
-    }
+    //     // Backfill the context with the header
+    //     if (aws_cryptosdk_sig_update(
+    //             session->signctx, aws_byte_cursor_from_array(session->header_copy, session->header_size))) {
+    //         goto out;
+    //     }
+    // }
 
-    session->frame_seqno = 1;
-    session->frame_size  = session->header.frame_len;
-    aws_cryptosdk_priv_session_change_state(session, ST_DECRYPT_BODY);
+    // session->frame_seqno = 1;
+    // session->frame_size  = session->header.frame_len;
+    // aws_cryptosdk_priv_session_change_state(session, ST_DECRYPT_BODY);
 
-    rv = AWS_OP_SUCCESS;
+    // rv = AWS_OP_SUCCESS;
 out:
     if (materials) aws_cryptosdk_dec_materials_destroy(materials);
     aws_array_list_clean_up(&request.encrypted_data_keys);
