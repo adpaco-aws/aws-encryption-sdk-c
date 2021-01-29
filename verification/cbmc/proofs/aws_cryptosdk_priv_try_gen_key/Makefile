@@ -25,7 +25,7 @@ HARNESS_ENTRY = $(PROOF_UID)_harness
 HARNESS_FILE = $(HARNESS_ENTRY).c
 
 # Increasing the length of the edk_list or enc_ctx does not improve coverage.
-# Therefore, we choose these values for performance. 
+# Therefore, we choose these values for performance.
 MAX_EDK_LIST_ITEMS ?= 1
 MAX_TABLE_SIZE ?= 2
 MAX_TRACE_LIST_ITEMS ?= 2
@@ -49,10 +49,10 @@ PROJECT_SOURCES += $(COMMON_PROOF_UNINLINE)/byte_order.c
 PROJECT_SOURCES += $(COMMON_PROOF_UNINLINE)/error.c
 PROJECT_SOURCES += $(COMMON_PROOF_UNINLINE)/math.c
 PROJECT_SOURCES += $(COMMON_PROOF_UNINLINE)/string.c
-PROJECT_SOURCES += $(PROOF_SOURCE)/openssl/bn_override.c
-PROJECT_SOURCES += $(PROOF_SOURCE)/openssl/ec_override.c
-PROJECT_SOURCES += $(PROOF_SOURCE)/openssl/evp_override.c
-PROJECT_SOURCES += $(PROOF_SOURCE)/openssl/rand_override.c
+PROJECT_SOURCES += $(OPENSSL_SOURCE)/bn_override.c
+PROJECT_SOURCES += $(OPENSSL_SOURCE)/ec_override.c
+PROJECT_SOURCES += $(OPENSSL_SOURCE)/evp_override.c
+PROJECT_SOURCES += $(OPENSSL_SOURCE)/rand_override.c
 PROJECT_SOURCES += $(SRCDIR)/source/cipher.c
 PROJECT_SOURCES += $(SRCDIR)/source/cipher_openssl.c
 PROJECT_SOURCES += $(SRCDIR)/source/edk.c
@@ -107,7 +107,7 @@ UNWINDSET += aws_cryptosdk_edk_list_clear.0:$(call addone,$(MAX_EDK_LIST_ITEMS))
 UNWINDSET += aws_cryptosdk_edk_list_elements_are_bounded.0:$(call addone,$(MAX_EDK_LIST_ITEMS))
 UNWINDSET += aws_cryptosdk_edk_list_elements_are_valid.0:$(call addone,$(MAX_EDK_LIST_ITEMS))
 UNWINDSET += aws_cryptosdk_enc_ctx_serialize.0:$(shell echo $$((1 + $(MAX_TABLE_SIZE))))
-UNWINDSET += aws_cryptosdk_hdr_size.0:$(call addone,$(MAX_EDK_LIST_ITEMS)) 
+UNWINDSET += aws_cryptosdk_hdr_size.0:$(call addone,$(MAX_EDK_LIST_ITEMS))
 UNWINDSET += aws_cryptosdk_keyring_trace_clear.0:$(call addone,$(MAX_TRACE_LIST_ITEMS))
 UNWINDSET += aws_cryptosdk_keyring_trace_is_valid.0:$(call addone,$(MAX_TRACE_LIST_ITEMS))
 UNWINDSET += aws_cryptosdk_transfer_list.4.0:$(call addone,$(MAX_TRACE_LIST_ITEMS))

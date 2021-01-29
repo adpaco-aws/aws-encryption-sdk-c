@@ -12,7 +12,7 @@
 # limitations under the License.
 
 ###########
-# if Makefile.local exists, use it. This provides a way to override the defaults 
+# if Makefile.local exists, use it. This provides a way to override the defaults
 sinclude ../Makefile.local
 #otherwise, use the default values
 include ../Makefile.local_default
@@ -29,7 +29,7 @@ PROOF_UID = aws_cryptosdk_private_commitment_eq
 HARNESS_ENTRY = $(PROOF_UID)_harness
 HARNESS_FILE = $(HARNESS_ENTRY).c
 
-CBMCFLAGS += 
+CBMCFLAGS +=
 
 DEFINES += -DCOMMITMENT_BUF_SIZE=$(COMMITMENT_BUF_SIZE)
 

@@ -12,7 +12,7 @@
 # limitations under the License.
 
 ###########
-# if Makefile.local exists, use it. This provides a way to override the defaults 
+# if Makefile.local exists, use it. This provides a way to override the defaults
 sinclude ../Makefile.local
 #otherwise, use the default values
 include ../Makefile.local_default
@@ -23,7 +23,7 @@ PROOF_UID = aws_cryptosdk_private_algorithm_message_id_len
 HARNESS_ENTRY = $(PROOF_UID)_harness
 HARNESS_FILE = $(HARNESS_ENTRY).c
 
-CBMCFLAGS += 
+CBMCFLAGS +=
 
 # these are defined in cipher.c
 DEFINES += -DMSG_ID_LEN=16

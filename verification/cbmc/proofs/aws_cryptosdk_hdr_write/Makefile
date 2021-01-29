@@ -23,7 +23,7 @@ HARNESS_ENTRY = $(PROOF_UID)_harness
 HARNESS_FILE = $(HARNESS_ENTRY).c
 
 # Values for MAX_TABLE_SIZE and MAX_EDK_LIST_ITEMS are chosen for performance.
-# Increaseing either does not increase the coverage. 
+# Increaseing either does not increase the coverage.
 # Value for MAX_IV_LEN chosen to avoid overflow on cast (uint8_t)hdr->iv.len)
 MAX_EDK_LIST_ITEMS ?= 2
 MAX_IV_LEN ?= UINT8_MAX # Max value for uint8
@@ -73,7 +73,7 @@ UNWINDSET += array_list_item_generator.0:$(call addone,$(MAX_TABLE_SIZE))
 UNWINDSET += aws_cryptosdk_edk_list_elements_are_bounded.0:$(call addone,$(MAX_EDK_LIST_ITEMS))
 UNWINDSET += aws_cryptosdk_edk_list_elements_are_valid.0:$(call addone,$(MAX_EDK_LIST_ITEMS))
 UNWINDSET += aws_cryptosdk_enc_ctx_serialize.0:$(call addone,$(MAX_TABLE_SIZE))
-UNWINDSET += aws_cryptosdk_hdr_write.0:$(call addone,$(MAX_EDK_LIST_ITEMS)) 
+UNWINDSET += aws_cryptosdk_hdr_write.0:$(call addone,$(MAX_EDK_LIST_ITEMS))
 UNWINDSET += ensure_cryptosdk_edk_list_has_allocated_list_elements.0:$(call addone,$(MAX_EDK_LIST_ITEMS))
 
 include ../Makefile.common

@@ -53,8 +53,6 @@ PROJECT_SOURCES += $(CBMC_ROOT)/aws-c-common/source/math.c
 PROJECT_SOURCES += $(CBMC_ROOT)/aws-c-common/source/string.c
 PROJECT_SOURCES += $(SRCDIR)/source/enc_ctx.c
 
-
-
 REMOVE_FUNCTION_BODY += aws_string_destroy
 REMOVE_FUNCTION_BODY += aws_string_new_from_array
 

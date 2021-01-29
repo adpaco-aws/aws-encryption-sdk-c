@@ -35,7 +35,7 @@ CBMCFLAGS +=
 PROJECT_SOURCES += $(CBMC_ROOT)/aws-c-common/source/byte_buf.c
 PROJECT_SOURCES += $(CBMC_ROOT)/aws-c-common/source/common.c
 PROJECT_SOURCES += $(CBMC_ROOT)/aws-c-common/source/error.c
-PROJECT_SOURCES += $(PROOF_SOURCE)/openssl/evp_override.c
+PROJECT_SOURCES += $(OPENSSL_SOURCE)/evp_override.c
 PROJECT_SOURCES += $(SRCDIR)/source/cipher.c
 
 PROOF_SOURCES += $(COMMON_PROOF_SOURCE)/make_common_data_structures.c

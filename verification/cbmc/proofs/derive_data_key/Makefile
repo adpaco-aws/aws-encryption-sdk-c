@@ -31,7 +31,7 @@ HARNESS_FILE = $(HARNESS_ENTRY).c
 
 CBMCFLAGS +=
 
-# Values are chosen for performance. 
+# Values are chosen for performance.
 # Increasing either does not increase the coverage.
 MAX_TRACE_LIST_ITEMS ?= 1
 MAX_EDK_LIST_ITEMS ?= 1
@@ -63,9 +63,9 @@ PROJECT_SOURCES += $(COMMON_PROOF_UNINLINE)/error.c
 PROJECT_SOURCES += $(COMMON_PROOF_UNINLINE)/math.c
 PROJECT_SOURCES += $(COMMON_PROOF_UNINLINE)/string.c
 PROJECT_SOURCES += $(COMMON_PROOF_UNINLINE)/atomics.c
-PROJECT_SOURCES += $(PROOF_SOURCE)/openssl/bn_override.c
-PROJECT_SOURCES += $(PROOF_SOURCE)/openssl/ec_override.c
-PROJECT_SOURCES += $(PROOF_SOURCE)/openssl/evp_override.c
+PROJECT_SOURCES += $(OPENSSL_SOURCE)/bn_override.c
+PROJECT_SOURCES += $(OPENSSL_SOURCE)/ec_override.c
+PROJECT_SOURCES += $(OPENSSL_SOURCE)/evp_override.c
 PROJECT_SOURCES += $(SRCDIR)/source/cipher.c
 PROJECT_SOURCES += $(SRCDIR)/source/cipher_openssl.c
 PROJECT_SOURCES += $(SRCDIR)/source/edk.c
@@ -88,7 +88,7 @@ UNWINDSET += array_list_item_generator.0:$(call addone,$(MAX_TABLE_SIZE))
 UNWINDSET += aws_cryptosdk_edk_list_elements_are_bounded.0:$(call addone,$(MAX_EDK_LIST_ITEMS))
 UNWINDSET += aws_cryptosdk_edk_list_elements_are_valid.0:$(call addone,$(MAX_EDK_LIST_ITEMS))
 UNWINDSET += aws_cryptosdk_enc_ctx_serialize.0:$(call addone,$(MAX_TABLE_SIZE))
-UNWINDSET += aws_cryptosdk_hdr_write.0:$(call addone,$(MAX_EDK_LIST_ITEMS)) 
+UNWINDSET += aws_cryptosdk_hdr_write.0:$(call addone,$(MAX_EDK_LIST_ITEMS))
 UNWINDSET += ensure_cryptosdk_edk_list_has_allocated_list_elements.0:$(call addone,$(MAX_EDK_LIST_ITEMS))
 UNWINDSET += aws_cryptosdk_keyring_trace_is_valid.0:$(call addone,$(MAX_TRACE_LIST_ITEMS))
 UNWINDSET += ensure_trace_has_allocated_records.0:$(call addone,$(MAX_TRACE_LIST_ITEMS))

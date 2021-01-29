@@ -28,11 +28,11 @@ CBMCFLAGS +=
 
 PROJECT_SOURCES += $(CBMC_ROOT)/aws-c-common/source/byte_buf.c
 PROJECT_SOURCES += $(CBMC_ROOT)/aws-c-common/source/common.c
-PROJECT_SOURCES += $(PROOF_SOURCE)/openssl/bio_override.c
-PROJECT_SOURCES += $(PROOF_SOURCE)/openssl/bn_override.c
-PROJECT_SOURCES += $(PROOF_SOURCE)/openssl/ec_override.c
-PROJECT_SOURCES += $(PROOF_SOURCE)/openssl/err_override.c
-PROJECT_SOURCES += $(PROOF_SOURCE)/openssl/evp_override.c
+PROJECT_SOURCES += $(OPENSSL_SOURCE)/bio_override.c
+PROJECT_SOURCES += $(OPENSSL_SOURCE)/bn_override.c
+PROJECT_SOURCES += $(OPENSSL_SOURCE)/ec_override.c
+PROJECT_SOURCES += $(OPENSSL_SOURCE)/err_override.c
+PROJECT_SOURCES += $(OPENSSL_SOURCE)/evp_override.c
 PROJECT_SOURCES += $(SRCDIR)/source/cipher.c
 PROJECT_SOURCES += $(SRCDIR)/source/cipher_openssl.c
 PROJECT_SOURCES += $(SRCDIR)/source/hkdf.c
@@ -46,8 +46,8 @@ PROOF_SOURCES += $(PROOFDIR)/$(HARNESS_FILE)
 PROOF_SOURCES += $(PROOF_SOURCE)/cbmc_invariants.c
 PROOF_SOURCES += $(PROOF_SOURCE)/make_common_data_structures.c
 # We abstract these functions as manual inspection shows there is no ec_key associated with the PKEY.
-PROOF_SOURCES += $(PROOF_STUB)/EVP_PKEY_free_no_ec_key_stub.c
-PROOF_SOURCES += $(PROOF_STUB)/evp_pkey_is_valid_no_ec_key_stub.c
+PROOF_SOURCES += $(OPENSSL_STUB)/EVP_PKEY_free_no_ec_key_stub.c
+PROOF_SOURCES += $(OPENSSL_STUB)/evp_pkey_is_valid_no_ec_key_stub.c
 
 REMOVE_FUNCTION_BODY += EVP_PKEY_free
 REMOVE_FUNCTION_BODY += evp_pkey_is_valid

@@ -36,9 +36,9 @@ DEFINES += -DMSG_ID_LEN_V2=32
 PROJECT_SOURCES += $(CBMC_ROOT)/aws-c-common/source/byte_buf.c
 PROJECT_SOURCES += $(CBMC_ROOT)/aws-c-common/source/common.c
 PROJECT_SOURCES += $(CBMC_ROOT)/aws-c-common/source/error.c
-PROJECT_SOURCES += $(PROOF_SOURCE)/openssl/bn_override.c
-PROJECT_SOURCES += $(PROOF_SOURCE)/openssl/ec_override.c
-PROJECT_SOURCES += $(PROOF_SOURCE)/openssl/evp_override.c
+PROJECT_SOURCES += $(OPENSSL_SOURCE)/bn_override.c
+PROJECT_SOURCES += $(OPENSSL_SOURCE)/ec_override.c
+PROJECT_SOURCES += $(OPENSSL_SOURCE)/evp_override.c
 PROJECT_SOURCES += $(SRCDIR)/source/cipher.c
 PROJECT_SOURCES += $(SRCDIR)/source/cipher_openssl.c
 PROJECT_SOURCES += $(SRCDIR)/source/hkdf.c

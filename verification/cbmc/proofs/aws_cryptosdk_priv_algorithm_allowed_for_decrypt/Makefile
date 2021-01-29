@@ -29,6 +29,6 @@ PROOF_SOURCES += $(COMMON_PROOF_STUB)/error.c
 PROOF_SOURCES += $(PROOFDIR)/$(HARNESS_FILE)
 PROOF_SOURCES += $(PROOF_SOURCE)/make_common_data_structures.c
 
-UNWINDSET += 
+UNWINDSET +=
 
 include ../Makefile.common

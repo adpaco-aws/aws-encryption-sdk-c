@@ -25,7 +25,6 @@ HARNESS_FILE = $(HARNESS_ENTRY).c
 
 CBMCFLAGS +=
 
-
 PROJECT_SOURCES += $(CBMC_ROOT)/aws-c-common/source/common.c
 PROJECT_SOURCES += $(CBMC_ROOT)/aws-c-common/source/error.c
 PROJECT_SOURCES += $(SRCDIR)/source/materials.c

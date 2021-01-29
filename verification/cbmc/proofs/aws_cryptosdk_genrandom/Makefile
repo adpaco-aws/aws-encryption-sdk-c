@@ -17,7 +17,6 @@ sinclude ../Makefile.local
 #otherwise, use the default values
 include ../Makefile.local_default
 
-
 PROOF_UID = aws_cryptosdk_genrandom
 
 HARNESS_ENTRY = $(PROOF_UID)_harness
@@ -28,7 +27,7 @@ CBMCFLAGS +=
 PROJECT_SOURCES += $(CBMC_ROOT)/aws-c-common/source/byte_buf.c
 PROJECT_SOURCES += $(CBMC_ROOT)/aws-c-common/source/common.c
 PROJECT_SOURCES += $(CBMC_ROOT)/aws-c-common/source/error.c
-PROJECT_SOURCES += $(PROOF_SOURCE)/openssl/rand_override.c
+PROJECT_SOURCES += $(OPENSSL_SOURCE)/rand_override.c
 PROJECT_SOURCES += $(SRCDIR)/source/cipher.c
 PROJECT_SOURCES += $(SRCDIR)/source/cipher_openssl.c
 
