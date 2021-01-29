@@ -10,3 +10,6 @@
 [submodule "verification/litani"]
 	path = verification/litani
 	url = https://github.com/awslabs/aws-build-accumulator
+[submodule "verification/cbmc/aws-verification-model-for-libcrypto"]
+	path = verification/cbmc/aws-verification-model-for-libcrypto
+	url = https://github.com/awslabs/aws-verification-model-for-libcrypto.git

@@ -38,6 +38,10 @@ COMMON_PROOF_SOURCE ?= $(abspath $(CBMC_ROOT)/aws-c-common/verification/cbmc/sou
 COMMON_PROOF_STUB ?= $(abspath $(CBMC_ROOT)/aws-c-common/verification/cbmc/stubs)
 COMMON_PROOF_UNINLINE ?= $(abspath $(CBMC_ROOT)/aws-c-common/verification/cbmc/uninline)
 
+# Path to OpenSSL model
+OPENSSL_SOURCE = $(CBMC_ROOT)/aws-verification-model-for-libcrypto/source
+OPENSSL_STUB   = $(CBMC_ROOT)/aws-verification-model-for-libcrypto/stubs
+
 # Preprocessor definitions -D...
 # DEFINES =
 
