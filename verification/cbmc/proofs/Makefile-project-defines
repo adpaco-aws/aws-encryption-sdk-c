@@ -30,6 +30,7 @@
 # order is important, we want proof includes first
 INCLUDES += -I$(SRCDIR)/verification/cbmc/include # helper-inc
 INCLUDES += -I$(SRCDIR)/verification/cbmc/aws-c-common/verification/cbmc/include # c-common-helper-inc
+INCLUDES += -I$(SRCDIR)/verification/cbmc/aws-verification-model-for-libcrypto/include
 INCLUDES += -I$(SRCDIR)/include # c-enc-sdk-inc
 INCLUDES += -I$(SRCDIR)/verification/cbmc/aws-c-common/include # c-common-inc
 
