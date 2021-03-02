@@ -23,13 +23,20 @@
 /* Expected runtime: 40 seconds */
 void aws_cryptosdk_md_abort_harness() {
     /* arguments */
-    struct aws_cryptosdk_md_context *md_context = can_fail_malloc(sizeof(struct aws_cryptosdk_md_context));
+    struct aws_cryptosdk_md_context *md_context = malloc(sizeof(struct aws_cryptosdk_md_context));
 
     /* assumptions */
     if (md_context) {
         ensure_md_context_has_allocated_members(md_context);
+        __CPROVER_assume(aws_cryptosdk_md_context_is_valid(md_context));
+        md_context->evp_md_ctx = evp_md_ctx_nondet_alloc();
+        __CPROVER_assume(md_context->evp_md_ctx != NULL);
+        md_context->evp_md_ctx->pctx = evp_pkey_nondet_alloc();
+        __CPROVER_assume(md_context->evp_md_ctx->pctx != NULL);
         __CPROVER_assume(evp_md_ctx_get0_evp_pkey(md_context->evp_md_ctx) == NULL);
-        __CPROVER_assume(aws_cryptosdk_md_context_is_valid_cbmc(md_context));
+        md_context->evp_md_ctx->digest = evp_md_nondet_alloc();
+        __CPROVER_assume(md_context->evp_md_ctx->digest != NULL);
+        __CPROVER_assume(evp_md_ctx_is_valid(md_context->evp_md_ctx));
     }
 
     /* operation under verification */
